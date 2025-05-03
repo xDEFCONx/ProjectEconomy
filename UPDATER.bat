@@ -6,11 +6,12 @@ echo ---------------------------------------------------
 
 :: Version checking
 
-set "VERSION_URL=https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest"
-curl -L -o "current_version.txt" "%VERSION_URL%"
-set /p VERSION_CHECK=<currentversion.txt
+curl -L -o "current_version.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/current_version.txt"
+curl -L -o "file_list.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt"
+set /p VERSION_CHECK=<current_version.txt
 if exist "%VERSION_CHECK%.version" (
     del /f /q "current_version.txt"
+    del /f /q "file_list.txt"
     echo This instance is already up to date.
     pause
     exit /b
@@ -87,8 +88,7 @@ echo(
 
 echo Downloading latest mods...
 
-set "MOD_FILE_LIST=https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods"
-curl -L -o "file_list.txt" "%MOD_FILE_LIST%"
+curl -L -o "file_list.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt"
 call "modfetch.bat"
 
 :: Update mod folder file_list
@@ -108,6 +108,7 @@ del /f /q "ProjectEconomy-latest.zip"
 :: Clean up and update version controller
 
 del /f /q "current_version.txt"
+del /f /q "file_list.txt"
 for %%F in (*".version") do (
     del "%%F"
 )
