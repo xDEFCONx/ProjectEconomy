@@ -1,3 +1,11 @@
+## [1.0.3] - 2025-05-03
+
+### Added
+- ProjectEconomyLauncher, which auto-calls the updater, then MinecraftLauncher
+
+### Changed
+- Updater name to standard case
+
 ## [1.0.2] - 2025-05-03
 
 ### Fixed
