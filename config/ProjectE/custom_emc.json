@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "emc": 16384
+    },
+    {
+      "item": "minecraft:emerald",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:lingering_potion{Potion:\"minecraft:healing\"}",
+      "emc": 752
+    },
+    {
+      "item": "minecraft:lingering_potion{Potion:\"minecraft:strong_healing\"}",
+      "emc": 1008
+    },
+    {
+      "item": "minecraft:lingering_potion{Potion:\"minecraft:regeneration\"}",
+      "emc": 4724
+    },
+    {
+      "item": "minecraft:lingering_potion{Potion:\"minecraft:long_regeneration\"}",
+      "emc": 4755
+    },
+    {
+      "item": "minecraft:lingering_potion{Potion:\"minecraft:strong_regeneration\"}",
+      "emc": 31403
+    },
+    {
+      "item": "minecraft:elytra{Damage:0}",
+      "emc": 32768
+    }
+  ]
+}

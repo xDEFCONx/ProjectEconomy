@@ -1,0 +1,12 @@
+type = slideshow
+
+slideshow-meta {
+   name = saintmaria
+   width = 2560
+   height = 1377
+   x = 0
+   y = 0
+   duration = 10
+   fadespeed = 1.6
+   randomize = true
+}
