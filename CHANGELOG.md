@@ -1,3 +1,8 @@
+## [1.0.4] - 2025-05-03
+
+### Changed
+- README.md to actually have content
+
 ## [1.0.3] - 2025-05-03
 
 ### Added

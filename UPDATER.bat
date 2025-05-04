@@ -1,8 +1,15 @@
-@echo off
+                @echo off
 setlocal
 
 echo PROJECTECONOMY - Updater implementation by xDEFCONx
 echo ---------------------------------------------------
+
+:: Create options/properties if not currently present
+
+if not exist "options.txt" (
+    curl -L -o "options.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/options.txt"
+)
+curl -L -o "modfetch.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/modfetch.bat"
 
 :: Version checking
 
@@ -37,6 +44,7 @@ if exist "%OUTPUT%" (
 echo(
 echo Updating to the latest version of ProjectEconomy...
 echo(
+
 set "version=update\ProjectEconomy-latest\"
 
 :: Checks for update folder
