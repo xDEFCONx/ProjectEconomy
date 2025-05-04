@@ -5,7 +5,7 @@ This is a private server modpack with a heavy emphasis on retaining a vanilla bl
 ## Installation
 
 1) Install [Forge 47.4.0 for Minecraft 1.20.1](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar) and run it.
-2) Once installed, go to the [release page](https://github.com/xDEFCONx/ProjectEconomy/releases/new) and obtain "instances.zip"
+2) Once installed, go to the [release page](https://github.com/xDEFCONx/ProjectEconomy/releases) and obtain "instances.zip"
 3) Navigate to your .minecraft directory, commonly found at `C:\Users\[USER]\Appdata\Roaming\.minecraft`, and drop the .zip into it.
 4) Unzip the contents.
 5) Under `..\instances\ProjectEconomy`, run `ProjectEconomyLauncher.bat`
