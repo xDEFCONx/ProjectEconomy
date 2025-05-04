@@ -10,17 +10,25 @@ This is a private server modpack with a heavy emphasis on retaining a vanilla bl
 4) Unzip the contents.
 5) Under `..\instances\ProjectEconomy`, run `ProjectEconomyLauncher.bat`
 
-In your launcher:
+This .bat automatically runs the updater and opens MinecraftLauncher.exe! Make a shortcut to it.
+
+NOTE: DO NOT MOVE THE .BAT ANYWHERE ELSE.
+
+### In the Minecraft launcher:
 
 1) Go to the "Installations" tab at the top.
 2) Select "New Installation".
 3) Name it what you want, but enter the following into the other fields:
 
-- Version
+- Version: `release 1.20.1-forge-47.4.0`
+- Game Directory `..\.minecraft\instances\ProjectEconomy` (Don't copy this! You need the whole directory address!)
+- Resolution: `1920 x 1080`
+- JVM Args: `-Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M`
 
-This .bat automatically runs the updater and opens MinecraftLauncher.exe! Make a shortcut to it.
+  Note: You can change memory allocated with `-Xmx[MEM]G` and replacing `[MEM]` with the amount in GB.
 
-NOTE: DO NOT MOVE THE .BAT ANYWHERE ELSE.
+4) Click "Save".
+5) Go back to the "Play" tab, select the installation profile you made, and play the game.
 
 ## Mods
 
