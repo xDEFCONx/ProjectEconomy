@@ -481,7 +481,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'mobilebeacon:mobile_beacon_iron',
-      B: 'projecte:dark_matter',
+      B: 'projecte:dark_matter_block',
       C: 'advancednetherite:netherite_emerald_block'    
     }
   )
@@ -495,7 +495,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'mobilebeacon:mobile_beacon_emerald',
-      B: 'projecte:red_matter',
+      B: 'projecte:red_matter_block',
       C: 'advancednetherite:netherite_diamond_block'    
     }
   )
@@ -528,6 +528,84 @@ ServerEvents.recipes(event => {
   AdvNetheriteIngots('advancednetherite:netherite_gold_ingot','8x minecraft:gold_block','advancednetherite:netherite_iron_ingot'),
   AdvNetheriteIngots('advancednetherite:netherite_emerald_ingot','8x minecraft:diamond_block','advancednetherite:netherite_gold_ingot'),
   AdvNetheriteIngots('advancednetherite:netherite_diamond_ingot','8x minecraft:netherite_block','advancednetherite:netherite_emerald_ingot')
+
+  event.remove({output:'advancednetherite:netherite_iron_sword'})
+  event.remove({output:'advancednetherite:netherite_gold_sword'})
+  event.remove({output:'advancednetherite:netherite_emerald_sword'})
+  event.remove({output:'advancednetherite:netherite_diamond_sword'})
+
+  event.remove({output:'advancednetherite:netherite_iron_pickaxe'})
+  event.remove({output:'advancednetherite:netherite_gold_pickaxe'})
+  event.remove({output:'advancednetherite:netherite_emerald_pickaxe'})
+  event.remove({output:'advancednetherite:netherite_diamond_pickaxe'})
+
+  event.remove({output:'advancednetherite:netherite_iron_shovel'})
+  event.remove({output:'advancednetherite:netherite_gold_shovel'})
+  event.remove({output:'advancednetherite:netherite_emerald_shovel'})
+  event.remove({output:'advancednetherite:netherite_diamond_shovel'})
+
+  event.remove({output:'advancednetherite:netherite_iron_hoe'})
+  event.remove({output:'advancednetherite:netherite_gold_hoe'})
+  event.remove({output:'advancednetherite:netherite_emerald_hoe'})
+  event.remove({output:'advancednetherite:netherite_diamond_hoe'})
+
+  event.remove({output:'advancednetherite:netherite_iron_axe'})
+  event.remove({output:'advancednetherite:netherite_gold_axe'})
+  event.remove({output:'advancednetherite:netherite_emerald_axe'})
+  event.remove({output:'advancednetherite:netherite_diamond_axe'})
+
+  function AdvNetheriteItems (inputTool, advNetheriteInput, outputTool) {
+    event.smithing(
+      outputTool,
+      'minecraft:netherite_upgrade_smithing_template',
+      inputTool,
+      advNetheriteInput
+    )
+  }
+
+  AdvNetheriteItems('minecraft:netherite_sword','advancednetherite:netherite_iron_block','advancednetherite:netherite_iron_sword')
+  AdvNetheriteItems('minecraft:netherite_pickaxe','advancednetherite:netherite_iron_block','advancednetherite:netherite_iron_pickaxe')
+  AdvNetheriteItems('minecraft:netherite_shovel','advancednetherite:netherite_iron_block','advancednetherite:netherite_iron_shovel')
+  AdvNetheriteItems('minecraft:netherite_hoe','advancednetherite:netherite_iron_block','advancednetherite:netherite_iron_hoe')
+  AdvNetheriteItems('minecraft:netherite_axe','advancednetherite:netherite_iron_block','advancednetherite:netherite_iron_axe')
+
+  AdvNetheriteItems('advancednetherite:netherite_iron_sword','advancednetherite:netherite_gold_block','advancednetherite:netherite_gold_sword')
+  AdvNetheriteItems('advancednetherite:netherite_iron_pickaxe','advancednetherite:netherite_gold_block','advancednetherite:netherite_gold_pickaxe')
+  AdvNetheriteItems('advancednetherite:netherite_iron_shovel','advancednetherite:netherite_gold_block','advancednetherite:netherite_gold_shovel')
+  AdvNetheriteItems('advancednetherite:netherite_iron_hoe','advancednetherite:netherite_gold_block','advancednetherite:netherite_gold_hoe')
+  AdvNetheriteItems('advancednetherite:netherite_iron_axe','advancednetherite:netherite_gold_block','advancednetherite:netherite_gold_axe')
+
+  AdvNetheriteItems('advancednetherite:netherite_gold_sword','advancednetherite:netherite_emerald_block','advancednetherite:netherite_emerald_sword')
+  AdvNetheriteItems('advancednetherite:netherite_gold_pickaxe','advancednetherite:netherite_emerald_block','advancednetherite:netherite_emerald_pickaxe')
+  AdvNetheriteItems('advancednetherite:netherite_gold_shovel','advancednetherite:netherite_emerald_block','advancednetherite:netherite_emerald_shovel')
+  AdvNetheriteItems('advancednetherite:netherite_gold_hoe','advancednetherite:netherite_emerald_block','advancednetherite:netherite_emerald_hoe')
+  AdvNetheriteItems('advancednetherite:netherite_gold_axe','advancednetherite:netherite_emerald_block','advancednetherite:netherite_emerald_axe')
+
+  AdvNetheriteItems('advancednetherite:netherite_emerald_sword','advancednetherite:netherite_diamond_block','advancednetherite:netherite_diamond_sword')
+  AdvNetheriteItems('advancednetherite:netherite_emerald_pickaxe','advancednetherite:netherite_diamond_block','advancednetherite:netherite_diamond_pickaxe')
+  AdvNetheriteItems('advancednetherite:netherite_emerald_shovel','advancednetherite:netherite_diamond_block','advancednetherite:netherite_diamond_shovel')
+  AdvNetheriteItems('advancednetherite:netherite_emerald_hoe','advancednetherite:netherite_diamond_block','advancednetherite:netherite_diamond_hoe')
+  AdvNetheriteItems('advancednetherite:netherite_emerald_axe','advancednetherite:netherite_diamond_block','advancednetherite:netherite_diamond_axe')
+
+  AdvNetheriteItems('minecraft:netherite_helmet','advancednetherite:netherite_iron_block','advancednetherite:netherite_iron_helmet')
+  AdvNetheriteItems('minecraft:netherite_chestplate','advancednetherite:netherite_iron_block','advancednetherite:netherite_iron_chestplate')
+  AdvNetheriteItems('minecraft:netherite_leggings','advancednetherite:netherite_iron_block','advancednetherite:netherite_iron_leggings')
+  AdvNetheriteItems('minecraft:netherite_boots','advancednetherite:netherite_iron_block','advancednetherite:netherite_iron_boots')
+
+  AdvNetheriteItems('advancednetherite:netherite_iron_helmet','advancednetherite:netherite_gold_block','advancednetherite:netherite_gold_helmet')
+  AdvNetheriteItems('advancednetherite:netherite_iron_chestplate','advancednetherite:netherite_gold_block','advancednetherite:netherite_gold_chestplate')
+  AdvNetheriteItems('advancednetherite:netherite_iron_leggings','advancednetherite:netherite_gold_block','advancednetherite:netherite_gold_leggings')
+  AdvNetheriteItems('advancednetherite:netherite_iron_boots','advancednetherite:netherite_gold_block','advancednetherite:netherite_gold_boots')
+
+  AdvNetheriteItems('advancednetherite:netherite_gold_helmet','advancednetherite:netherite_emerald_block','advancednetherite:netherite_emerald_helmet')
+  AdvNetheriteItems('advancednetherite:netherite_gold_chestplate','advancednetherite:netherite_emerald_block','advancednetherite:netherite_emerald_chestplate')
+  AdvNetheriteItems('advancednetherite:netherite_gold_leggings','advancednetherite:netherite_emerald_block','advancednetherite:netherite_emerald_leggings')
+  AdvNetheriteItems('advancednetherite:netherite_gold_boots','advancednetherite:netherite_emerald_block','advancednetherite:netherite_emerald_boots')
+
+  AdvNetheriteItems('advancednetherite:netherite_emerald_helmet','advancednetherite:netherite_diamond_block','advancednetherite:netherite_diamond_helmet')
+  AdvNetheriteItems('advancednetherite:netherite_emerald_chestplate','advancednetherite:netherite_diamond_block','advancednetherite:netherite_diamond_chestplate')
+  AdvNetheriteItems('advancednetherite:netherite_emerald_leggings','advancednetherite:netherite_diamond_block','advancednetherite:netherite_diamond_leggings')
+  AdvNetheriteItems('advancednetherite:netherite_emerald_boots','advancednetherite:netherite_diamond_block','advancednetherite:netherite_diamond_boots')
 
   // Avaritia
 

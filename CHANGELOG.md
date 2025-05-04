@@ -1,3 +1,10 @@
+## [1.0.6] - 2025-05-03
+
+### Changed
+- Advanced Netherite - Armor and tool recipes require blocks instead of ingots
+- Advanced Netherite - Emerald and Diamond tiers given rarity of epic
+- Mobile Beacons - rarity tiers applied
+
 ## [1.0.5] - 2025-05-03
 
 ### Changed
