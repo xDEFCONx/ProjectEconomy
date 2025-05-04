@@ -10,7 +10,7 @@ This is a private server modpack with a heavy emphasis on retaining a vanilla bl
 4) Unzip the contents.
 5) Under `..\instances\ProjectEconomy`, run `ProjectEconomyLauncher.bat`
 
-This .bat automatically runs the updater and opens MinecraftLauncher.exe! Make a shortcut to it.
+This .bat automatically runs the updater and opens MinecraftLauncher.exe! Make a shortcut to it by right-clicking and using "Send to Desktop".
 
 NOTE: DO NOT MOVE THE .BAT ANYWHERE ELSE.
 
