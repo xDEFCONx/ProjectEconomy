@@ -1,3 +1,12 @@
+## [1.0.5] - 2025-05-03
+
+### Changed
+- Icarus - Exhaustion value reduced slightly
+- Icarus - Disabled armor slowing with wings
+- Icarus - Max height disabled
+- Iron Bows - Increased damage to match EMC requirements
+- Item Borders - Rarity squares are now both full and glow more prominently.
+
 ## [1.0.4] - 2025-05-03
 
 ### Changed
