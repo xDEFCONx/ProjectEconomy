@@ -7,12 +7,33 @@ setlocal EnableDelayedExpansion
 
 :: Set paths
 set "PARENT_FILELIST=file_list.txt"
-set "MOD_DIR=mods"
-set "MOD_DIR_FILELIST=%MOD_DIR%\file_list.txt"
-set "PYTHON_HTTP=http://107.208.134.15:25564/"
+set "MOD_DIR_FILELIST=mods\file_list.txt"
 
 :: Ensure mod directory exists
-if not exist "!MOD_DIR!\" mkdir "!MOD_DIR!\"
+if not exist "mods\" mkdir "mods\"
+
+:: Fetching and listing
+
+curl -L -o "modstick.txt" "https://www.dropbox.com/scl/fi/ldf3ekeem06zy7ztr7c1k/modstick.txt?rlkey=y4qwic4m0rkqsdgcnpdmyzsql&st=v4g0y1k0&dl=1"
+
+del /f /q "%MOD_DIR_FILELIST%"
+
+echo Creating file_list of current mods...
+curl -L -o "mods\filelister.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/+filelister.bat"
+pushd "%~dp0mods"
+call "+filelister.bat"
+popd
+
+
+if not exist "%PARENT_FILELIST%" (
+    echo Fetching master file_list from the repo...
+    curl -L -o "%PARENT_FILELIST%" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt"
+)
+
+:: Build mod=>URL mapping from modstick.txt
+for /f "usebackq tokens=1,* delims==" %%A in ("modstick.txt") do (
+    set "modurl_%%A=%%B"
+)
 
 :: Read parent list into variable
 for /f "delims=" %%a in (%PARENT_FILELIST%) do (
@@ -25,11 +46,11 @@ for /f "delims=" %%b in (%MOD_DIR_FILELIST%) do (
         echo Mod already present: %%b
     ) else (
         echo Deleting: %%b
-        del /f /q "!MOD_DIR!\%%b"
+        del /f /q "mods\%%b"
     )
 )
 
-:: Check parent list against mod list
+:: Check parent list against mod list, and download missing mods
 for /f "delims=" %%c in (%PARENT_FILELIST%) do (
     set "modname=%%c"
     set "found=0"
@@ -37,12 +58,19 @@ for /f "delims=" %%c in (%PARENT_FILELIST%) do (
         if "%%c"=="%%d" set "found=1"
     )
     if !found! EQU 0 (
-        set "urlname=!modname: =%%20!"
-        echo Downloading new mod: %%c
-        curl -L -o "!MOD_DIR!\%%c" "!PYTHON_HTTP!!urlname!"
+        call set "url=%%modurl_%%c%%"
+        if defined url (
+            echo Downloading new mod: %%c
+            curl -L -o "mods\%%c" "!url!"
+        ) else (
+            echo URL not found for %%c in modstick.txt
+        )
     )
 )
 
+:: Cleanup
+
+del /f /q "mods\file_list.txt"
+
 echo(
 echo MODFETCH COMPLETE
-pause

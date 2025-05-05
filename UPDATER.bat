@@ -115,6 +115,7 @@ del /f /q "ProjectEconomy-latest.zip"
 
 :: Clean up and update version controller
 
+del /f /q "mods\+filelister.bat"
 del /f /q "current_version.txt"
 del /f /q "file_list.txt"
 for %%F in (*".version") do (
