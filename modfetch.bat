@@ -16,14 +16,17 @@ if not exist "mods\" mkdir "mods\"
 
 curl -L -o "modstick.txt" "https://www.dropbox.com/scl/fi/ldf3ekeem06zy7ztr7c1k/modstick.txt?rlkey=y4qwic4m0rkqsdgcnpdmyzsql&st=v4g0y1k0&dl=1"
 
-del /f /q "%MOD_DIR_FILELIST%"
+if exist "%MOD_DIR_FILELIST%" (
+    del /f /q "%MOD_DIR_FILELIST%"
+)
+
 
 echo Creating file_list of current mods...
-curl -L -o "mods\filelister.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/+filelister.bat"
+curl -L -o "mods\+filelister.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/+filelister.bat"
+
 pushd "%~dp0mods"
 call "+filelister.bat"
 popd
-
 
 if not exist "%PARENT_FILELIST%" (
     echo Fetching master file_list from the repo...
