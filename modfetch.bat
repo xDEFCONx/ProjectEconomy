@@ -12,7 +12,7 @@ set "MOD_DIR_FILELIST=%MOD_DIR%\file_list.txt"
 set "PYTHON_HTTP=http://107.208.134.15:25564/"
 
 :: Ensure mod directory exists
-if not exist "!MOD_DIR!" mkdir "!MOD_DIR!"
+if not exist "!MOD_DIR!\" mkdir "!MOD_DIR!\"
 
 :: Read parent list into variable
 for /f "delims=" %%a in (%PARENT_FILELIST%) do (
