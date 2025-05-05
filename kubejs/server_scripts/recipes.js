@@ -1,7 +1,29 @@
 ServerEvents.recipes(event => {
 
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // Minecraft (Vanilla)
+
+  event.remove({id:'minecraft:shulker_box'})
+
+  // Shulker box buff
+
+  event.shaped(
+    Item.of('minecraft:shulker_box'),
+    [
+      'ABA',
+      'ACA',
+      'ABA'
+    ], 
+    {
+      A: 'minecraft:diamond',
+      B: 'minecraft:shulker_shell',
+      C: 'minecraft:chest'
+  })
+  
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // ProjectE
-  // Total removal
 
   event.remove({output:'projecte:dm_pick'})
   event.remove({output:'projecte:dm_axe'})
@@ -85,9 +107,27 @@ ServerEvents.recipes(event => {
   event.remove({output:'projecte:divining_rod_2'})
   event.remove({output:'projecte:divining_rod_3'})
 
-  // No philosopher's stone recipes except transmutation
+  // No philosopher's stone conversion recipes
 
   event.remove({not:{id:'projecte:transmutation_table'},input:'projecte:philosophers_stone'})
+  event.remove({output:'projecte:philosophers_stone'})
+  event.remove({id:'projecte:transmutation_table'})
+
+  // Transmutation table buff
+
+  event.shaped(
+    Item.of('projecte:transmutation_table'),
+    [
+      'ADA',
+      'CBC',
+      'ACA'
+    ], 
+    {
+      A: 'minecraft:diamond_block',
+      B: 'projecte:philosophers_stone',
+      C: 'minecraft:netherite_ingot',
+      D: 'minecraft:redstone'
+  })
   
   // Transmutation tablet easy conversion
 
@@ -105,6 +145,21 @@ ServerEvents.recipes(event => {
       'projecte:transmutation_tablet',
     ]
   )
+
+  // Philosopher's stone buff
+
+  event.shaped(
+    Item.of('projecte:philosophers_stone'),
+    [
+      'ACA',
+      'CBC',
+      'ACA'
+    ], 
+    {
+      A: 'minecraft:redstone_block',
+      B: 'minecraft:diamond_block',
+      C: 'minecraft:netherite_scrap'
+  })
   
   // Coal recipe buffs
 
@@ -277,6 +332,8 @@ ServerEvents.recipes(event => {
     }
   )
 
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // Refined Storage
 
   event.remove({output:'refinedstorage:white_controller'})
@@ -315,8 +372,25 @@ ServerEvents.recipes(event => {
   event.remove({output:'refinedstorage:wireless_crafting_monitor'})
   event.remove({output:'refinedstorageaddons:wireless_crafting_grid'})
   event.remove({output:'refinedstorage:portable_grid'})
+  event.remove({id:'refinedstorage:quartz_enriched_iron'})
 
+  // Creative wireless Transmitter
 
+  event.remove({output:'creativewirelesstransmitter:creative_wireless_transmitter'})
+  
+  event.shaped(
+    Item.of('creativewirelesstransmitter:creative_wireless_transmitter', 1),
+    [
+      'ACA',
+      'CBC',
+      'ACA'
+    ],
+    {
+      A: 'refinedstorage:wireless_transmitter',
+      B: 'minecraft:nether_star',
+      C: 'projecte:red_matter_block'
+    }
+  )
 
   // RS Creative Controller recipe
 
@@ -335,6 +409,18 @@ ServerEvents.recipes(event => {
       E: 'advancednetherite:netherite_emerald_block'
     }
   )
+
+  // Quartz enriched iron buff
+
+  event.shapeless(
+    Item.of('refinedstorage:quartz_enriched_iron', 1),
+    [
+      '3x minecraft:iron_ingot',
+      '3x minecraft:quartz_block',
+      '3x minecraft:redstone_block'
+    ]
+  )
+
 
   // RS Creative Grid recipes
 
@@ -376,7 +462,8 @@ ServerEvents.recipes(event => {
     }
   )
   
-
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // Ben's Sharks
 
   event.remove({output:'benssharks:cellophane_noodles'})
@@ -403,6 +490,23 @@ ServerEvents.recipes(event => {
   event.remove({output:'benssharks:axoleather'})
   event.remove({output:'benssharks:axoscute'})
 
+  // Shark plush recipe
+
+  event.shaped(
+    Item.of('benssharks:shark_plush_block', 1),
+    [
+      ' AA',
+      ' B ',
+      'AA '
+    ],
+    {
+      A: 'minecraft:prismarine_shard',
+      B: 'minecraft:cod'
+    }
+  )
+
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // Waystones
 
   event.remove({output:'waystones:warp_stone'})
@@ -430,6 +534,8 @@ ServerEvents.recipes(event => {
     ]
   )
 
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // Mobile Beacons
 
   event.remove({output:'mobilebeacon:mobile_beacon_shell'})
@@ -466,8 +572,8 @@ ServerEvents.recipes(event => {
       'CCC'
     ],
     {
-      A: 'mobilebeacon:mobile_beacon_shell',
-      B: 'minecraft:beacon',
+      A: 'minecraft:beacon',
+      B: 'mobilebeacon:mobile_beacon_shell',
       C: 'advancednetherite:netherite_iron_block'    
     }
   )
@@ -480,8 +586,8 @@ ServerEvents.recipes(event => {
       'CCC'
     ],
     {
-      A: 'mobilebeacon:mobile_beacon_iron',
-      B: 'projecte:dark_matter_block',
+      A: 'projecte:life_stone',
+      B: 'mobilebeacon:mobile_beacon_iron',
       C: 'advancednetherite:netherite_emerald_block'    
     }
   )
@@ -494,19 +600,21 @@ ServerEvents.recipes(event => {
       'CCC'
     ],
     {
-      A: 'mobilebeacon:mobile_beacon_emerald',
-      B: 'projecte:red_matter_block',
+      A: 'avaritia:neutron_ingot',
+      B: 'mobilebeacon:mobile_beacon_emerald',
       C: 'advancednetherite:netherite_diamond_block'    
     }
   )
 
   event.smithing(
     'mobilebeacon:mobile_beacon_netherite_ii',
-    'advancednetherite:netherite_diamond_block',
+    'avaritia:infinity_ingot',
     'mobilebeacon:mobile_beacon_netherite',
-    'avaritia:neutron_ingot'
+    'avaritia:infinity_ingot'
   )
 
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // Advanced Netherite
 
   event.remove({output:'advancednetherite:netherite_iron_ingot'})
@@ -553,6 +661,26 @@ ServerEvents.recipes(event => {
   event.remove({output:'advancednetherite:netherite_gold_axe'})
   event.remove({output:'advancednetherite:netherite_emerald_axe'})
   event.remove({output:'advancednetherite:netherite_diamond_axe'})
+
+  event.remove({id:'advancednetherite:netherite_diamond_chestplate_smithing'})
+  event.remove({id:'advancednetherite:netherite_emerald_chestplate_smithing'})
+  event.remove({id:'advancednetherite:netherite_gold_chestplate_smithing'})
+  event.remove({id:'advancednetherite:netherite_iron_chestplate_smithing'})
+
+  event.remove({id:'advancednetherite:netherite_diamond_helmet_smithing'})
+  event.remove({id:'advancednetherite:netherite_emerald_helmet_smithing'})
+  event.remove({id:'advancednetherite:netherite_gold_helmet_smithing'})
+  event.remove({id:'advancednetherite:netherite_iron_helmet_smithing'})
+
+  event.remove({id:'advancednetherite:netherite_diamond_boots_smithing'})
+  event.remove({id:'advancednetherite:netherite_emerald_boots_smithing'})
+  event.remove({id:'advancednetherite:netherite_gold_boots_smithing'})
+  event.remove({id:'advancednetherite:netherite_iron_boots_smithing'})
+
+  event.remove({id:'advancednetherite:netherite_diamond_leggings_smithing'})
+  event.remove({id:'advancednetherite:netherite_emerald_leggings_smithing'})
+  event.remove({id:'advancednetherite:netherite_gold_leggings_smithing'})
+  event.remove({id:'advancednetherite:netherite_iron_leggings_smithing'})
 
   function AdvNetheriteItems (inputTool, advNetheriteInput, outputTool) {
     event.smithing(
@@ -607,6 +735,8 @@ ServerEvents.recipes(event => {
   AdvNetheriteItems('advancednetherite:netherite_emerald_leggings','advancednetherite:netherite_diamond_block','advancednetherite:netherite_diamond_leggings')
   AdvNetheriteItems('advancednetherite:netherite_emerald_boots','advancednetherite:netherite_diamond_block','advancednetherite:netherite_diamond_boots')
 
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // Avaritia
 
   event.remove({output:'avaritia:neutron_ring'})
@@ -690,39 +820,39 @@ ServerEvents.recipes(event => {
     ]
   )
 
-  // Avaritia tool smithing
+  // Avaritia item smithing
 
-  event.smithing(
-    'avaritia:infinity_pickaxe',
-    'avaritia:neutron_ingot',
-    'avaritia:blaze_pickaxe',
-    'avaritia:infinity_ingot'
-  )
+  // event.smithing(
+  //   'avaritia:infinity_pickaxe',
+  //   'avaritia:neutron_ingot',
+  //   'avaritia:blaze_pickaxe',
+  //   'avaritia:infinity_ingot'
+  // )
 
   event.smithing(
     'avaritia:infinity_chestplate',
-    'avaritia:infinity_ingot',
+    'mobilebeacon:mobile_beacon_netherite_ii',
     'advancednetherite:netherite_diamond_chestplate',
     'avaritia:infinity_ingot'
   )
 
   event.smithing(
     'avaritia:infinity_helmet',
-    'avaritia:infinity_ingot',
+    'mobilebeacon:mobile_beacon_netherite_ii',
     'advancednetherite:netherite_diamond_helmet',
     'avaritia:infinity_ingot'
   )
   
   event.smithing(
     'avaritia:infinity_pants',
-    'avaritia:infinity_ingot',
+    'mobilebeacon:mobile_beacon_netherite_ii',
     'advancednetherite:netherite_diamond_leggings',
     'avaritia:infinity_ingot'
   )
 
   event.smithing(
     'avaritia:infinity_boots',
-    'avaritia:infinity_ingot',
+    'mobilebeacon:mobile_beacon_netherite_ii',
     'advancednetherite:netherite_diamond_boots',
     'avaritia:infinity_ingot'
   )
@@ -734,7 +864,7 @@ ServerEvents.recipes(event => {
     'avaritia:neutron_ingot',
   )
 
-  // Tool stat changes and smithing paths
+  // Avaritia tool crafting changes
 
   event.shaped(
     Item.of('avaritia:blaze_pickaxe', 1),
@@ -746,9 +876,52 @@ ServerEvents.recipes(event => {
     {
       A: 'minecraft:magma_block',
       B: 'projecte:rm_furnace',
-      C: 'advancednetherite:netherite_diamond_pickaxe',
+      C: 'advancednetherite:netherite_diamond_pickaxe'
     }
   )
+
+  function BlazeToolShaped(inputTool, outputTool) {
+    event.shaped(
+      Item.of(outputTool, 1),
+      [
+        'ABA',
+        'BCB',
+        'ABA'
+      ],
+      {
+        A: 'minecraft:magma_block',
+        B: 'projecte:red_matter',
+        C: inputTool
+      }
+    )
+  }
+
+  event.shaped(
+    Item.of('avaritia:crystal_pickaxe', 1),
+    [
+      'EAE',
+      'BEC',
+      'EDE'
+    ],
+    {
+      A: 'avaritia:blaze_pickaxe',
+      B: 'avaritia:blaze_axe',
+      C: 'avaritia:blaze_shovel',
+      D: 'avaritia:blaze_pickaxe',
+      E: 'avaritia:neutron_ingot',
+    }
+  )
+
+  event.smithing(
+    'avaritia:crystal_hoe',
+    'projecte:red_matter_block',
+    'avaritia:blaze_hoe',
+    'avaritia:neutron_ingot'
+  )
+
+  BlazeToolShaped('advancednetherite:netherite_diamond_shovel','avaritia:blaze_shovel')
+  BlazeToolShaped('advancednetherite:netherite_diamond_axe','avaritia:blaze_axe')
+  BlazeToolShaped('advancednetherite:netherite_diamond_hoe','avaritia:blaze_hoe')
 
   event.smithing(
     'avaritia:blaze_sword',
@@ -757,7 +930,7 @@ ServerEvents.recipes(event => {
     'projecte:rm_furnace'
   )
 
-  // Infinity Sword recipe
+  // Infinity Sword and Infinity Pickaxe recipes
 
   event.shapeless(
     Item.of('avaritia:infinity_sword', 1),
@@ -774,7 +947,26 @@ ServerEvents.recipes(event => {
     ]
   )
 
+  event.shaped(
+    Item.of('avaritia:infinity_pickaxe', 1),
+    [
+      'CAD',
+      'ABA',
+      'FAE'
+    ],
+    {
+      A: 'avaritia:crystal_pickaxe',
+      B: 'avaritia:infinity_ingot',
+      C: 'minecraft:wooden_pickaxe',
+      D: 'minecraft:diamond_pickaxe',
+      E: 'advancednetherite:netherite_diamond_pickaxe',
+      F: 'avaritia:blaze_pickaxe'
+    }
+  )
 
+
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // Mob Lassos
 
   event.remove({output:'moblassos:golden_lasso'})
@@ -798,6 +990,8 @@ ServerEvents.recipes(event => {
       E: 'minecraft:netherite_ingot'
     })
 
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // Icarus
 
   event.remove({output:'icarus:flandres_wings'})
@@ -821,8 +1015,8 @@ ServerEvents.recipes(event => {
         A: variantInput,
         B: 'minecraft:elytra',
         C: 'minecraft:bone',
-        D: 'projecte:red_matter',
-        E: 'minecraft:netherite_ingot'
+        D: 'projecte:red_matter_block',
+        E: 'minecraft:gold_block'
       })
   }
 
@@ -832,6 +1026,8 @@ ServerEvents.recipes(event => {
   IcarusWings('minecraft:leather','icarus:white_mechanical_leather_wings')
   IcarusWings('minecraft:nether_star','icarus:white_light_wings')
 
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // Disenchanting Table
 
   event.remove({output:'disenchanting_table:disenchanting_table'})
@@ -849,6 +1045,8 @@ ServerEvents.recipes(event => {
     }
   )
 
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // Iron Bows
 
   event.remove({mod:'ironbows'})
@@ -874,6 +1072,8 @@ ServerEvents.recipes(event => {
   ironBowsCraft('minecraft:netherite_block','ironbows:diamond_bow','advancednetherite:netherite_emerald_ingot','ironbows:emerald_bow')
   ironBowsCraft('projecte:dark_matter_block','ironbows:emerald_bow','advancednetherite:netherite_diamond_ingot','ironbows:netherite_bow')
 
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // Sophisticated Backpacks
 
   event.remove({output:'sophisticatedbackpacks:backpack'})
@@ -1032,7 +1232,9 @@ ServerEvents.recipes(event => {
   SophisticatedUpgrades('minecraft:anvil','sophisticatedbackpacks:stack_upgrade_tier_1','sophisticatedbackpacks:stack_upgrade_tier_2')
   SophisticatedUpgrades('minecraft:anvil','sophisticatedbackpacks:stack_upgrade_tier_2','sophisticatedbackpacks:stack_upgrade_tier_3')
 
-  // Terraria weapons recipes
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // Terraria weapons
 
   function TerrariaSmithing(inputSword, inputMaterial1, inputMaterial2, outputSword) {
 

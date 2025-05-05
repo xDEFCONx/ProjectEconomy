@@ -1,9 +1,33 @@
-## [1.0.6] - 2025-05-03
+## [1.1.0] - 2025-05-04
+
+### Added
+- ReAvaritia - Crystal pickaxe tier reimplemented and adjusted
+- ReAvaritia - Blaze tools reimplemented and adjusted
+- Ben's Sharks - Shark plush now craftable
+
+### Fixed
+- ReAvaritia - Tool damage and speed from tiers correctly adjusted for base hand
+- Advanced Netherite - Removed original armor smithing recipes to correct EMC
 
 ### Changed
+- ProjectE - Philosopher's stone made more expensive
+- ProjectE - Transmutation table made more expensive
 - Advanced Netherite - Armor and tool recipes require blocks instead of ingots
 - Advanced Netherite - Emerald and Diamond tiers given rarity of epic
-- Mobile Beacons - rarity tiers applied
+- Mobile Beacons - Rarity tiers applied
+- Mobile Beacons - Recipes made more expensive
+- ReAvaritia - Unbreakables only breakable by infinity pickaxe
+- ReAvaritia - Infinity armor sets now require a tier 2 mobile netherite beacon
+- ReAvaritia - Renamed Blaze tier to Hellfire
+- ReAvaritia - Renamed Crystal tier to Royal
+- ReAvaritia - Worldscaper made more expensive
+- ReAvaritia - Hellfire (Blaze) pick special reimplemented
+- TerrariaWeapons - Moved Terrablade to higher rarity
+- Refined Storage - Quartz Enriched Iron made more expensive
+- Creative Wireless Transmitter - Made more expensive
+- Icarus - Wings made more expensive
+- Minecraft - Shulker box recipe made more expensive
+- Item Borders - Rarity squares no longer full
 
 ## [1.0.5] - 2025-05-03
 

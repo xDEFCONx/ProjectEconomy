@@ -10,7 +10,7 @@
 		# If the borders should have square corners.
 		square_corners = true
 		# If the borders should fully envelop item slots (otherwise they will only show on the bottom portion of the slot).
-		full_border = true
+		full_border = false
 		# If the borders draw over items instead of under.
 		over_items = false
 		# If the borders should have a more prominent glow.
