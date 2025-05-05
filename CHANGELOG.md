@@ -1,3 +1,8 @@
+## [1.1.1] - 2025-05-04
+
+### Fixed
+- Modfetch and updater
+
 ## [1.1.0] - 2025-05-04
 
 ### Added
