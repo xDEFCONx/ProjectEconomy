@@ -3,6 +3,11 @@ setlocal EnableDelayedExpansion
 echo FANCYFETCH IS RUNNING
 echo(
 
+:: Fetching fancyassets.txt and fancyimages.txt
+
+curl -L -o "fancyassets.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/fancyassets.txt"
+curl -L -o "fancyimages.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/fancyimages.txt"
+
 if not exist "config\fancymenu\assets\" mkdir "config\fancymenu\assets\"
 if not exist "config\fancymenu\slideshows\saintmonica\images\" mkdir "config\fancymenu\slideshows\saintmonica\images\"
 
@@ -30,5 +35,11 @@ for /f "usebackq tokens=1,* delims==" %%A in ("fancyimages.txt") do (
         echo !file! present.
     )
 )
+
+:: Cleanup
+
+del /f /q "fancyassets.txt"
+del /f /q "fancyimages.txt"
+
 endlocal
 pause

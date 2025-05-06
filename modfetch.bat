@@ -74,6 +74,7 @@ for /f "delims=" %%c in (%PARENT_FILELIST%) do (
 :: Cleanup
 
 del /f /q "mods\file_list.txt"
+del /f /q "modstick.txt"
 
 echo(
 echo MODFETCH COMPLETE
