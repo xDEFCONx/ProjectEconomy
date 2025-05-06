@@ -133,13 +133,6 @@ echo Downloading latest mods...
 curl -L -o "file_list.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt"
 call "modfetch.bat"
 
-:: Update mod folder file_list
-
-@echo off
-pushd "%~dp0mods"
-call "+filelister.bat"
-popd
-
 :: Delete the update zip and folder
 
 echo(

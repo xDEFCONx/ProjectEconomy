@@ -22,8 +22,8 @@ if exist "%MOD_DIR_FILELIST%" (
 
 
 echo Creating file_list of current mods...
-curl -L -o "mods\+filelister.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/+filelister.bat"
 
+curl -L -o "mods\+filelister.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/+filelister.bat"
 pushd "%~dp0mods"
 call "+filelister.bat"
 popd
@@ -73,7 +73,6 @@ for /f "delims=" %%c in (%PARENT_FILELIST%) do (
 
 :: Cleanup
 
-del /f /q "mods\file_list.txt"
 del /f /q "modstick.txt"
 
 echo(
