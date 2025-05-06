@@ -42,4 +42,3 @@ del /f /q "fancyassets.txt"
 del /f /q "fancyimages.txt"
 
 endlocal
-pause
