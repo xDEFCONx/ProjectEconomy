@@ -10,7 +10,7 @@ if not exist "options.txt" (
     curl -L -o "options.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/options.txt"
 )
 curl -L -o "modfetch.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/modfetch.bat"
-curl -L -o "fancyfetch.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/modfetch.bat"
+curl -L -o "fancyfetch.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/fancyfetch.bat"
 
 :: Version checking
 
