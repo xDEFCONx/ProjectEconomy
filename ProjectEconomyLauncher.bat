@@ -9,7 +9,6 @@ if exist "Updater.bat" (
     echo Updater not found. Obtaining from the repository...
     curl -L -o "Updater.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/UPDATER.bat"
     call "Updater.bat"
-    pause
 )
 
 :: Locate MinecraftLauncher.exe
