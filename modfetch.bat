@@ -77,3 +77,4 @@ del /f /q "mods\file_list.txt"
 
 echo(
 echo MODFETCH COMPLETE
+endlocal

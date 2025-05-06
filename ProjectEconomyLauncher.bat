@@ -23,4 +23,3 @@ for %%D in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
 )
 
 echo MinecraftLauncher.exe not found in Program Files(x86) on any drive.
-pause

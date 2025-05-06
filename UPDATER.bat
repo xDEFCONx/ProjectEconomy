@@ -58,8 +58,36 @@ if not exist "%version%\" (
 :: Delete previous content in targets
 
 echo Deleting contents...
-del /q "config\*" >nul 2>&1
-for /d %%D in ("config\*") do rd /s /q "%%D"
+
+:: For configs exclusively, prevents deletion of certain fancymenu dirs due to file sizes
+
+for %%I in ("config\*") do (
+    if /I not "%%~nxI"=="fancymenu" (
+        echo Deleting: %%I
+        if exist "%%I\" (
+            rd /s /q "%%I"
+        ) else (
+            del /q "%%I"
+        )
+    )
+)
+
+for %%J in ("config\fancymenu\*") do (
+    if /I not "%%~nxJ"=="assets" if /I not "%%~nxJ"=="slideshows" (
+        echo Deleting: %%J
+        if exist "%%J\" (
+            rd /s /q "%%J"
+        ) else (
+            del /q "%%J"
+        )
+    )
+)
+
+set "SLIDESHOW_PROPERTIES=config\fancymenu\slideshows\saintmonica\properties.txt"
+if exist "%SLIDESHOW_PROPERTIES%" (
+    echo Deleting %SLIDESHOW_PROPERTIES%
+    del /q "%SLIDESHOW_PROPERTIES%"
+)
 
 del /q "kubejs\*" >nul 2>&1
 for /d %%D in ("kubejs\*") do rd /s /q "%%D"
@@ -92,10 +120,15 @@ xcopy "%version%\shaderpacks\*" "shaderpacks\" /s /e /i /h /y
 
 echo(
 
+:: Run Fancyfetch
+
+echo Download Fancymenu assets...
+::curl -L -o "file_list.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt"
+call "fancyfetch.bat"
+
 :: Run Modfetch
 
 echo Downloading latest mods...
-
 curl -L -o "file_list.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt"
 call "modfetch.bat"
 
