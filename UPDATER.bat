@@ -21,7 +21,6 @@ if exist "%VERSION_CHECK%.version" (
     del /f /q "current_version.txt"
     del /f /q "file_list.txt"
     echo This instance is already up to date.
-    pause
     exit /b
 )
 
