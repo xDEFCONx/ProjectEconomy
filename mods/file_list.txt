@@ -14,6 +14,7 @@ common-networking-forge-1.0.5-1.20.1.jar
 configured-forge-1.20.1-2.2.3.jar
 cosmeticarmorreworked-1.20.1-v1a.jar
 CraftTweaker-forge-1.20.1-14.0.57.jar
+craft_light-1.0.0-forge-1.20.1.jar
 CreativeCore_FORGE_v2.12.32_mc1.20.1.jar
 creativewirelesstransmitter-1.20.1-1.1.jar
 curios-forge-5.14.1+1.20.1.jar
@@ -22,6 +23,7 @@ EasyAnvils-v8.0.2-1.20.1-Forge.jar
 EasyMagic-v8.0.1-1.20.1-Forge.jar
 elytraslot-forge-6.4.4+1.20.1.jar
 embeddium-0.3.31+mc1.20.1.jar
+emc-interface-1.20.1.1.jar
 fancymenu_forge_3.5.0_MC_1.20.1.jar
 ferritecore-6.0.1-forge.jar
 geckolib-forge-1.20.1-4.7.1.2.jar
@@ -64,6 +66,8 @@ theoneprobe-1.20.1-10.0.3.jar
 ToastControl-1.20.1-8.0.3.jar
 toofast-1.20-0.4.3.5.jar
 Tweakerge-0.1.5-mc1.20.1.jar
+waterframes-FORGE-mc1.20.1-v2.1.14.jar
+watermedia-2.1.24.jar
 waystones-forge-1.20.1-14.1.11.jar
 weaponmaster_ydm-forge-1.20.1-4.2.3.jar
 worldedit-mod-7.2.15.jar

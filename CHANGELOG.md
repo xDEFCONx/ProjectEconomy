@@ -1,3 +1,14 @@
+## [1.1.2] - 2025-05-05
+
+### Added
+- Craftable Lights
+- WATERFrAMES (yes, it's typed like this)
+- EMC Interface
+
+### Fixed
+- Reduced update payload by 118 MB
+- Removed debug pauses in batch scripts
+
 ## [1.1.1] - 2025-05-05
 
 ### Fixed

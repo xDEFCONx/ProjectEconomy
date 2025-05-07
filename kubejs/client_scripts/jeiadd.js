@@ -7,5 +7,6 @@ JEIEvents.addItems(event => {
   event.add(Item.of('terrariaweapons:terraprisma'))
   event.add(Item.of('terrariaweapons:volcano'))
   event.add(Item.of('terrariaweapons:star_wrath'))
+  event.add(Item.of('minecraft:light'))
 
 })
