@@ -1,4 +1,9 @@
-## [1.1.2] - 2025-05-05
+## [1.1.3] - 2025-05-06
+
+### Changed
+- Waystones Warp Stone recipe made more expensive
+
+## [1.1.2] - 2025-05-06
 
 ### Added
 - Craftable Lights
