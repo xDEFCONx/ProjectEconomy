@@ -36,7 +36,8 @@ Many mods have been installed and tweaked for gameplay balancing and style. Thin
 
 - **ProjectE** - The backbone of the modpack, as it's used for the economy. Many items and general gameplay features have been stripped for balancing.
 - **Refined Storage** - Storage system. RF is no longer required, and powered blocks are replaced with their creative counterparts.
-- **Created Wireless Transmitter** - RS expansion for a wireless access point that's universally/dimensionally accessible.
+- **EMC Interface** - Allows Refined Storage to interact with your ProjectE player EMC.
+- **Creative Wireless Transmitter** - RS expansion for a wireless access point that's universally/dimensionally accessible.
 - **Waystones** - Teleportation networks, with experience consumption disabled.
 - **Advanced Netherite** - Upgraded netherite tools with perks, for tool progression.
 - **Unbreakable** - All durability is disabled.
@@ -54,3 +55,5 @@ Many mods have been installed and tweaked for gameplay balancing and style. Thin
 - **Terraria Weapons** - Custom-made sword pack for end-game scaling. Work in progress.
 - **Sophisticated Backpacks** - Expandable player inventory items.
 - **Mob Lassos** - Allows for moving mobs in a far simpler fashion. Creative lasso is the only one available.
+- **Craftable lights** - Provides recipe for the vanilla invisible light block.
+- **WATERFrAMES** - Multimedia player built into blocks.
