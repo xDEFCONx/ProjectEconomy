@@ -518,7 +518,7 @@ ServerEvents.recipes(event => {
       'CBC'
     ],
     {
-      A: 'projecte:dark_matter_block',
+      A: 'projecte:red_matter',
       B: 'minecraft:ender_pearl',
       C: 'minecraft:purpur_block'
       
