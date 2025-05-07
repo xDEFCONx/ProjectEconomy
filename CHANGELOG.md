@@ -6,9 +6,9 @@
 ## [1.1.2] - 2025-05-06
 
 ### Added
-- Craftable Lights
-- WATERFrAMES (yes, it's typed like this)
-- EMC Interface
+- Mod - Craftable Lights
+- Mod - WATERFrAMES (yes, it's typed like this)
+- Mod - EMC Interface
 
 ### Fixed
 - Reduced update payload by 118 MB
