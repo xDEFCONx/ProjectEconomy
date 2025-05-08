@@ -66,8 +66,6 @@ theoneprobe-1.20.1-10.0.3.jar
 ToastControl-1.20.1-8.0.3.jar
 toofast-1.20-0.4.3.5.jar
 Tweakerge-0.1.5-mc1.20.1.jar
-waterframes-FORGE-mc1.20.1-v2.1.14.jar
-watermedia-2.1.24.jar
 waystones-forge-1.20.1-14.1.11.jar
 weaponmaster_ydm-forge-1.20.1-4.2.3.jar
 worldedit-mod-7.2.15.jar
