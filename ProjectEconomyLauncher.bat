@@ -1,15 +1,10 @@
 @echo off
 setlocal EnableDelayedExpansion
 
-:: Run updater
+:: Curl/call updater
 
-if exist "Updater.bat" (
-    call "Updater.bat"
-) else (
-    echo Updater not found. Obtaining from the repository...
-    curl -L -o "Updater.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/UPDATER.bat"
-    call "Updater.bat"
-)
+curl -L -o "Updater.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/UPDATER.bat"
+call "Updater.bat"
 
 :: Locate MinecraftLauncher.exe
 
