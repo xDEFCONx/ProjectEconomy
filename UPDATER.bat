@@ -62,6 +62,13 @@ echo Deleting contents...
 
 :: For configs exclusively, prevents deletion of certain fancymenu dirs due to file sizes
 
+if exist "config\tweakerge.json" (
+    echo tweakerge.json detected, backing up
+    xcopy "config\tweakerge.json" ".\" /i /y
+) else (
+    echo tweakerge.json not present, skipping
+)
+
 for %%I in ("config\*") do (
     if /I not "%%~nxI"=="fancymenu" (
         echo Deleting: %%I
@@ -97,9 +104,12 @@ del /q "local\*" >nul 2>&1
 for /d %%D in ("local\*") do rd /s /q "%%D"
 
 :: Copy contents from update to target
-
-echo Copying contents from "%version%\config\" to "config\"...
+echo Copying contents from "%version%\config\" to config\"...
 xcopy "%version%\config\*" "config\" /s /e /i /h /y
+if exist "tweakerge.json" (
+    echo Tweakerge.json settings recovered
+    xcopy "tweakerge.json" "config\" /i /y
+)
 
 echo Copying contents from "%version%\kubejs\" to kubejs\"...
 xcopy "%version%\kubejs\*" "kubejs\" /s /e /i /h /y
@@ -138,6 +148,7 @@ del /f /q "mods\+filelister.bat"
 del /f /q "mods\file_list.txt"
 del /f /q "current_version.txt"
 del /f /q "file_list.txt"
+del /f /q "tweakerge.json"
 for %%F in (*".version") do (
     del "%%F"
 )
