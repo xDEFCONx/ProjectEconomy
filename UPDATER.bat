@@ -96,12 +96,6 @@ for /d %%D in ("kubejs\*") do rd /s /q "%%D"
 del /q "local\*" >nul 2>&1
 for /d %%D in ("local\*") do rd /s /q "%%D"
 
-del /q "resourcepacks\*" >nul 2>&1
-for /d %%D in ("resourcepacks\*") do rd /s /q "%%D"
-
-del /q "shaderpacks\*" >nul 2>&1
-for /d %%D in ("shaderpacks\*") do rd /s /q "%%D"
-
 :: Copy contents from update to target
 
 echo Copying contents from "%version%\config\" to "config\"...
@@ -112,12 +106,6 @@ xcopy "%version%\kubejs\*" "kubejs\" /s /e /i /h /y
 
 echo Copying contents from "%version%\local\" to local\"...
 xcopy "%version%\local\*" "local\" /s /e /i /h /y
-
-echo Copying contents from "%version%\resourcepacks\" to resourcepacks\"...
-xcopy "%version%\resourcepacks\*" "resourcepacks\" /s /e /i /h /y
-
-echo Copying contents from "%version%\shaderpacks\" to shaderpacks\"...
-xcopy "%version%\shaderpacks\*" "shaderpacks\" /s /e /i /h /y
 
 echo(
 
