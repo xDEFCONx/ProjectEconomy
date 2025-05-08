@@ -25,6 +25,7 @@ elytraslot-forge-6.4.4+1.20.1.jar
 embeddium-0.3.31+mc1.20.1.jar
 emc-interface-1.20.1.1.jar
 fancymenu_forge_3.5.0_MC_1.20.1.jar
+FastLeafDecay-32.jar
 ferritecore-6.0.1-forge.jar
 geckolib-forge-1.20.1-4.7.1.2.jar
 gk_unbreakable-2.7.jar
