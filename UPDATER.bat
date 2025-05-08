@@ -124,7 +124,6 @@ echo(
 :: Run Fancyfetch
 
 echo Download Fancymenu assets...
-::curl -L -o "file_list.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt"
 call "fancyfetch.bat"
 
 :: Run Modfetch
@@ -132,6 +131,11 @@ call "fancyfetch.bat"
 echo Downloading latest mods...
 curl -L -o "file_list.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt"
 call "modfetch.bat"
+
+:: Run Packfetch
+
+echo Downloading resource and shader packs...
+call "packfetch.bat"
 
 :: Delete the update zip and folder
 
