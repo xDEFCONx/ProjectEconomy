@@ -15,7 +15,6 @@ for /f "usebackq tokens=1,* delims==" %%A in ("fancyassets.txt") do (
     set "file=%%A"
     set "url=%%B"
     if not exist "config\fancymenu\assets\!file!" (
-        echo config\fancymenu\assets\!file! doesn't exist
         echo Downloading asset: !file!
         curl -L -o "config\fancymenu\assets\!file!" "!url!"
     ) else (
@@ -23,7 +22,6 @@ for /f "usebackq tokens=1,* delims==" %%A in ("fancyassets.txt") do (
     )
 )
 
-echo Fetching Fancymenu images...
 echo(
 for /f "usebackq tokens=1,* delims==" %%A in ("fancyimages.txt") do (
     set "file=%%A"

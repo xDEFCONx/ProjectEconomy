@@ -1,7 +1,17 @@
+## [1.1.4] - 2025-05-07
+
+### Added
+- Changelog to main menu options screen
+
+### Changed
+- Menu music volume brought down
+- Reduced update payload even further
+
 ## [1.1.3] - 2025-05-06
 
 ### Changed
 - Waystones Warp Stone recipe made more expensive
+- Removed "Terraria Weapons" resource pack for an unused mod
 
 ## [1.1.2] - 2025-05-06
 
