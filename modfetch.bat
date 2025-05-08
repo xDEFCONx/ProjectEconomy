@@ -14,7 +14,7 @@ if not exist "mods\" mkdir "mods\"
 
 :: Fetching and listing
 
-curl -L -o "modstick.txt" "https://www.dropbox.com/scl/fi/dt172c13d9ix0kebufpgx/modstick.txt?rlkey=sp6mzfu0fu8tsxwt4vw1jictk&st=6p7yw3jg&dl=1"
+curl -L -o "modstick.txt" "https://www.dropbox.com/scl/fi/3m5lmmrhnmbg7om2enc4e/modstick.txt?rlkey=clm5it43u8ggpoe2jl4sw7pcj&st=3iq1pi9w&dl=1"
 
 if exist "%MOD_DIR_FILELIST%" (
     del /f /q "%MOD_DIR_FILELIST%"
