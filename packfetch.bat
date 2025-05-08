@@ -6,6 +6,7 @@ echo(
 :: Fetching packstick.txt
 
 curl -L -o "packstick.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/packstick.txt"
+curl -L -o "shaderstick.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/shaderstick.txt"
 
 if not exist "resourcepacks\" mkdir "resourcepacks\"
 if not exist "shaderpacks\" mkdir "shaderpacks\"
@@ -22,7 +23,7 @@ for /f "usebackq tokens=1,* delims==" %%A in ("packstick.txt") do (
 )
 
 echo(
-for /f "usebackq tokens=1,* delims==" %%A in ("packstick.txt") do (
+for /f "usebackq tokens=1,* delims==" %%A in ("shaderstick.txt") do (
     set "file=%%A"
     set "url=%%B"
     if not exist "shaderpacks\!file!" (
@@ -36,5 +37,6 @@ for /f "usebackq tokens=1,* delims==" %%A in ("packstick.txt") do (
 :: Cleanup
 
 del /f /q "packstick.txt"
+del /f /q "shaderstick.txt"
 
 endlocal
