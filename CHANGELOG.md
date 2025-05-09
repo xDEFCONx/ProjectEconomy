@@ -1,3 +1,14 @@
+## [1.1.7] - 2025-05-08
+
+### Added
+- Mod - Accurate Block Placement
+- Mod - Sinytra Connector
+- Mod - Forgified Fabric API
+
+### Changed
+- Removed all leftover files of WATERFrMES
+- Changed some default settings for first-time installations
+
 ## [1.1.6] - 2025-05-08
 
 ### Added
