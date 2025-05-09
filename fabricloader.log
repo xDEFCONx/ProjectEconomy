@@ -1,4 +1,0 @@
-[20:59:29] [WARN] [FabricLoader/Resolution]: Mod resolution failed
-[20:59:29] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE accurateblockplacement 1.2.1 {depends fabric-api @ [*]}, ROOT_FORCELOAD_SINGLE accurateblockplacement 1.2.1]
-[20:59:29] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP accurateblockplacement 1.2.1 {depends fabric-api @ [*]}]
-[20:59:29] [INFO] [FabricLoader/Resolution]: Fix: add [add:fabric-api 1 ([(-∞,∞)])], remove [], replace []
