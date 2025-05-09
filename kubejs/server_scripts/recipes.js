@@ -1040,7 +1040,7 @@ ServerEvents.recipes(event => {
     ], 
     {
       A: 'projecte:dark_matter_block',
-      B: 'advancednetherite:netherite_diamond_ingot',
+      B: 'minecraft:netherite_ingot',
       C: 'minecraft:enchanting_table'
     }
   )

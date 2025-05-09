@@ -1,3 +1,8 @@
+## [1.1.8] - 2025-05-08
+
+### Changed
+- Dis-enchanting table recipe made cheaper due to unbreakable tool anvil weirdness
+
 ## [1.1.7] - 2025-05-08
 
 ### Added
