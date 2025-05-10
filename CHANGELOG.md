@@ -1,3 +1,27 @@
+## [1.2.0] - 2025-05-09
+
+### Added
+- Mod - ItemLocks
+- Mod - LootJS
+
+### Changed
+- Advanced Netherite - All smithing is cheaper, reverted to ingots instead of blocks
+- EMC Interface - crafting recipe is much cheaper
+- Refined Storage - Controller recipe is much cheaper
+- Creative Wireless Transmitter - Cheaper, uses only red matter instead of blocks
+- Minecraft - Brewing Stand made way more expensive for wine progression
+- Minecraft - Enchanted Golden Apple EMC lowered
+- Minecraft - Ancient debris now directly drops netherite scraps, influenced by fortune level
+- ReAvaritia - Hellfire Pickaxe pushed to Fortune 25
+- ReAvaritia - Royal Pickaxe pushed to Fortune 50
+- ReAvaritia - Worldscaper pushed to Fortune 100
+- ProjectE - Dark matter recipe made slightly cheaper
+- Waystones - Warp Stone recipe made cheaper by using dark matter
+- Wines now follow clearer progression (Water > Wine Blend > Held Wine > 2/5/10-Year Vintage)
+- All potion names that are not part of the wine progression are now default
+- Non-vintage wines no longer contain EMC values
+- Fortune levels 4-10 now craftable as enchanted books
+
 ## [1.1.8] - 2025-05-08
 
 ### Changed

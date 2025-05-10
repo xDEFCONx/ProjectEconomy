@@ -34,6 +34,28 @@ for /f "usebackq tokens=1,* delims==" %%A in ("fancyimages.txt") do (
     )
 )
 
+echo(
+echo Cleaning up unused...
+for %%F in (config\fancymenu\assets\*) do (
+    set "filename=%%~nxF"
+    echo !validAssets! | findstr /i /c:";!filename!" >nul
+    if errorlevel 1 (
+        echo Deleting unused asset: !filename!
+        del "%%F"
+    )
+)
+
+echo(
+echo Cleaning up unused...
+for %%F in (config\fancymenu\slideshows\saintmonica\images\*) do (
+    set "filename=%%~nxF"
+    echo !validImages! | findstr /i /c:";!filename!" >nul
+    if errorlevel 1 (
+        echo Deleting unused image: !filename!
+        del "%%F"
+    )
+)
+
 :: Cleanup
 
 del /f /q "fancyassets.txt"

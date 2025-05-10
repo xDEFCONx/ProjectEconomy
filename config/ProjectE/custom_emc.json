@@ -13,28 +13,48 @@
       "emc": 1024
     },
     {
-      "item": "minecraft:lingering_potion{Potion:\"minecraft:healing\"}",
-      "emc": 752
-    },
-    {
-      "item": "minecraft:lingering_potion{Potion:\"minecraft:strong_healing\"}",
-      "emc": 1008
-    },
-    {
-      "item": "minecraft:lingering_potion{Potion:\"minecraft:regeneration\"}",
-      "emc": 4724
-    },
-    {
-      "item": "minecraft:lingering_potion{Potion:\"minecraft:long_regeneration\"}",
-      "emc": 4755
-    },
-    {
-      "item": "minecraft:lingering_potion{Potion:\"minecraft:strong_regeneration\"}",
-      "emc": 31403
-    },
-    {
       "item": "minecraft:elytra{Damage:0}",
       "emc": 32768
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strength\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:luck\"}",
+      "emc": 25000
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:regeneration\"}",
+      "emc": 6500
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:healing\"}",
+      "emc": 1250
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:mundane\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "emc": 32768
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_strength\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strong_strength\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:long_regeneration\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:strong_healing\"}",
+      "emc": 0
     }
   ]
 }
