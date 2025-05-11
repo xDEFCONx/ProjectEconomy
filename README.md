@@ -56,4 +56,4 @@ Many mods have been installed and tweaked for gameplay balancing and style. Thin
 - **Sophisticated Backpacks** - Expandable player inventory items.
 - **Mob Lassos** - Allows for moving mobs in a far simpler fashion. Creative lasso is the only one available.
 - **Craftable lights** - Provides recipe for the vanilla invisible light block.
-- **WATERFrAMES** - Multimedia player built into blocks.
+- **ItemLocks** - Lock items in inventory slots to prevent accidental moves.
