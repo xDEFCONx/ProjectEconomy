@@ -25,16 +25,16 @@ ServerEvents.recipes(event => {
   event.shaped(
     Item.of('minecraft:brewing_stand'),
     [
-      'EBE',
-      'CDC',
+      'BEB',
+      'EDE',
       'AAA'
     ], 
     {
       A: 'minecraft:netherite_block',
       B: 'minecraft:emerald_block',
-      C: 'minecraft:diamond',
+      // C: 'minecraft:diamond',
       D: 'minecraft:blaze_rod',
-      E: 'minecraft:netherite_ingot',
+      E: 'advancednetherite:netherite_emerald_ingot'
   })
   
   // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

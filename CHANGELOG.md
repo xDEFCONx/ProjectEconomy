@@ -1,3 +1,9 @@
+## [1.2.1] - 2025-05-11
+
+### Changed
+- 10-year and 5-year Vintage sell prices lowered from 2.3x to 1.8x
+- Brewing stand made more expensive
+
 ## [1.2.0] - 2025-05-09
 
 ### Added

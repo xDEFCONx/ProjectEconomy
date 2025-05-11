@@ -22,11 +22,11 @@
     },
     {
       "item": "minecraft:potion{Potion:\"minecraft:luck\"}",
-      "emc": 25000
+      "emc": 20000
     },
     {
       "item": "minecraft:potion{Potion:\"minecraft:regeneration\"}",
-      "emc": 6500
+      "emc": 5000
     },
     {
       "item": "minecraft:potion{Potion:\"minecraft:healing\"}",
