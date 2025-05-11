@@ -22,15 +22,15 @@
     },
     {
       "item": "minecraft:potion{Potion:\"minecraft:luck\"}",
-      "emc": 20000
+      "emc": 14000
     },
     {
       "item": "minecraft:potion{Potion:\"minecraft:regeneration\"}",
-      "emc": 5000
+      "emc": 3600
     },
     {
       "item": "minecraft:potion{Potion:\"minecraft:healing\"}",
-      "emc": 1250
+      "emc": 900
     },
     {
       "item": "minecraft:potion{Potion:\"minecraft:mundane\"}",
@@ -55,6 +55,10 @@
     {
       "item": "minecraft:potion{Potion:\"minecraft:strong_healing\"}",
       "emc": 0
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "emc": 8320
     }
   ]
 }

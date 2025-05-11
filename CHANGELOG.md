@@ -1,3 +1,10 @@
+## [1.2.2] - 2025-05-11
+
+### Changed
+- 10-year and 5-year sell price lowered again to 1.25x
+- 2-year lowered to 3x
+- Golden apple is no longer craftable and must be found naturally
+
 ## [1.2.1] - 2025-05-11
 
 ### Changed

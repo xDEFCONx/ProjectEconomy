@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
 
   event.remove({id:'minecraft:shulker_box'})
   event.remove({id:'minecraft:brewing_stand'})
+  event.remove({id:'minecraft:golden_apple'})
 
   // Shulker box buff
 
