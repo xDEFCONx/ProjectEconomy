@@ -1,4 +1,4 @@
-@echo off
+﻿@echo off
 echo(
 echo MODFETCH IS RUNNING
 echo(
@@ -14,7 +14,7 @@ if not exist "mods\" mkdir "mods\"
 
 :: Fetching and listing
 
-curl -L -o "modstick.txt" "https://www.dropbox.com/scl/fi/m57g8sxk36a2dbn5pd74y/modstick.txt?rlkey=xshll84ix6wox04flgg3r4ya6&st=f0kb0o53&dl=1"
+curl -L -o "modstick.txt" "https://www.dropbox.com/scl/fi/hppwvj2tav3dqd091bdu0/modstick.txt?rlkey=xlweistsv71opak72pjgofrbk&st=6f9tk7vu&dl=1"
 
 if exist "%MOD_DIR_FILELIST%" (
     del /f /q "%MOD_DIR_FILELIST%"
