@@ -334,4 +334,12 @@ JEIEvents.hideItems(event => {
   event.hide('ironbows:emerald_crossbow')
   event.hide('ironbows:netherite_crossbow')
 
+  // The One Probe
+
+  event.hide(/theoneprobe:.*/)
+
+  // FTB Quests
+
+  event.hide(/ftbquests:.*/)
+
 })

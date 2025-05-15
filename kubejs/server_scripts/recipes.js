@@ -28,14 +28,14 @@ ServerEvents.recipes(event => {
     [
       'BEB',
       'EDE',
-      'AAA'
+      'ACA'
     ], 
     {
       A: 'minecraft:netherite_block',
       B: 'minecraft:emerald_block',
-      // C: 'minecraft:diamond',
+      C: 'advancednetherite:netherite_emerald_block',
       D: 'minecraft:blaze_rod',
-      E: 'advancednetherite:netherite_emerald_ingot'
+      E: 'advancednetherite:netherite_gold_block'
   })
   
   // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -136,14 +136,16 @@ ServerEvents.recipes(event => {
     Item.of('projecte:transmutation_table'),
     [
       'ADA',
-      'CBC',
-      'ACA'
+      'CBE',
+      'AFA'
     ], 
     {
-      A: 'minecraft:diamond_block',
+      A: 'minecraft:diamond',
       B: 'projecte:philosophers_stone',
-      C: 'minecraft:netherite_ingot',
-      D: 'minecraft:redstone'
+      C: 'minecraft:brewing_stand',
+      D: 'minecraft:end_crystal',
+      E: 'minecraft:emerald_block',
+      F: 'minecraft:nether_star'
   })
   
   // Transmutation tablet easy conversion
@@ -168,14 +170,16 @@ ServerEvents.recipes(event => {
   event.shaped(
     Item.of('projecte:philosophers_stone'),
     [
-      'ACA',
+      'ADA',
       'CBC',
-      'ACA'
+      'AEA'
     ], 
     {
-      A: 'minecraft:redstone_block',
+      A: 'minecraft:soul_sand',
       B: 'minecraft:diamond_block',
-      C: 'minecraft:netherite_scrap'
+      C: 'minecraft:netherite_scrap',
+      D: 'minecraft:dragon_head',
+      E: 'minecraft:dragon_breath'
   })
   
   // Coal recipe buffs
@@ -1286,11 +1290,23 @@ ServerEvents.recipes(event => {
       'BCB'
     ], 
     {
-      A: 'projecte:transmutation_table',
+      A: 'projecte:philosophers_stone',
       B: 'advancednetherite:netherite_iron_block',
       C: 'refinedstorage:64k_storage_block'
     }
   )
+
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // The One Probe
+
+  event.remove({mod:'theoneprobe'})
+
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // FTB Quests
+
+  event.remove({mod:'ftbquests'})
 
 })
 

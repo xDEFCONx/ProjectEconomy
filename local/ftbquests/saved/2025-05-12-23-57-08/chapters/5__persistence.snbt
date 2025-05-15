@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5__persistence"
+	group: ""
+	id: "15F8A98499F731C4"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["7D8E57B0D6A85EF1"]
+		description: ["Click this to begin the chapter."]
+		id: "57DB1ECD3C30BF43"
+		tasks: [{
+			id: "5C3F152BA1D7E60C"
+			title: "Begin Chapter 5"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: 0.5d
+	}]
+	title: "5 - Persistence"
+}

@@ -1,0 +1,398 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6__finale"
+	group: ""
+	id: "2E1341B79C69E47C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1EB3ADF6E8E1B672"]
+			id: "602EDC8273E048E6"
+			tasks: [{
+				id: "5735340707050EF7"
+				title: "Begin Chapter 6"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -13.5d
+		}
+		{
+			id: "3AFEBD7BE4FF9D9E"
+			tasks: [{
+				id: "5C7B089B8E619CBC"
+				item: {
+					Count: 1
+					id: "terrariaweapons:volcano"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3AFEBD7BE4FF9D9E"]
+			id: "31CA8E2FBC0C3B15"
+			tasks: [{
+				id: "065807618DCF2016"
+				item: {
+					Count: 1
+					id: "terrariaweapons:true_nights_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["31CA8E2FBC0C3B15"]
+			id: "25A5426CE5933CAA"
+			tasks: [{
+				id: "4A4D2FCEAA31DFBF"
+				item: {
+					Count: 1
+					id: "terrariaweapons:true_excalibur"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["25A5426CE5933CAA"]
+			id: "52FBA8255834F336"
+			tasks: [{
+				id: "574D169A5AA1548E"
+				item: {
+					Count: 1
+					id: "terrariaweapons:terrablade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["52FBA8255834F336"]
+			id: "51C0032B06E88119"
+			tasks: [{
+				id: "7472A4C6C1C85090"
+				item: {
+					Count: 1
+					id: "terrariaweapons:meowmere"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["51C0032B06E88119"]
+			id: "1493C85C2FDEED88"
+			tasks: [{
+				id: "342BB6C628D9C14E"
+				item: {
+					Count: 1
+					id: "terrariaweapons:star_wrath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "1E99E2C738AAF846"
+			tasks: [{
+				id: "1ED16322A1F2BA76"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			id: "41BD45F2DDDBD2A0"
+			tasks: [{
+				id: "65D4C1BA914A0EF6"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"1493C85C2FDEED88"
+				"7F0BBB44E5C0CDCD"
+			]
+			id: "30E62CB8C2115CF7"
+			tasks: [{
+				id: "2211184939ACC786"
+				item: {
+					Count: 1
+					id: "terrariaweapons:terraprisma"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"25A5426CE5933CAA"
+				"1E99E2C738AAF846"
+				"3AFEBD7BE4FF9D9E"
+				"41BD45F2DDDBD2A0"
+				"30E62CB8C2115CF7"
+				"1493C85C2FDEED88"
+				"51C0032B06E88119"
+				"31CA8E2FBC0C3B15"
+				"52FBA8255834F336"
+			]
+			id: "5BBC4E546363D21B"
+			size: 3.0d
+			tasks: [{
+				id: "6BBA2C5A14E97747"
+				item: "avaritia:infinity_sword"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			id: "2D46049042E8485B"
+			tasks: [{
+				id: "3CDE5D31776B0690"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			id: "2C3BE66D5D917413"
+			tasks: [{
+				id: "73C2BC44DCAC2F76"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			id: "2F7A3595FF5FE912"
+			tasks: [{
+				id: "0D2A9446EAA99284"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "516DA9C01F5A59B9"
+			tasks: [{
+				id: "611E239CC2EC1D55"
+				item: {
+					Count: 1
+					id: "avaritia:blaze_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			id: "67AD203F82228ACF"
+			tasks: [{
+				count: 4L
+				id: "47651BC67BE45C77"
+				item: {
+					Count: 4
+					id: "avaritia:crystal_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2F7A3595FF5FE912"
+				"2C3BE66D5D917413"
+				"2D46049042E8485B"
+				"516DA9C01F5A59B9"
+				"67AD203F82228ACF"
+				"3C7C5357944F94FB"
+			]
+			id: "10DF23AC6C4C8645"
+			size: 3.0d
+			tasks: [{
+				id: "5C25815F9C64FC84"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_pickaxe"
+					tag: {
+						mode: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			id: "3C7C5357944F94FB"
+			tasks: [{
+				id: "0934A8751EF443D3"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			id: "7F0BBB44E5C0CDCD"
+			tasks: [{
+				id: "562EFC2C30425F8B"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "275427FA25DD2C38"
+			tasks: [{
+				id: "473AAD387AF40948"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -18.5d
+		}
+		{
+			id: "0C9137A7814B47C4"
+			tasks: [{
+				id: "50058758032FDBC0"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -18.5d
+		}
+		{
+			id: "0424E15438F47B63"
+			tasks: [{
+				id: "5DD0752E686CAA5A"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -18.5d
+		}
+		{
+			id: "083D4360267BBC80"
+			tasks: [{
+				id: "32132246545D14DD"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -18.5d
+		}
+		{
+			id: "4DB07F5F44A5BFC3"
+			tasks: [{
+				id: "2AD6C6A8ACABDD96"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -20.0d
+		}
+	]
+	title: "6 - Finale"
+}

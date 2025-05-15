@@ -1,0 +1,178 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4"
+	group: ""
+	id: "7BFD7632A4B3443B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["024F2BE4B9552228"]
+			description: ["Click this to begin the chapter."]
+			id: "07F9FCC52C57F9A5"
+			tasks: [{
+				id: "5E4CFBCE68433260"
+				title: "Begin Chapter 4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["07F9FCC52C57F9A5"]
+			id: "44F2C97CC249A642"
+			tasks: [{
+				id: "4D4DDF87D9776D4C"
+				item: "projecte:dark_matter_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44F2C97CC249A642"]
+			id: "6874A972A76F404A"
+			tasks: [{
+				id: "34F032520CB633D2"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6874A972A76F404A"]
+			id: "436782FF8F9048A6"
+			tasks: [{
+				id: "05ED18E0D3A1365D"
+				item: "projecte:red_matter_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "56A26E6E684C4668"
+			tasks: [{
+				id: "15933390DB62C527"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"56A26E6E684C4668"
+				"44F2C97CC249A642"
+			]
+			id: "21CC0EE49F2B409A"
+			tasks: [{
+				id: "3129CC64798AF527"
+				item: "projecte:dm_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"21CC0EE49F2B409A"
+				"436782FF8F9048A6"
+			]
+			id: "034A29F9EEB25C7B"
+			tasks: [{
+				id: "3F1073CF5AC23747"
+				item: "projecte:rm_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["034A29F9EEB25C7B"]
+			id: "24383257C1EEAC3B"
+			tasks: [{
+				id: "0C22D829320CD728"
+				item: {
+					Count: 1
+					id: "avaritia:blaze_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["436782FF8F9048A6"]
+			id: "5E74BF99748CE199"
+			tasks: [{
+				id: "53D2BA612F7E1AFB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "icarus:wings"
+					}
+				}
+				title: "Any #icarus:wings"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["07F9FCC52C57F9A5"]
+			id: "2B6C937831784300"
+			tasks: [{
+				id: "21DF33449D205A0D"
+				item: "mobilebeacon:mobile_beacon_shell"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B6C937831784300"]
+			id: "69D67F853E3B2E47"
+			tasks: [{
+				id: "248DF40179971B89"
+				item: {
+					Count: 1
+					id: "mobilebeacon:mobile_beacon_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07F9FCC52C57F9A5"]
+			id: "2471AD88A6261F30"
+			tasks: [{
+				id: "5ED7FF98A238804A"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2471AD88A6261F30"]
+			id: "6F394202397576C7"
+			tasks: [{
+				id: "1DBD10C1BC4A0608"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+	]
+	title: "4 - "
+}

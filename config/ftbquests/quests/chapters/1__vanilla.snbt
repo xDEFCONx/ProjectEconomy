@@ -1,0 +1,361 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1__vanilla"
+	group: ""
+	icon: "minecraft:dragon_head"
+	id: "4F6BF56737DE1292"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Punch a tree. If you somehow manage to skip this entirely, I'd be shocked."]
+			id: "03A1578B1AE96CF4"
+			tasks: [{
+				id: "05161DDDAC9E25C0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				match_nbt: false
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "From the beginning"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["03A1578B1AE96CF4"]
+			description: ["Go to the End. It's up to you how this gets done."]
+			id: "6D19A36A7991A10D"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "4AEDEAB6A29D1B69"
+				title: "To the End"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"66A6985A98C92CC7"
+				"4EE6FDF411019645"
+				"75154D33D6B630BB"
+				"1A50828972DFE5AB"
+				"18A9D2D35B7777B3"
+			]
+			description: ["Combining all of these items yields something with potential."]
+			id: "041A9222C13FE35B"
+			size: 2.0d
+			tasks: [{
+				id: "747F1E3EF1EA815B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "A suspicious idea..."
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D19A36A7991A10D"]
+			id: "66A6985A98C92CC7"
+			tasks: [{
+				id: "57D70972DA259E0F"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D19A36A7991A10D"]
+			id: "18A9D2D35B7777B3"
+			tasks: [{
+				count: 4L
+				id: "0D1BF5E8FC959FA6"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D19A36A7991A10D"]
+			id: "1A50828972DFE5AB"
+			tasks: [{
+				count: 2L
+				id: "01BB447CFCE97FDF"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D19A36A7991A10D"]
+			id: "75154D33D6B630BB"
+			tasks: [{
+				id: "41870997E0E6C124"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D19A36A7991A10D"]
+			id: "4EE6FDF411019645"
+			tasks: [{
+				id: "4C496F70CFA1B49F"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "25026DEE504985ED"
+			tasks: [{
+				count: 3L
+				id: "4C2856C01C73A73A"
+				item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "5FE9B3380ABF183F"
+			tasks: [{
+				count: 4L
+				id: "743869F5B3D5AA9A"
+				item: { Count: 4, id: "minecraft:soul_sand" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5FE9B3380ABF183F"
+				"25026DEE504985ED"
+			]
+			description: ["Summoning the Wither and slaying it for a star is helpful."]
+			id: "178A534D73B3B1D7"
+			tasks: [{
+				id: "086239B420C46328"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "05F6106DCAE9E860"
+			tasks: [{
+				icon: "minecraft:purpur_pillar"
+				id: "44AEE00472D6EC31"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05F6106DCAE9E860"]
+			description: ["Inside a ship, you'll find a brewing stand."]
+			id: "7851765A95C3C3B6"
+			tasks: [{
+				id: "3AE48BDEA1548FEE"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["337764CCAAF6EB32"]
+			description: ["Everything needs money, somehow."]
+			id: "439AD9C8CC73CB40"
+			tasks: [{
+				id: "6F5415921FD35BFA"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "337764CCAAF6EB32"
+			tasks: [{
+				icon: "minecraft:emerald"
+				id: "55466FC0FEE54B42"
+				stat: "minecraft:traded_with_villager"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "37E3F94A2B24E368"
+			tasks: [{
+				id: "2F9501940A984682"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "2DF8D86B612C1218"
+			tasks: [{
+				id: "5381A22FFCE52728"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"37E3F94A2B24E368"
+				"2DF8D86B612C1218"
+			]
+			description: ["A feast for an ender dragon."]
+			id: "38536AA4CCA2ABA5"
+			tasks: [{
+				id: "7FD3C1F172E5EAED"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["041A9222C13FE35B"]
+			id: "05B115EB5389E483"
+			tasks: [{
+				count: 4L
+				id: "29226E8ACCBC95E9"
+				item: { Count: 4, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"05B115EB5389E483"
+				"38536AA4CCA2ABA5"
+				"439AD9C8CC73CB40"
+				"178A534D73B3B1D7"
+				"7851765A95C3C3B6"
+			]
+			description: ["Turns out, many troubling things put together create something really useful!"]
+			id: "3BAF99E938764173"
+			rewards: [
+				{
+					id: "380A2470346C8873"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AFC24A56AB26F78"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "01705A40DFD11443"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			title: "The price is right"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["This will be useful in later chapters."]
+			id: "407973EF5C475E41"
+			optional: true
+			tasks: [{
+				id: "018488E609E35A29"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			description: ["This will be useful in later chapters."]
+			id: "1224B23C8EDB1ED7"
+			optional: true
+			tasks: [{
+				id: "76092D4C7A37363D"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			description: ["You can convert the table to/from a portable version if preferred!"]
+			id: "65988D1C275C070B"
+			optional: true
+			tasks: [{
+				id: "35BC1D415B0366B9"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+	title: "1 - Prelude"
+}

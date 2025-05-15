@@ -26,11 +26,11 @@
     },
     {
       "item": "minecraft:potion{Potion:\"minecraft:regeneration\"}",
-      "emc": 3600
+      "emc": 4000
     },
     {
       "item": "minecraft:potion{Potion:\"minecraft:healing\"}",
-      "emc": 900
+      "emc": 800
     },
     {
       "item": "minecraft:potion{Potion:\"minecraft:mundane\"}",
@@ -59,6 +59,18 @@
     {
       "item": "minecraft:golden_apple",
       "emc": 8320
+    },
+    {
+      "item": "minecraft:dragon_head",
+      "emc": 16384
+    },
+    {
+      "item": "minecraft:emerald_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potion{Potion:\"minecraft:invisibility\"}",
+      "emc": 17000
     }
   ]
 }

@@ -1,0 +1,712 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2__theory_of_economics"
+	group: ""
+	icon: {
+		Count: 1
+		id: "advancednetherite:netherite_diamond_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "40BF9B30B664B3F1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3BAF99E938764173"]
+			description: ["Click this to begin the chapter."]
+			id: "49716D7A3765D041"
+			shape: "rsquare"
+			tasks: [{
+				id: "59DA78A17521FEE8"
+				title: "Begin Chapter 2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4B297E859CFFC327"
+				"29E3FA9044518677"
+				"305EE7CB794BE709"
+				"6680B79D430DAC5B"
+			]
+			description: ["Craft a netherite pickaxe. This is its lowest tier, and can be upgraded quite a bit."]
+			id: "7A76ADEF1BF5E7E0"
+			tasks: [{
+				id: "3FA3ADAEE17B1436"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Now THIS is a pickaxe!"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49716D7A3765D041"]
+			description: ["We will need a bastion to obtain some templates."]
+			icon: "minecraft:polished_blackstone_bricks"
+			id: "1C0BEEBBDE52733D"
+			tasks: [{
+				id: "715D993FBB42FAA3"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C0BEEBBDE52733D"]
+			id: "4B297E859CFFC327"
+			tasks: [{
+				id: "7C9E43BC8C5DED6D"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C0BEEBBDE52733D"]
+			id: "305EE7CB794BE709"
+			tasks: [{
+				id: "2F0ABA22E3022D9F"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C0BEEBBDE52733D"]
+			id: "29E3FA9044518677"
+			tasks: [{
+				id: "08752498BF819E6D"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C0BEEBBDE52733D"]
+			id: "6680B79D430DAC5B"
+			tasks: [{
+				id: "66998EA4FD7AEF1A"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			description: ["This will be helpful for later quests, but isn't required right now."]
+			id: "7274CD400999E05C"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "75F965CE2EFCD64D"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			description: ["This will be helpful for later quests, but isn't required right now."]
+			id: "1732E8A5102BAEBD"
+			optional: true
+			tasks: [{
+				id: "6FA5C64295BD2503"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			description: ["This will be helpful for later quests, but isn't required right now."]
+			id: "1DC172D4F2D77D8A"
+			optional: true
+			tasks: [{
+				id: "6C24B1F291CA817D"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			description: ["This will be helpful for later quests, but isn't required right now."]
+			id: "75C2F0F0E4436CD5"
+			optional: true
+			tasks: [{
+				id: "0FC41B857EA98C89"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7A76ADEF1BF5E7E0"
+				"768A39E5F522BD74"
+			]
+			description: ["Upgrade to Iron-Netherite."]
+			id: "2BA1AA2C2D57A73A"
+			tasks: [{
+				id: "30E79697947BC311"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Actually, this is!"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2BA1AA2C2D57A73A"
+				"0637950C37E679F9"
+			]
+			description: ["Upgrade to Gold-Netherite."]
+			id: "6D1CA0057DF0C58E"
+			tasks: [{
+				id: "2D071F9BA3A3C6C9"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_gold_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Okay, seriously now, THIS is."
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6D1CA0057DF0C58E"
+				"166A9FB463616547"
+			]
+			description: ["Upgrade to Emerald-Netherite."]
+			id: "25A463239A52F1E2"
+			tasks: [{
+				id: "62F67047F347476D"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_emerald_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hear me out."
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"25A463239A52F1E2"
+				"0C38DD5035F1FBE1"
+			]
+			description: ["Upgrade to Diamond-Netherite."]
+			id: "51AEC2E24BAFD9BD"
+			tasks: [{
+				id: "76737458A7279ED5"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Look."
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3BAF99E938764173"]
+			id: "768A39E5F522BD74"
+			tasks: [{
+				id: "1E3DCE0A4AFCA1BC"
+				item: "advancednetherite:netherite_iron_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3BAF99E938764173"]
+			id: "0637950C37E679F9"
+			tasks: [{
+				id: "08DF59AD81F7CEB0"
+				item: "advancednetherite:netherite_gold_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3BAF99E938764173"]
+			id: "166A9FB463616547"
+			tasks: [{
+				id: "25D03B1FCD0A2688"
+				item: "advancednetherite:netherite_emerald_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3BAF99E938764173"]
+			id: "0C38DD5035F1FBE1"
+			tasks: [{
+				id: "79F354298D7D7817"
+				item: "advancednetherite:netherite_diamond_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			description: ["This will be helpful for later quests, but isn't required right now."]
+			id: "19FD1974AB06B0B1"
+			optional: true
+			tasks: [{
+				id: "2268FAC373705811"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			description: ["This will be helpful for later quests, but isn't required right now."]
+			id: "7A34CA1A84A2098D"
+			optional: true
+			tasks: [{
+				id: "4B17B45C0F6B7C79"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			description: ["This will be helpful for later quests, but isn't required right now."]
+			id: "48B15EAD5C48DED8"
+			optional: true
+			tasks: [{
+				id: "08CA6B4F0A397171"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			description: ["This will be helpful for later quests, but isn't required right now."]
+			id: "43DC5E67F1985550"
+			optional: true
+			tasks: [{
+				id: "26020394C34C562A"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["49716D7A3765D041"]
+			description: ["You feel a bit thirsty, don't you? Maybe other people do, as well."]
+			id: "1DFF73BEAB2DC176"
+			rewards: [{
+				id: "0574109A6E41D9FC"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B140A8BCE7BC0EE"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "Brewing Wine"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1DFF73BEAB2DC176"]
+			description: ["Sweet and earthy, this is a perfect fruit to use."]
+			id: "7978B3E0DA39D00D"
+			tasks: [{
+				id: "26F0A937217E5BA4"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6C4485B0F140FA46"
+				"1DFF73BEAB2DC176"
+			]
+			description: ["This will help infuse the berries."]
+			id: "6F4A06C767F8E431"
+			tasks: [{
+				id: "6FCE0814031CE075"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BAF99E938764173"]
+			id: "6C4485B0F140FA46"
+			tasks: [{
+				id: "5035FA4A47F7B62B"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F4A06C767F8E431"
+				"7978B3E0DA39D00D"
+			]
+			description: ["It's refreshing and sweet, but this can be taken further, can't it?"]
+			id: "0D6BFE626C94F141"
+			tasks: [{
+				id: "666BB4C99C255310"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:mundane"
+					}
+				}
+				type: "item"
+			}]
+			title: "It starts at the blend"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BAF99E938764173"]
+			description: ["Using this, we can drum up our beverage and hope something interesting happens."]
+			id: "1ABC8594DB9F67D3"
+			tasks: [{
+				id: "5A117C2969526842"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0D6BFE626C94F141"
+				"1ABC8594DB9F67D3"
+			]
+			description: ["Good result, but it's still young and quite potent. It may do better with some time in the bottle, though..."]
+			id: "035759616CB05669"
+			tasks: [{
+				id: "417F5FBEC0F09777"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strength"
+					}
+				}
+				type: "item"
+			}]
+			title: "A simple sipper"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3BAF99E938764173"]
+			description: ["Strangely enough, this might help expedite the aging process. Definitely scientific, and not gold shoved into a melon."]
+			id: "4942ADFC24E8B0A9"
+			tasks: [{
+				id: "189FA2611A06F608"
+				item: "minecraft:glistering_melon_slice"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"035759616CB05669"
+				"4942ADFC24E8B0A9"
+			]
+			description: ["... So, we won't ask why that worked, but it did. This could be profitable."]
+			id: "76A53C7451DEDB53"
+			rewards: [{
+				id: "709B3F149C73271F"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "103C9DABCF4A849C"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			title: "Your first vintage"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["49716D7A3765D041"]
+			description: ["No one taught us this outcome in chemistry."]
+			id: "3DD1E5EF4707E766"
+			tasks: [{
+				id: "2CAB8D3AC5BD5D54"
+				item: "projecte:alchemical_coal"
+				type: "item"
+			}]
+			title: "From coal to... coal?"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DD1E5EF4707E766"]
+			id: "4FC1520FE9958B12"
+			tasks: [{
+				id: "3053356779C3C802"
+				item: "projecte:mobius_fuel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4FC1520FE9958B12"]
+			id: "3830A1EE1F6607E5"
+			tasks: [{
+				id: "611777B43F072AB3"
+				item: "projecte:aeternalis_fuel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3830A1EE1F6607E5"]
+			description: ["What is it? I'm actually asking."]
+			id: "32352F51E5F1A250"
+			rewards: [{
+				id: "363205721B2C30C4"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "547E7BE36AD17F69"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			title: "What's the matter?"
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			description: ["You can upgrade your bow to make its projectiles deal more damage. This is entirely optional."]
+			id: "00FAFAD4E020E6A2"
+			optional: true
+			tasks: [{
+				id: "1237B5AC16248AEB"
+				item: {
+					Count: 1
+					id: "ironbows:iron_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.6928571428571502d
+			y: 11.049999999999983d
+		}
+		{
+			description: ["This can help transport mobs wherever you want without the hassle of a lead."]
+			id: "5CD53124889FC47B"
+			optional: true
+			tasks: [{
+				id: "144FA1353D40B177"
+				item: "moblassos:creative_lasso"
+				type: "item"
+			}]
+			x: -0.8071428571428498d
+			y: 11.049999999999983d
+		}
+		{
+			description: ["You can use these to keep chunks loaded. You can pick which chunks are loaded with a GUI (Default key - N)"]
+			id: "16B1A95FC23E5245"
+			optional: true
+			tasks: [{
+				id: "7B2A8B0DAE4D57AA"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
+			x: 2.19285714285715d
+			y: 11.049999999999983d
+		}
+		{
+			dependencies: ["2BA1AA2C2D57A73A"]
+			description: [
+				"You are able to craft Fortune 4-10 enchanted books to apply to your tools. Check the recipes to learn how."
+				""
+				"This entry lets you get a Fortune IV book for 30 XP levels!"
+			]
+			id: "730A264050FB537D"
+			rewards: [{
+				id: "0F22AAEA93524646"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fortune"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47F08ECEEC249192"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			title: "Fortunate Son"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["76A53C7451DEDB53"]
+			description: [
+				"You can make 5-year and 10-year vintages that sell for far higher EMCs by using golden apples and enchanted (notch) golden apples respectively."
+				""
+				"However, these can only be attained from progression! You will not regret it, as they generate far more EMC."
+			]
+			id: "13EFD0FF6C810137"
+			tasks: [{
+				id: "049C997585446516"
+				title: "Want better wine?"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"You've probably noticed that you can't combine tool enchantments. That's because you're supposed to disenchant them into books using this table!"
+				""
+				"(Actually, unbreakable tools don't combine for some reason, and this is a convenient workaround.)"
+			]
+			id: "17807F3690D2EC9B"
+			optional: true
+			tasks: [{
+				id: "47415A1A75E9C63F"
+				item: "disenchanting_table:disenchanting_table"
+				type: "item"
+			}]
+			x: -2.30714285714285d
+			y: 11.049999999999983d
+		}
+	]
+	title: "2 - Foundations"
+}

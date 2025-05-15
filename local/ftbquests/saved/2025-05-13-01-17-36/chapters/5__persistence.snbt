@@ -1,0 +1,332 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5__persistence"
+	group: ""
+	icon: "avaritia:neutron_ingot"
+	id: "15F8A98499F731C4"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D8E57B0D6A85EF1"]
+			description: ["Click this to begin the chapter."]
+			id: "57DB1ECD3C30BF43"
+			tasks: [{
+				id: "5C3F152BA1D7E60C"
+				title: "Begin Chapter 5"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["57DB1ECD3C30BF43"]
+			id: "075B8A24EDF6E530"
+			tasks: [{
+				id: "33E911E54683A1D1"
+				item: "projecte:dm_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["075B8A24EDF6E530"]
+			id: "7B062E22250FDB2F"
+			tasks: [{
+				id: "4A7BF779483243A1"
+				item: "projecte:rm_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2B917F2A2EA7617E"
+				"45CF45C314EB331C"
+				"244306BC109B9C4A"
+				"45D2178D5ACFAE5E"
+			]
+			description: ["The fact that you can carry this says more about you than anything else."]
+			id: "094F12E1DA38F32C"
+			tasks: [{
+				count: 5L
+				id: "0926EF8D4A93D720"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "An ingot beyond belief"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["57DB1ECD3C30BF43"]
+			id: "124EE831A7D1CE4B"
+			tasks: [{
+				id: "0117D37C40B387EA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:body_stone"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57DB1ECD3C30BF43"]
+			id: "69FAFB2DFA02DA78"
+			tasks: [{
+				id: "2D852EFC7DC241DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:soul_stone"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"124EE831A7D1CE4B"
+				"69FAFB2DFA02DA78"
+			]
+			id: "47069974BAF0B1FF"
+			tasks: [{
+				id: "5725AF542EF61F32"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:life_stone"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47069974BAF0B1FF"]
+			id: "3CA762ED8AD9053C"
+			tasks: [{
+				id: "5236B3CB991C91F5"
+				item: {
+					Count: 1
+					id: "mobilebeacon:mobile_beacon_emerald"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Beaconomics"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B062E22250FDB2F"]
+			id: "45CF45C314EB331C"
+			tasks: [{
+				id: "01887F30BF974945"
+				item: {
+					Count: 1
+					id: "avaritia:blaze_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7B062E22250FDB2F"]
+			id: "2B917F2A2EA7617E"
+			tasks: [{
+				id: "4CB3E3F701F513AD"
+				item: {
+					Count: 1
+					id: "avaritia:blaze_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7B062E22250FDB2F"]
+			id: "244306BC109B9C4A"
+			tasks: [{
+				id: "7EB795E8F939406C"
+				item: {
+					Count: 1
+					id: "avaritia:blaze_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7B062E22250FDB2F"]
+			id: "45D2178D5ACFAE5E"
+			tasks: [{
+				id: "6B6233ACEF1E8602"
+				item: {
+					Count: 1
+					id: "avaritia:blaze_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["57DB1ECD3C30BF43"]
+			id: "4786AD478670CA4D"
+			optional: true
+			tasks: [{
+				id: "1F0648E2343824BD"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "Studded pack"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4786AD478670CA4D"]
+			id: "6774BF911FD523E2"
+			optional: true
+			tasks: [{
+				id: "041CECC1BFD866ED"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4786AD478670CA4D"]
+			id: "4E2D19B94741A6A7"
+			optional: true
+			tasks: [{
+				id: "565BB7B0EBD6E80D"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4786AD478670CA4D"]
+			id: "55EDFA072EFADCE0"
+			optional: true
+			tasks: [{
+				id: "30CFB4F40976B2DD"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4786AD478670CA4D"]
+			id: "08BA8DBD9BD7E2B0"
+			optional: true
+			tasks: [{
+				id: "513EB048FE0E7866"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4786AD478670CA4D"]
+			id: "72ED5EE0FA46CB5C"
+			optional: true
+			tasks: [{
+				id: "3F4233502DE63618"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["094F12E1DA38F32C"]
+			id: "1EB3ADF6E8E1B672"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "04E53F51BB193B6D"
+				item: {
+					Count: 1
+					id: "avaritia:crystal_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["57DB1ECD3C30BF43"]
+			id: "1C65700048755165"
+			optional: true
+			tasks: [{
+				id: "53E74C3A458EFD25"
+				item: {
+					Count: 1
+					id: "avaritia:blaze_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C65700048755165"]
+			id: "32A4BDC60BBE663E"
+			optional: true
+			tasks: [{
+				id: "5681B318D0768187"
+				item: {
+					Count: 1
+					id: "avaritia:crystal_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+	]
+	title: "5 - Persistence"
+}

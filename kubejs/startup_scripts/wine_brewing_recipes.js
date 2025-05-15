@@ -32,6 +32,18 @@ MoreJSEvents.registerPotionBrewing((event) => {
     null
   );
 
+  event.removeByPotion(
+    "minecraft:night_vision",
+    "minecraft:fermented_spider_eye",
+    null
+  );
+
+    event.removeByPotion(
+    "minecraft:long_night_vision",
+    "minecraft:fermented_spider_eye",
+    null
+  );
+
   // event.removeByPotion(
   //   "minecraft:regeneration"["minecraft:splash_potion"],
   //   "minecraft:dragon_breath",
@@ -68,6 +80,12 @@ MoreJSEvents.registerPotionBrewing((event) => {
     "minecraft:enchanted_golden_apple",
     "minecraft:strength",
     "minecraft:luck"
+  );
+
+  event.addPotionBrewing(
+    "minecraft:bedrock",
+    "minecraft:strength",
+    "minecraft:invisibility"
   );
   
 });

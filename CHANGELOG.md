@@ -1,3 +1,31 @@
+## [1.3.0] - 2025-05-14
+
+### Added
+- Mod - FTB Quests
+- Mod - FTB Teams
+- Mod - FTB Library
+- Mod - FTB Xmod Compat
+- Mod - Item Filters (For tags in FTB Quests)
+- Mod - Right Click Harvest
+- Mod - JamLib
+- Mod - HeadCrafter (Allows players to spawn custom heads for decoration)
+- Mod - Appleskin (Shows food saturation)
+- Mod - Inventory HUD
+- Mod - Faster Ladder Climbing
+- Mod - TslatEntityStatus (Health bars)
+- Quest tree and proper progression via FTB Quests
+- 15-year vintage at 17,000 EMC
+
+### Changed
+- Icarus - wing acceleration slightly more than doubled from original for better vertical ascent
+- ProjectE - Transmutation table and philosopher's stone recipes now require items that promote more vanilla gameplay and not just mining.
+- EMC Interface - Recipe changed to require the philosopher's stone instead of the transmutation table.
+- Golden apples and enchanted golden apples not found naturally and are now locked behind quest progression
+- 2-year vintage lowered to 800 EMC
+- 5-year vintage raised to 4,000 EMC
+- Removed The One Probe recipes and JEI entries
+- Removed FTB Quests recipes and JEI entries
+
 ## [1.2.2] - 2025-05-11
 
 ### Changed

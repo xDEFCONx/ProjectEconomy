@@ -1,0 +1,446 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3__focus"
+	group: ""
+	icon: "refinedstorage:creative_controller"
+	id: "625D91B37E4FB0DE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"51AEC2E24BAFD9BD"
+				"32352F51E5F1A250"
+				"76A53C7451DEDB53"
+			]
+			description: ["Click this to begin the chapter."]
+			id: "22634A5895909DFA"
+			tasks: [{
+				id: "6C6F9D0D98EE5DA2"
+				title: "Begin Chapter 2"
+				type: "checkmark"
+			}]
+			title: "Begin Chapter 3"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"571504AB876CC574"
+				"654A8B5977E0041D"
+			]
+			description: ["Laziness brings technology."]
+			id: "6E85D65C9B90C6D4"
+			tasks: [{
+				id: "4D4D1A084F46486E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "waystones:warp_stones"
+					}
+				}
+				title: "Any #waystones:warp_stones"
+				type: "item"
+			}]
+			title: "Warp Stone"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"71FB3C85AFE84374"
+				"6E7167F815729ECC"
+				"05AEEE0F5D5DA147"
+				"599A1A62CF8C0CD8"
+				"69783F01ACFA7B7F"
+			]
+			description: ["You just made a rock think."]
+			id: "54586D271BA9E100"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "37FE86FD30A81580"
+				item: "refinedstorage:creative_controller"
+				type: "item"
+			}]
+			title: "Specs in bio"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6246D57DCC352373"]
+			description: [
+				"Attached to the external storage module, this interface allows our computer to read and write"
+				"directly from our personal EMC table!"
+			]
+			id: "571504AB876CC574"
+			tasks: [{
+				id: "6683985145E01F85"
+				item: "emc_interface:emc_interface"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["54586D271BA9E100"]
+			id: "60F3780DE443F546"
+			tasks: [
+				{
+					id: "0DE9A3B52D70C8D8"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+				{
+					id: "36629E7CD8CA2F97"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["60F3780DE443F546"]
+			description: ["This may be helpful for our brewing setup, don't you think?"]
+			id: "654A8B5977E0041D"
+			tasks: [{
+				id: "7BCB614872272ACD"
+				item: "refinedstorage:regulator_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["22634A5895909DFA"]
+			id: "0FC140ABC7895874"
+			tasks: [{
+				id: "207C09B6884E0FC9"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22634A5895909DFA"]
+			id: "56AF43248007F7A6"
+			tasks: [{
+				id: "2779255DCF7F3D4D"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22634A5895909DFA"]
+			id: "4B1D7EE9788C953F"
+			tasks: [{
+				id: "2FEDF07A3306FE43"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B1D7EE9788C953F"]
+			description: ["Baking the quartz altered the structure of the material, it seems."]
+			id: "7CFE6E053B1FCEF0"
+			tasks: [{
+				id: "24993FBF8C40914A"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0FC140ABC7895874"
+				"56AF43248007F7A6"
+			]
+			description: ["This binding will help keep our traces together."]
+			id: "45191A44710314BE"
+			tasks: [{
+				id: "7F4328A57925B70A"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"13EFD0FF6C810137"
+				"51AEC2E24BAFD9BD"
+				"32352F51E5F1A250"
+			]
+			id: "23670F2CF246705A"
+			tasks: [
+				{
+					id: "004F40A3189BDDEF"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "2E46110ACC6906D9"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "70A5A025F05BD9F2"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7CFE6E053B1FCEF0"
+				"45191A44710314BE"
+				"23670F2CF246705A"
+			]
+			description: ["All those redstone logic videos are starting to pay off, it seems."]
+			id: "0F7CF4297722588B"
+			tasks: [
+				{
+					id: "3C8D80775EE03FC8"
+					item: "refinedstorage:raw_basic_processor"
+					type: "item"
+				}
+				{
+					id: "116530703A66FFAC"
+					item: "refinedstorage:raw_improved_processor"
+					type: "item"
+				}
+				{
+					id: "33A5FADEB9C4F098"
+					item: "refinedstorage:raw_advanced_processor"
+					type: "item"
+				}
+			]
+			title: "It's RAW!"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F7CF4297722588B"]
+			description: ["That's quite the circuitry to design by hand!"]
+			id: "599A1A62CF8C0CD8"
+			tasks: [
+				{
+					id: "75DB6D158B4B7065"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+				{
+					id: "643BBF737A8881ED"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "421BCBB5211DE148"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+			]
+			title: "Intel by hand"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"13EFD0FF6C810137"
+				"51AEC2E24BAFD9BD"
+				"32352F51E5F1A250"
+			]
+			description: ["We need a material to construct with that's better suited for computers."]
+			id: "6C2A4EA1E40E04C2"
+			tasks: [{
+				id: "4F00D01BC8CD2B2F"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C2A4EA1E40E04C2"]
+			id: "6E7167F815729ECC"
+			tasks: [{
+				id: "40F50EEFA477AE7B"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"13EFD0FF6C810137"
+				"51AEC2E24BAFD9BD"
+				"32352F51E5F1A250"
+			]
+			id: "71FB3C85AFE84374"
+			tasks: [{
+				id: "76610F8897E0185C"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"13EFD0FF6C810137"
+				"51AEC2E24BAFD9BD"
+				"32352F51E5F1A250"
+			]
+			id: "69783F01ACFA7B7F"
+			tasks: [{
+				count: 2L
+				id: "0528015F3567D887"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"13EFD0FF6C810137"
+				"51AEC2E24BAFD9BD"
+				"32352F51E5F1A250"
+			]
+			id: "05AEEE0F5D5DA147"
+			tasks: [{
+				count: 4L
+				id: "2427CA4432C175C4"
+				item: { Count: 4, id: "advancednetherite:netherite_gold_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["54586D271BA9E100"]
+			id: "6246D57DCC352373"
+			tasks: [{
+				id: "73CDC791AAC301B8"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["54586D271BA9E100"]
+			description: ["This convenient interface will allow us many options in our new system."]
+			id: "30FEC6AF3EDA51F3"
+			tasks: [{
+				id: "242557EE0D827308"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "refinedstorage:crafting_grid"
+					}
+				}
+				title: "Any #refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			title: "Crafting Grid"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54586D271BA9E100"]
+			description: ["We need SOME form of non-volatile storage, right?"]
+			id: "1449CF06E70E4C0C"
+			tasks: [{
+				id: "26CC54FB9E7BD038"
+				item: "refinedstorage:1k_storage_block"
+				type: "item"
+			}]
+			title: "Hard to drive"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: ["This controller is a much better portable interface for inserting/removing items from our EMC network."]
+			id: "362283B42447D45A"
+			optional: true
+			tasks: [{
+				id: "3DBBEB069FB508CA"
+				item: "refinedstorage:creative_wireless_crafting_monitor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			description: ["Although it's likely not affordable right now, this transmitter has infinite range and is cross-dimensional, perfect for your wireless devices."]
+			id: "57F67FD626C8F040"
+			optional: true
+			tasks: [{
+				id: "0DC557CB5E5E4B8F"
+				item: "creativewirelesstransmitter:creative_wireless_transmitter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["54586D271BA9E100"]
+			id: "2DA85D2010F18CCA"
+			tasks: [{
+				id: "46217986B744B399"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6E85D65C9B90C6D4"]
+			icon: "minecraft:golden_apple"
+			id: "658CF025EB9B92C5"
+			rewards: [
+				{
+					count: 3
+					id: "1BDF1489B803E5CA"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "6D78A1CE201F1269"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "41D2AA9D12AB6506"
+				title: "Golden Apple"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+	]
+	title: "3 - Logistics"
+}
