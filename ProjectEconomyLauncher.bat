@@ -3,7 +3,7 @@ setlocal EnableDelayedExpansion
 
 :: Curl/call updater
 
-curl -L -o "Updater.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/UPDATER.bat"
+curl -L -o "Updater.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/UPDATER.bat" --ssl-no-revoke
 call "Updater.bat"
 
 :: Locate MinecraftLauncher.exe

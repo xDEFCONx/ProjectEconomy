@@ -7,16 +7,16 @@ echo ---------------------------------------------------
 :: Create options/properties if not currently present
 
 if not exist "options.txt" (
-    curl -L -o "options.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/options.txt"
+    curl -L -o "options.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/options.txt" --ssl-no-revoke
 )
-curl -L -o "modfetch.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/modfetch.bat"
-curl -L -o "fancyfetch.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/fancyfetch.bat"
-curl -L -o "packfetch.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/packfetch.bat"
+curl -L -o "modfetch.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/modfetch.bat" --ssl-no-revoke
+curl -L -o "fancyfetch.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/fancyfetch.bat" --ssl-no-revoke
+curl -L -o "packfetch.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/packfetch.bat" --ssl-no-revoke
 
 :: Version checking
 
-curl -L -o "current_version.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/current_version.txt"
-curl -L -o "file_list.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt"
+curl -L -o "current_version.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/current_version.txt" --ssl-no-revoke
+curl -L -o "file_list.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt" --ssl-no-revoke
 set /p VERSION_CHECK=<current_version.txt
 if exist "%VERSION_CHECK%.version" (
     del /f /q "current_version.txt"
@@ -127,7 +127,7 @@ call "fancyfetch.bat"
 :: Run Modfetch
 
 echo Downloading latest mods...
-curl -L -o "file_list.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt"
+curl -L -o "file_list.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt" --ssl-no-revoke
 call "modfetch.bat"
 
 :: Run Packfetch

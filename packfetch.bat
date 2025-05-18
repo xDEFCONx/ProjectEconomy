@@ -5,8 +5,8 @@ echo(
 
 :: Fetching packstick.txt and shaderstick.txt
 
-curl -L -o "packstick.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/packstick.txt"
-curl -L -o "shaderstick.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/shaderstick.txt"
+curl -L -o "packstick.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/packstick.txt" --ssl-no-revoke
+curl -L -o "shaderstick.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/shaderstick.txt" --ssl-no-revoke
 
 if not exist "resourcepacks\" mkdir "resourcepacks\"
 if not exist "shaderpacks\" mkdir "shaderpacks\"
@@ -19,7 +19,7 @@ for /f "usebackq tokens=1,* delims==" %%A in ("packstick.txt") do (
     set "validPacks=!validPacks!;%%A"
     if not exist "resourcepacks\!file!" (
         echo Downloading resource pack: !file!
-        curl -L -o "resourcepacks\!file!" "!url!"
+        curl -L -o "resourcepacks\!file!" "!url!" --ssl-no-revoke
     ) else (
         echo !file! present.
     )
@@ -34,7 +34,7 @@ for /f "usebackq tokens=1,* delims==" %%A in ("shaderstick.txt") do (
     set "validShaders=!validShaders!;%%A"
     if not exist "shaderpacks\!file!" (
         echo Downloading shader pack: !file!
-        curl -L -o "shaderpacks\!file!" "!url!"
+        curl -L -o "shaderpacks\!file!" "!url!" --ssl-no-revoke
     ) else (
         echo !file! present.
     )

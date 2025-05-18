@@ -14,7 +14,7 @@ if not exist "mods\" mkdir "mods\"
 
 :: Fetching and listing
 
-curl -L -o "modstick.txt" "https://www.dropbox.com/scl/fi/hppwvj2tav3dqd091bdu0/modstick.txt?rlkey=xlweistsv71opak72pjgofrbk&st=6f9tk7vu&dl=1"
+curl -L -o "modstick.txt" "https://www.dropbox.com/scl/fi/hppwvj2tav3dqd091bdu0/modstick.txt?rlkey=xlweistsv71opak72pjgofrbk&st=6f9tk7vu&dl=1" --ssl-no-revoke
 
 if exist "%MOD_DIR_FILELIST%" (
     del /f /q "%MOD_DIR_FILELIST%"
@@ -23,14 +23,14 @@ if exist "%MOD_DIR_FILELIST%" (
 
 echo Creating file_list of current mods...
 
-curl -L -o "mods\+filelister.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/+filelister.bat"
+curl -L -o "mods\+filelister.bat" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/+filelister.bat" --ssl-no-revoke
 pushd "%~dp0mods"
 call "+filelister.bat"
 popd
 
 if not exist "%PARENT_FILELIST%" (
     echo Fetching master file_list from the repo...
-    curl -L -o "%PARENT_FILELIST%" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt"
+    curl -L -o "%PARENT_FILELIST%" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/mods/file_list.txt" --ssl-no-revoke
 )
 
 :: Build mod=>URL mapping from modstick.txt
@@ -64,7 +64,7 @@ for /f "delims=" %%c in (%PARENT_FILELIST%) do (
         call set "url=%%modurl_%%c%%"
         if defined url (
             echo Downloading new mod: %%c
-            curl -L -o "mods\%%c" "!url!"
+            curl -L -o "mods\%%c" "!url!" --ssl-no-revoke
         ) else (
             echo URL not found for %%c in modstick.txt
         )

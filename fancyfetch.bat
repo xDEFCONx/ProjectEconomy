@@ -4,8 +4,8 @@ echo FANCYFETCH IS RUNNING
 echo(
 
 :: Fetching fancyassets.txt and fancyimages.txt
-curl -L -o "fancyassets.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/fancyassets.txt"
-curl -L -o "fancyimages.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/fancyimages.txt"
+curl -L -o "fancyassets.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/fancyassets.txt" --ssl-no-revoke
+curl -L -o "fancyimages.txt" "https://raw.githubusercontent.com/xDEFCONx/ProjectEconomy/latest/fancyimages.txt" --ssl-no-revoke
 
 if not exist "config\fancymenu\assets\" mkdir "config\fancymenu\assets\"
 if not exist "config\fancymenu\slideshows\saintmonica\images\" mkdir "config\fancymenu\slideshows\saintmonica\images\"
@@ -18,7 +18,7 @@ for /f "usebackq tokens=1,* delims==" %%A in ("fancyassets.txt") do (
     set "validAssets=!validAssets!;%%A"
     if not exist "config\fancymenu\assets\!file!" (
         echo Downloading asset: !file!
-        curl -L -o "config\fancymenu\assets\!file!" "!url!"
+        curl -L -o "config\fancymenu\assets\!file!" "!url!" --ssl-no-revoke
     ) else (
         echo !file! present.
     )
@@ -33,7 +33,7 @@ for /f "usebackq tokens=1,* delims==" %%A in ("fancyimages.txt") do (
     set "validImages=!validImages!;%%A"
     if not exist "config\fancymenu\slideshows\saintmonica\images\!file!" (
         echo Downloading image: !file!
-        curl -L -o "config\fancymenu\slideshows\saintmonica\images\!file!" "!url!"
+        curl -L -o "config\fancymenu\slideshows\saintmonica\images\!file!" "!url!" --ssl-no-revoke
     ) else (
         echo !file! present.
     )
