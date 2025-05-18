@@ -9,16 +9,15 @@ call "Updater.bat"
 :: Locate MinecraftLauncher.exe
 
 for %%D in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
-    set "launcherPath1=%%D:\Program Files (x86)\Minecraft Launcher\MinecraftLauncher.exe"
-    set "launcherPath2=%%D:\XboxGames\Minecraft Launcher\Content\Minecraft.exe"
-    if exist "!launcherPath1!" (
-        start "" "!launcherPath1!"
+    if exist "%%D:\Program Files (x86)\Minecraft Launcher\MinecraftLauncher.exe" (
+        start "" "%%D:\Program Files (x86)\Minecraft Launcher\MinecraftLauncher.exe"
         goto :eof
-    )
-    if exist "!launcherPath2!" (
-        echo MinecraftLauncher.exe not found in Program Files(x86) on any drive.
-        start "" "!launcherPath!"
+	)
+)
+
+for %%D in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
+    if exist "%%D:\XboxGames\Minecraft Launcher\Content\Minecraft.exe" (
+        start "" "%%D:\XboxGames\Minecraft Launcher\Content\Minecraft.exe"
         goto :eof
-    )
-    echo Minecraft.exe not found in XboxGames on any drive.
+	)
 )
