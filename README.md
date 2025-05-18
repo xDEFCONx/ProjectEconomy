@@ -6,13 +6,14 @@ This is a private server modpack with a heavy emphasis on retaining a vanilla bl
 
 1) Install [Forge 47.4.0 for Minecraft 1.20.1](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar) and run it.
 2) Once installed, go to the [release page](https://github.com/xDEFCONx/ProjectEconomy/releases) and obtain "instances.zip"
-3) Navigate to your .minecraft directory, commonly found at `C:\Users\[USER]\Appdata\Roaming\.minecraft`, and drop the .zip into it.
+3) Navigate to your .minecraft directory, commonly found at `C:\Users\[USER]\Appdata\Roaming\.minecraft`, and drop the .zip into it. (You can type %appdata% into your start menu's search bar to quickly access it.)
 4) Unzip the contents.
 5) Under `..\instances\ProjectEconomy`, run `ProjectEconomyLauncher.bat`
 
 This .bat automatically runs the updater and opens MinecraftLauncher.exe! Make a shortcut to it by right-clicking and using "Send to Desktop".
+If you have any issues running this .bat, then you are likely not the administrator of your system. This will not work without administrative privilege, and will need to be installed manually.
 
-NOTE: DO NOT MOVE THE .BAT ANYWHERE ELSE.
+DO NOT MOVE THE .BAT ANYWHERE ELSE.
 
 ### In the Minecraft launcher:
 
