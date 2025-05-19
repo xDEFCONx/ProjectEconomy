@@ -132,7 +132,7 @@
 			tasks: [{
 				count: 3L
 				id: "4C2856C01C73A73A"
-				item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
 			x: -2.5d
@@ -144,7 +144,7 @@
 			tasks: [{
 				count: 4L
 				id: "743869F5B3D5AA9A"
-				item: { Count: 4, id: "minecraft:soul_sand" }
+				item: "minecraft:soul_sand"
 				type: "item"
 			}]
 			x: -1.5d
@@ -257,7 +257,7 @@
 			tasks: [{
 				count: 4L
 				id: "29226E8ACCBC95E9"
-				item: { Count: 4, id: "minecraft:diamond" }
+				item: "minecraft:diamond"
 				type: "item"
 			}]
 			x: 0.0d

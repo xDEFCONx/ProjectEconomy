@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4"
+	group: ""
+	icon: "projecte:red_matter"
+	id: "7BFD7632A4B3443B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Click this to begin the chapter."]
+			id: "07F9FCC52C57F9A5"
+			tasks: [{
+				id: "5E4CFBCE68433260"
+				title: "Begin Chapter 4"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["07F9FCC52C57F9A5"]
+			description: ["Taking the matter into our hands, times four."]
+			id: "44F2C97CC249A642"
+			tasks: [{
+				id: "4D4DDF87D9776D4C"
+				item: "projecte:dark_matter_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44F2C97CC249A642"]
+			description: ["This does not look safe to handle."]
+			id: "6874A972A76F404A"
+			tasks: [{
+				id: "34F032520CB633D2"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6874A972A76F404A"]
+			description: ["How close is this to becoming a star?"]
+			id: "436782FF8F9048A6"
+			tasks: [{
+				id: "05ED18E0D3A1365D"
+				item: "projecte:red_matter_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["436782FF8F9048A6"]
+			description: ["You're now one with flight."]
+			id: "5E74BF99748CE199"
+			rewards: [{
+				count: 3
+				id: "162A064643CF6EE3"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53D2BA612F7E1AFB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "icarus:wings"
+					}
+				}
+				title: "Any #icarus:wings"
+				type: "item"
+			}]
+			title: "Close to the sun"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["07F9FCC52C57F9A5"]
+			description: ["Perhaps we can take a whole beacon with us?"]
+			id: "2B6C937831784300"
+			tasks: [{
+				id: "21DF33449D205A0D"
+				item: "mobilebeacon:mobile_beacon_shell"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B6C937831784300"]
+			description: ["To some extent, we've managed to infuse beacon effects into a portable platform."]
+			id: "69D67F853E3B2E47"
+			rewards: [{
+				count: 3
+				id: "0C752249BDFDCBA4"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "248DF40179971B89"
+				item: {
+					Count: 1
+					id: "mobilebeacon:mobile_beacon_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Pocket beacon"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07F9FCC52C57F9A5"]
+			description: ["It's breathing."]
+			id: "2471AD88A6261F30"
+			tasks: [{
+				id: "5ED7FF98A238804A"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64BB5EFFA4154075"]
+			description: [""]
+			id: "6F394202397576C7"
+			rewards: [{
+				count: 3
+				id: "1A0499B77047711A"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DBD10C1BC4A0608"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44F2C97CC249A642"]
+			description: ["This water bucket can be infused into the matter."]
+			id: "0BDB87D04EDB093A"
+			tasks: [{
+				id: "2B8053207DE26CD8"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["44F2C97CC249A642"]
+			description: ["This lava bucket can be infused into the matter."]
+			id: "1D61C4326B795D42"
+			tasks: [{
+				id: "7A0DFA04805C3624"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BDB87D04EDB093A"]
+			description: ["Goodbye, tall grass!"]
+			id: "32ED3B0D53F776D6"
+			rewards: [{
+				count: 3
+				id: "2D2F9B722B548C56"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61FE51BAD765E733"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:evertide_amulet"
+				}
+				type: "item"
+			}]
+			title: "Infinite clutches"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1D61C4326B795D42"]
+			description: ["Caution advised."]
+			id: "56427CA44D43F55B"
+			rewards: [{
+				count: 3
+				id: "5E62581D3BD3D74E"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B33D5FB6F4FCF7E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:volcanite_amulet"
+				}
+				type: "item"
+			}]
+			title: "Lava on demand"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44F2C97CC249A642"]
+			id: "7D8CFE3D842A974F"
+			tasks: [{
+				id: "180D2ECA11154711"
+				item: "projecte:iron_band"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D8CFE3D842A974F"]
+			description: ["Absorb items that surround you."]
+			id: "6CA6C171ADEFEA75"
+			rewards: [{
+				count: 3
+				id: "3F2F2BEB564833DC"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7122DE45D7417C91"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:black_hole_band"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"32ED3B0D53F776D6"
+				"5E74BF99748CE199"
+				"6F394202397576C7"
+				"6CA6C171ADEFEA75"
+				"56427CA44D43F55B"
+				"69D67F853E3B2E47"
+			]
+			description: ["You can now make 10-year vintages with this enchanted golden apple."]
+			icon: "minecraft:enchanted_golden_apple"
+			id: "7D8E57B0D6A85EF1"
+			rewards: [
+				{
+					count: 3
+					id: "17E0E3C8EEDF7212"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "29070B11A1C55D18"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:luck"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1F6F3A252D04530D"
+				title: "Enchanted Apple"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["79C5320FF1BD41FD"]
+			id: "64BB5EFFA4154075"
+			tasks: [{
+				id: "62ADF14D3551C2F8"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2471AD88A6261F30"]
+			id: "79C5320FF1BD41FD"
+			tasks: [{
+				id: "6096FC364394E33E"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+	]
+	title: "4 - Equivalence"
+}

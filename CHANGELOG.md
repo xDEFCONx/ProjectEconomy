@@ -1,3 +1,10 @@
+## [1.3.1] - 2025-05-19
+
+### Changed
+- Ender pearl EMC is now 128
+- Early questbook entries for item crafting pre-requisites set to optional to make it more multiplayer-friendly
+- Main menu music level brought down
+
 ## [1.3.0] - 2025-05-15
 
 ### Added
