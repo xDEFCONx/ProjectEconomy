@@ -1,3 +1,11 @@
+## [1.3.2] - 2025-05-20
+
+### Changed
+- Ender pearl EMC is now 256
+
+### Fixed
+- FancyMenu editor bar disabled in update package
+
 ## [1.3.1] - 2025-05-19
 
 ### Changed
