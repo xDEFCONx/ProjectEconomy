@@ -224,7 +224,7 @@
 				"52FBA8255834F336"
 				"602EDC8273E048E6"
 			]
-			description: ["Unavoidable."]
+			description: ["&6&oUnavoidable.&r&r"]
 			id: "5BBC4E546363D21B"
 			shape: "diamond"
 			size: 3.0d
@@ -332,7 +332,7 @@
 				"3C7C5357944F94FB"
 				"602EDC8273E048E6"
 			]
-			description: ["Endless."]
+			description: ["&6&oEndless.&r&r"]
 			id: "10DF23AC6C4C8645"
 			shape: "diamond"
 			size: 3.0d
@@ -461,7 +461,7 @@
 		}
 		{
 			dependencies: ["4DB07F5F44A5BFC3"]
-			description: ["Nonsense to complete sense!"]
+			description: ["Nonsense now makes complete sense!"]
 			id: "3470F7A8E424C015"
 			shape: "diamond"
 			size: 2.0d
@@ -486,7 +486,7 @@
 				"275427FA25DD2C38"
 				"3470F7A8E424C015"
 			]
-			description: ["Invincible."]
+			description: ["&o&6Invincible.&r&r"]
 			id: "38BE27224DC2A8A6"
 			shape: "diamond"
 			size: 3.0d

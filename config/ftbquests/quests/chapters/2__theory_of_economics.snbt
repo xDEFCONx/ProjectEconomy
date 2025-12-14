@@ -34,7 +34,7 @@
 				"305EE7CB794BE709"
 				"6680B79D430DAC5B"
 			]
-			description: ["Craft a netherite pickaxe. This is its lowest tier, and can be upgraded quite a bit."]
+			description: ["Craft a netherite pickaxe. This is its lowest tier, and can be upgraded."]
 			id: "7A76ADEF1BF5E7E0"
 			tasks: [{
 				id: "3FA3ADAEE17B1436"
@@ -53,7 +53,7 @@
 		}
 		{
 			dependencies: ["49716D7A3765D041"]
-			description: ["We will need a bastion to obtain some templates."]
+			description: ["You will need a bastion to obtain some templates."]
 			icon: "minecraft:polished_blackstone_bricks"
 			id: "1C0BEEBBDE52733D"
 			tasks: [{
@@ -493,7 +493,7 @@
 				"0D6BFE626C94F141"
 				"1ABC8594DB9F67D3"
 			]
-			description: ["Good result, but it's still young and quite potent. It may do better with some time in the bottle, though..."]
+			description: ["Good result, but it doesn't have the right body yet. It may do better with some time in the bottle, though..."]
 			id: "035759616CB05669"
 			tasks: [{
 				id: "417F5FBEC0F09777"
@@ -551,7 +551,7 @@
 		}
 		{
 			dependencies: ["49716D7A3765D041"]
-			description: ["No one taught us this outcome in chemistry."]
+			description: ["No one taught us about this in chemistry..."]
 			id: "3DD1E5EF4707E766"
 			tasks: [{
 				id: "2CAB8D3AC5BD5D54"
@@ -603,7 +603,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["You can upgrade your bow to make its projectiles deal more damage. This is entirely optional."]
+			description: ["You're able to upgrade your bow to make its projectiles deal more damage."]
 			id: "00FAFAD4E020E6A2"
 			optional: true
 			tasks: [{

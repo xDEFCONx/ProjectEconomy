@@ -1,3 +1,14 @@
+## [1.3.3] - 2025-12-14
+
+### Changed
+- Sophisticated Backpacks - Advanced Pickup upgrade reimplemented
+- Sophisticated Backpacks - Advanced Filter upgrade now requires comparator for recipe
+- Some advancement objects altered/added
+- Main Menu music level brought down again
+
+### Fixed
+- Creative Wireless Crafting Grid correctly shown on optional advancement.
+
 ## [1.3.2] - 2025-05-20
 
 ### Changed

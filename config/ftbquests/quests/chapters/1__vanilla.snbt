@@ -362,6 +362,18 @@
 			x: 0.0d
 			y: 6.5d
 		}
+		{
+			description: ["You can craft invisible light sources by placing a torch in a crafting grid."]
+			id: "06CE5C2A47EAD9F6"
+			optional: true
+			tasks: [{
+				id: "5B139F43257DF2A5"
+				item: "minecraft:light"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
 	]
 	title: "1 - Prelude"
 }

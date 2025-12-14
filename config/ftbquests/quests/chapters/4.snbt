@@ -118,7 +118,7 @@
 		}
 		{
 			dependencies: ["07F9FCC52C57F9A5"]
-			description: ["It's breathing."]
+			description: ["It's &obreathing...&r"]
 			id: "2471AD88A6261F30"
 			tasks: [{
 				id: "5ED7FF98A238804A"

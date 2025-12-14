@@ -281,7 +281,7 @@ JEIEvents.hideItems(event => {
   event.hide('sophisticatedbackpacks:feeding_upgrade')
   // event.hide('sophisticatedbackpacks:advanced_feeding_upgrade')
   event.hide('sophisticatedbackpacks:pickup_upgrade')
-  event.hide('sophisticatedbackpacks:advanced_pickup_upgrade')
+  // event.hide('sophisticatedbackpacks:advanced_pickup_upgrade')
   event.hide('sophisticatedbackpacks:magnet_upgrade')
   // event.hide('sophisticatedbackpacks:advanced_magnet_upgrade')
   event.hide('sophisticatedbackpacks:compacting_upgrade')

@@ -1244,11 +1244,12 @@ ServerEvents.recipes(event => {
     )
   }
 
-  SophisticatedUpgrades('minecraft:hopper','projecte:dark_matter','sophisticatedbackpacks:advanced_filter_upgrade')
+  SophisticatedUpgrades('minecraft:comparator','projecte:dark_matter','sophisticatedbackpacks:advanced_filter_upgrade')
   SophisticatedUpgrades('minecraft:bell','projecte:red_matter','sophisticatedbackpacks:advanced_magnet_upgrade')
   SophisticatedUpgrades('minecraft:enchanted_golden_apple','projecte:red_matter','sophisticatedbackpacks:advanced_feeding_upgrade')
   SophisticatedUpgrades('minecraft:campfire','projecte:dark_matter','sophisticatedbackpacks:advanced_void_upgrade')
   SophisticatedUpgrades('minecraft:end_crystal','projecte:dark_matter','sophisticatedbackpacks:everlasting_upgrade')
+  SophisticatedUpgrades('minecraft:hopper','projecte:dark_matter','sophisticatedbackpacks:advanced_pickup_upgrade')
   SophisticatedUpgrades('minecraft:anvil','projecte:dark_matter_block','sophisticatedbackpacks:stack_upgrade_tier_1')
   SophisticatedUpgrades('minecraft:anvil','sophisticatedbackpacks:stack_upgrade_tier_1','sophisticatedbackpacks:stack_upgrade_tier_2')
   SophisticatedUpgrades('minecraft:anvil','sophisticatedbackpacks:stack_upgrade_tier_2','sophisticatedbackpacks:stack_upgrade_tier_3')

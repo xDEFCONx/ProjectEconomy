@@ -104,7 +104,7 @@
 		}
 		{
 			dependencies: ["60F3780DE443F546"]
-			description: ["This may be helpful for our brewing setup, don't you think?"]
+			description: ["This may be helpful for a brewing setup."]
 			id: "654A8B5977E0041D"
 			tasks: [{
 				id: "7BCB614872272ACD"
@@ -149,7 +149,7 @@
 		}
 		{
 			dependencies: ["4B1D7EE9788C953F"]
-			description: ["Baking the quartz altered the structure of the material, it seems."]
+			description: ["Baking the quartz seems to have altered the structure of the material."]
 			id: "7CFE6E053B1FCEF0"
 			tasks: [{
 				id: "24993FBF8C40914A"
@@ -379,7 +379,7 @@
 			optional: true
 			tasks: [{
 				id: "3DBBEB069FB508CA"
-				item: "refinedstorage:creative_wireless_crafting_monitor"
+				item: "refinedstorageaddons:creative_wireless_crafting_grid"
 				type: "item"
 			}]
 			x: -1.0d
@@ -410,6 +410,7 @@
 		}
 		{
 			dependencies: ["6E85D65C9B90C6D4"]
+			description: ["You can now make 5-year vintages with this golden apple."]
 			icon: "minecraft:golden_apple"
 			id: "658CF025EB9B92C5"
 			rewards: [

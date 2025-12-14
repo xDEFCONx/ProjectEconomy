@@ -310,6 +310,7 @@
 		}
 		{
 			dependencies: ["094F12E1DA38F32C"]
+			description: ["Behold! Pickaxe."]
 			id: "1EB3ADF6E8E1B672"
 			rewards: [{
 				count: 15
