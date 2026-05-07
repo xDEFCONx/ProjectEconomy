@@ -1,3 +1,23 @@
+## [1.4.0] - 2026-5-6
+
+### Added
+- Mod - Trade Cycling
+- Mod - Torchmaster
+- Mod - Visual Keybinder
+- Mod - Armor Statues
+- Mod - Quality Equipment
+- Mod - Inventory Spam
+- Mod - Angel Rings
+- Mod - Scaffolding Drops Nearby
+- Mod - Collective library
+
+### Changed
+- Angel Rings - Only Golden. Requires Infinity Elytra
+- Torchmaster - Mega Torch recipe requires Aeternalis Fuel
+- Quality Equipment - reroll default changed to emeralds for all items
+- Quality Equipment - Vanilla diamond and netherite tools/armor forced to emerald reroll
+- Song removed from playlist on main menu
+
 ## [1.3.3] - 2025-12-14
 
 ### Changed

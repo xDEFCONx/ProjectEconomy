@@ -83,7 +83,7 @@
 		}
 		{
 			dependencies: ["07F9FCC52C57F9A5"]
-			description: ["Perhaps we can take a whole beacon with us?"]
+			description: ["Perhaps you can take a whole beacon with you?"]
 			id: "2B6C937831784300"
 			tasks: [{
 				id: "21DF33449D205A0D"
@@ -95,7 +95,7 @@
 		}
 		{
 			dependencies: ["2B6C937831784300"]
-			description: ["To some extent, we've managed to infuse beacon effects into a portable platform."]
+			description: ["To some extent, you've managed to infuse beacon effects into a portable platform."]
 			id: "69D67F853E3B2E47"
 			rewards: [{
 				count: 3

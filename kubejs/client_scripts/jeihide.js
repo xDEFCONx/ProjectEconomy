@@ -342,4 +342,17 @@ JEIEvents.hideItems(event => {
 
   event.hide(/ftbquests:.*/)
 
+  // Angel Ring Reimagined
+
+  event.hide('extrautils2:angelring_bat')
+  event.hide('extrautils2:angelring_butterfly')
+  event.hide('extrautils2:angelring_feather')
+  event.hide('extrautils2:angelring_demon')
+
+  // Torchmaster
+
+  event.hide('torchmaster:dreadlamp')
+  event.hide('torchmaster:feral_flare_lantern')
+  event.hide('torchmaster:frozen_pearl')
+
 })

@@ -73,7 +73,7 @@
 			dependencies: ["6246D57DCC352373"]
 			description: [
 				"Attached to the external storage module, this interface allows our computer to read and write"
-				"directly from our personal EMC table!"
+				"directly from a personal EMC table!"
 			]
 			id: "571504AB876CC574"
 			tasks: [{
@@ -261,7 +261,7 @@
 				"51AEC2E24BAFD9BD"
 				"32352F51E5F1A250"
 			]
-			description: ["We need a material to construct with that's better suited for computers."]
+			description: ["This material works well with computers."]
 			id: "6C2A4EA1E40E04C2"
 			tasks: [{
 				id: "4F00D01BC8CD2B2F"
@@ -362,7 +362,7 @@
 		}
 		{
 			dependencies: ["54586D271BA9E100"]
-			description: ["We need SOME form of non-volatile storage, right?"]
+			description: ["You need SOME form of non-volatile storage, right?"]
 			id: "1449CF06E70E4C0C"
 			tasks: [{
 				id: "26CC54FB9E7BD038"
@@ -374,7 +374,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["This controller is a much better portable interface for inserting/removing items from our EMC network."]
+			description: ["This controller is a much better portable interface for inserting and removing items from the Refined Storage network."]
 			id: "362283B42447D45A"
 			optional: true
 			tasks: [{

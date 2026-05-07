@@ -371,8 +371,27 @@
 				item: "minecraft:light"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			description: ["Quality Equipment lets you reforge your tools using emeralds to gain a potential stat boost."]
+			id: "7557A548DFD9DE6B"
+			optional: true
+			tasks: [
+				{
+					id: "23CB85CEFA10C83C"
+					item: "quality_equipment:reforging_station"
+					type: "item"
+				}
+				{
+					id: "6C213489F25FB641"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 7.5d
 		}
 	]
 	title: "1 - Prelude"

@@ -376,6 +376,18 @@
 			x: -0.5d
 			y: -3.5d
 		}
+		{
+			description: ["With neutronium ingots now in your possession, you can create a ring that grants creative flight while in inventory or in the ring slot."]
+			id: "4F56D35DF38216F6"
+			optional: true
+			tasks: [{
+				id: "1E1B666AAAE2B9AA"
+				item: "extrautils2:angelring_golden"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
 	]
 	title: "5 - Persistence"
 }

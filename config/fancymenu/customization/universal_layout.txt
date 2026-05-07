@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1765688262540
+  last_edited_time = 1778121023123
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:9863ee63-e6e8-4586-836f-c32a0961951b-1765688233829] = [groups:][instances:]
+  [loading_requirement_container_meta:921355a4-a1d3-4f67-9442-c514f96e644c-1778121006426] = [groups:][instances:]
 }
 
 customization {
@@ -32,10 +32,8 @@ layout_action_executable_blocks {
 }
 
 element {
-  audio_instance_0 = [source:local]/config/fancymenu/assets/sognodivolare.ogg
+  audio_instance_0 = [source:local]/config/fancymenu/assets/dvorakno9mvmt2.ogg
   audio_instance_weight_0 = 1.0
-  audio_instance_1 = [source:local]/config/fancymenu/assets/dvorakno9mvmt2.ogg
-  audio_instance_weight_1 = 1.0
   play_mode = normal
   looping = true
   volume = 0.1
@@ -50,8 +48,8 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 2560
-  auto_sizing_base_screen_height = 1378
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
   sticky_anchor = false
   anchor_point = mid-centered
   x = -50

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1746661912555
+  last_edited_time = 1778120933175
   is_enabled = true
   randommode = true
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:cf84f945-2450-4368-9632-8b3642ea8f01-1746661900724] = [groups:][instances:]
+  [loading_requirement_container_meta:db862790-a4b3-4418-9477-2029a3ddc8b6-1778120188507] = [groups:][instances:]
 }
 
 menu_background {
@@ -124,7 +124,7 @@ element {
 
 element {
   interactable = false
-  source = ProjectEconomy v.1.3.3
+  source = ProjectEconomy v.1.4.0
   source_mode = direct
   shadow = true
   scale = 1.0

@@ -708,6 +708,18 @@
 			x: -2.30714285714285d
 			y: 11.049999999999983d
 		}
+		{
+			description: ["Using aeternalis fuel, you can craft a torch that blocks hostile mobs."]
+			id: "15289A5BCEB6DE13"
+			optional: true
+			tasks: [{
+				id: "30071365105EC753"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: -0.0357142857142847d
+			y: 12.09642857142856d
+		}
 	]
 	title: "2 - Foundations"
 }
