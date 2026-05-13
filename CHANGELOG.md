@@ -1,3 +1,8 @@
+## [1.4.1] - 2026-5-13
+
+### Fixed
+- YAWP - Updated to 0.6.3-beta1. Operators now correctly function with some survival flags.
+
 ## [1.4.0] - 2026-5-6
 
 ### Added
