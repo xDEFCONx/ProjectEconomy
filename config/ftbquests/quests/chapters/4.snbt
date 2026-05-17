@@ -318,6 +318,18 @@
 			x: 3.5d
 			y: -0.5d
 		}
+		{
+			description: ["You're able to craft a debug stick in survival using this recipe."]
+			id: "0A64049110E1A4EB"
+			optional: true
+			tasks: [{
+				id: "54E85E32D0894957"
+				item: "minecraft:debug_stick"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
 	]
 	title: "4 - Equivalence"
 }

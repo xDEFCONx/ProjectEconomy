@@ -1,7 +1,17 @@
+## [1.4.2] - 2026-5-17
+
+### Added
+- Mod - Debug Stick in Survival
+- Mod - Ksyxis to unload spawn chunks
+
+### Changed
+- Debug stick - Recipe buffed to accomodate certain free EMC sources
+- Wool carpet EMC reduced to 12 to prevent EMC farming
+
 ## [1.4.1] - 2026-5-13
 
 ### Fixed
-- YAWP - Updated to 0.6.3-beta1. Operators now correctly function with some survival flags.
+- YAWP - Updated to 0.6.3-beta1. Operators now correctly function with some survival flags
 
 ## [1.4.0] - 2026-5-6
 
@@ -29,7 +39,7 @@
 - Sophisticated Backpacks - Advanced Pickup upgrade reimplemented
 - Sophisticated Backpacks - Advanced Filter upgrade now requires comparator for recipe
 - Some advancement objects altered/added
-- Main Menu music level brought down again
+- Main Menu music level brought down againcheat treaty
 
 ### Fixed
 - Creative Wireless Crafting Grid correctly shown on optional advancement.
