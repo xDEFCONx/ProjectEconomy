@@ -330,6 +330,24 @@
 			x: -0.5d
 			y: 8.5d
 		}
+		{
+			description: ["Klein Stars can store EMC for ProjectE baubles and tools. Charge it by placing it in the left-hand slots on your transmutation table."]
+			id: "32BD775DE77E6208"
+			optional: true
+			tasks: [{
+				id: "6A9283CB3A780148"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_ein"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
 	]
 	title: "4 - Equivalence"
 }

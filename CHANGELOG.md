@@ -1,3 +1,8 @@
+## [1.4.3] - 2026-5-17
+
+### Changed
+- ProjectE - Reimplemented first three tiers of Klein Stars for later baubles/items
+
 ## [1.4.2] - 2026-5-17
 
 ### Added
