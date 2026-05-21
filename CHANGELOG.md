@@ -1,3 +1,11 @@
+## [1.4.4] - 2026-5-21
+
+### Changed
+- WorldEdit - Max brush size made infinite
+
+### Fixed
+- Game no longer crashes due to master-level fishing villagers.
+
 ## [1.4.3] - 2026-5-17
 
 ### Changed
