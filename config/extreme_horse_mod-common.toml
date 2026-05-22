@@ -1,0 +1,40 @@
+#Highest possible Health value attainable when breeding Horses
+#Vanilla value: 30
+#Range: 0.0 ~ 1024.0
+maxHealth = 40
+#Lowest possible Health value attainable when breeding Horses
+#Vanilla value: 15
+#Range: 0.0 ~ 1024.0
+minHealth = 15.0
+#
+#Highest possible Jump Strength attainable when breeding Horses
+#Values higher that 2 wouldn't work anyway
+#Vanilla value: 1.0
+#Range: 0.0 ~ 2.0
+maxJump = 1.2
+#Lowest possible Jump Strength attainable when breeding Horses
+#Vanilla value: 0.4
+#Range: 0.0 ~ 2.0
+minJump = 0.4
+#
+#Highest possible Speed value attainable when breeding Horses
+#Multiply by 42.16 to approximate blocks/second
+#Vanilla value: 0.3375
+#Range: 0.0 ~ 25.0
+maxSpeed = 0.4
+#Lowest possible Speed value attainable when breeding Horses
+#Vanilla value: 0.1125
+#Range: 0.0 ~ 25.0
+minSpeed = 0.1125
+#
+#Whether horses can have a little snack as a treat
+getHungry = true
+#Whether horses can snack while being ridden
+fastFood = false
+#Whether 2 horses with a nearly identical stat value  should pass on that value unchanged
+keepMatchingStats = true
+#Chance that a baby llama will have a higher strength that its strongest parent
+#Chance doubles if both parents have the same strength
+#Range: 0.0 ~ 0.5
+strongerLlamaChance = 0.04
+

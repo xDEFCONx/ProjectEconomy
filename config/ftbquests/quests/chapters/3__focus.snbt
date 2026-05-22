@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "3__focus"
 	group: ""
 	icon: "refinedstorage:creative_controller"
@@ -440,6 +441,38 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["658CF025EB9B92C5"]
+			description: ["In case, somehow, you lost the reward."]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4397A5849F000A45"
+			optional: true
+			rewards: [{
+				id: "7F9E32A1000067B4"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3C3A92C10C783E43"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			title: "I ate them."
+			x: 2.0d
 			y: 11.0d
 		}
 	]

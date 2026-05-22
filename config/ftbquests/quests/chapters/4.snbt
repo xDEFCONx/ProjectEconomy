@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "4"
 	group: ""
 	icon: "projecte:red_matter"
@@ -347,6 +348,41 @@
 			}]
 			x: -0.5d
 			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"658CF025EB9B92C5"
+				"7D8E57B0D6A85EF1"
+			]
+			description: ["In case, somehow, you lost the reward."]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7A666423D1B3495F"
+			optional: true
+			rewards: [{
+				id: "2E80AE0681BBC1BF"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5A40BE0CE8FE9553"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			title: "I ate them."
+			x: 1.5d
+			y: 6.5d
 		}
 	]
 	title: "4 - Equivalence"

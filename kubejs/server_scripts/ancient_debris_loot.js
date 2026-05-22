@@ -5,8 +5,7 @@ LootJS.modifiers((event) => {
     .when((c) => c.matchMainHand(ItemFilter.hasEnchantment("minecraft:fortune")));
 
   const pickWhenSilkTouch = LootEntry.of("minecraft:ancient_debris").when((c) =>
-    c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
-  );
+    c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch")));
 
   const netheriteScrap = "minecraft:ancient_debris"
 

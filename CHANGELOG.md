@@ -1,3 +1,18 @@
+## [1.5.0] - 2026-5-22
+
+### Added
+- Mod - Horse Expert
+- Mod - Extreme Horse Mod
+- Re-Avaritia - Royal pickaxe (Crystal pickaxe) can now mine bedrock
+- Quest to recover lost rewarded brew items added, costs a single warp stone
+
+### Fixed
+- ProjectE - Red matter and dark matter furnaces now mineable by any pickaxe
+
+### Changed
+- Disabled chapter completion toasts to prevent optional quests spamming completion
+- Tweaked default keybinds
+
 ## [1.4.4] - 2026-5-21
 
 ### Changed
