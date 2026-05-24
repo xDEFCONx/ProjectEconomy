@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
       B: 'minecraft:emerald_block',
       C: 'advancednetherite:netherite_emerald_block',
       D: 'minecraft:blaze_rod',
-      E: 'advancednetherite:netherite_gold_block'
+      E: 'advancednetherite:netherite_diamond_ingot'
   })
   
   // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

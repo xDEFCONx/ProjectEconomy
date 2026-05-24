@@ -1,4 +1,17 @@
-## [1.5.0] - 2026-5-22
+## [1.4.6] - 2026-5-23
+
+### Changed
+- ProjectE - Rebuilt dark/red matter furnace tagging
+- Re-Avaritia - Crystal & Infinity pickaxes give smelted ingots when mining raw metal ores
+- Brewing stand recipe price greatly increased
+- Copper ore always drops 3 raw copper
+- Removed unused configs
+
+### Fixed
+- Re-Avaritia - Infinity pick and blaze pick fortune levels work correctly on netherite scraps
+- Re-Avaritia - Blaze pickaxe smelting mode apply fortune to ingots
+
+## [1.4.5] - 2026-5-22
 
 ### Added
 - Mod - Horse Expert
@@ -165,7 +178,7 @@
 - Mod - Forgified Fabric API
 
 ### Changed
-- Removed all leftover files of WATERFrMES
+- Removed all leftover files of WATERFrAMES
 - Changed some default settings for first-time installations
 
 ## [1.1.6] - 2025-05-08
@@ -200,8 +213,10 @@
 - Mod - WATERFrAMES (yes, it's typed like this)
 - Mod - EMC Interface
 
-### Fixed
+### Changed
 - Reduced update payload by 118 MB
+
+### Fixed
 - Removed debug pauses in batch scripts
 
 ## [1.1.1] - 2025-05-05
