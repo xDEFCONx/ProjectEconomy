@@ -124,7 +124,7 @@ element {
 
 element {
   interactable = false
-  source = ProjectEconomy v.1.5.0
+  source = ProjectEconomy v.1.4.6
   source_mode = direct
   shadow = true
   scale = 1.0
