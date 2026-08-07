@@ -1,3 +1,33 @@
+## [1.5.0] - 2026-5-28
+
+### Added
+- ProjectE - All Klein Stars implemented
+- Re-Avaritia - Implemented Infinity catalyst, NULL Singularity, Eternal singularity, enhancement core, neutronium block, infinity block, neutronium nuggets, and infinity nuggets as crafting ingredients
+- Re-Avaritia - Implemented dense, denser, and densest neutronium collectors for late-game EMC generation
+- Spawn egg market that accepts EMC items in repeatable quests for spawn eggs
+- Spawn eggs have EMC matching their quest item EMC for transmutation
+
+### Changed
+- Re-Avaritia - Infinity tool tier defaults lowered to balance Worldscaper offensive capability
+- Re-Avaritia - Worldscaper mining speed increases greatly to scale with previous bedrock hardness change
+- Re-Avaritia - Worldscaper recipe changed and made cheaper for better progression
+- Re-Avaritia - Worldscaper hammer mode range increased
+- Re-Avaritia - Infinity armor recipes changed and significantly buffed
+- Re-Avaritia - Infinity sword recipe changed and significantly buffed
+- Re-Avaritia - Infinity ingot recipe changed and significantly buffed
+- Re-Avaritia - Infinity helmet tooltip changed from Night Vision to Water Breathing
+- Re-Avaritia - Worldscaper applies fortune to bedrock in normal mode, sort of janky fix to hammer mode bug
+- Sophisticated Backpacks - EMC removed to prevent wiping inventory with transmutation
+- Mobile Beacons - Netherite Mobile Beacon II recipe changed
+- Shulker box EMC removed to prevent wiping inventory with transmutation
+- 15-year vintage EMC set to 25,000
+- Chapter 6 quest progression and layout overhauled
+- Headcrafter mod removed due to poor survival function
+- Removed main menu fading effects due to inconsistency
+
+### Fixed
+- Snow recipe outputs 4 instead of 6 to prevent EMC exploit but preserving transmutation
+
 ## [1.4.6] - 2026-5-23
 
 ### Changed

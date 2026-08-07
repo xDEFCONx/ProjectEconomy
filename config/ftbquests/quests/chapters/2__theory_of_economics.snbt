@@ -408,7 +408,7 @@
 				type: "item"
 			}]
 			title: "Brewing Wine"
-			x: -5.0d
+			x: -4.0d
 			y: -1.5d
 		}
 		{
@@ -420,7 +420,7 @@
 				item: "minecraft:sweet_berries"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -441,7 +441,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
@@ -452,8 +452,8 @@
 				item: "minecraft:glass_bottle"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -474,8 +474,8 @@
 				type: "item"
 			}]
 			title: "It starts at the blend"
-			x: -6.0d
-			y: 2.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3BAF99E938764173"]
@@ -486,8 +486,8 @@
 				item: "minecraft:barrel"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -508,8 +508,8 @@
 				type: "item"
 			}]
 			title: "A simple sipper"
-			x: -6.0d
-			y: 4.0d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3BAF99E938764173"]
@@ -520,8 +520,8 @@
 				item: "minecraft:glistering_melon_slice"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -547,8 +547,8 @@
 				type: "item"
 			}]
 			title: "Your first vintage"
-			x: -6.0d
-			y: 6.0d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["49716D7A3765D041"]
@@ -560,7 +560,7 @@
 				type: "item"
 			}]
 			title: "From coal to... coal?"
-			x: 5.0d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
@@ -571,7 +571,7 @@
 				item: "projecte:mobius_fuel"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 0.5d
 		}
 		{
@@ -582,7 +582,7 @@
 				item: "projecte:aeternalis_fuel"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -600,8 +600,8 @@
 				type: "item"
 			}]
 			title: "What's the matter?"
-			x: 5.0d
-			y: 4.5d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			description: ["You're able to upgrade your bow to make its projectiles deal more damage."]
@@ -690,8 +690,8 @@
 				title: "Want better wine?"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 8.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			description: [

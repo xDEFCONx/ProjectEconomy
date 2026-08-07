@@ -1,12 +1,8 @@
 
-[misc]
-	#For develop
-	"Use Advance Tooltips" = false
-
 #Avaritia Common Config
 [tools]
 	#Does the super mode of endless tools retain stone and soil
-	"Is Stone" = true
+	"Is Stone" = false
 	#Whether to merge matter cluster
 	"Is Merge Matter Cluster" = true
 	#Range damage value of the right key of Infinity sword
@@ -14,7 +10,7 @@
 	"Sword Range Damage" = 10000
 	#Infinity sword right click attack range
 	#Range: 8 ~ 64
-	"Sword Attack Range" = 32
+	"Sword Attack Range" = 16
 	#Does the right key range attack of endless sword attack neutral creatures
 	"Is Sword Damage Animal" = false
 	#Does the right key spawn lightning with range of attack
@@ -32,10 +28,10 @@
 	"Food Time" = 1.0
 	#The range of Infinity PickAxe can break
 	#Range: 2 ~ 32
-	"PickAxe Break Range" = 3
+	"PickAxe Break Range" = 2
 	#The range of Infinity Shovel can break
 	#Range: 2 ~ 32
-	"Shovel Break Range" = 8
+	"Shovel Break Range" = 2
 	#The product tick of NeutronCollector
 	#Range: > 1200
 	"Neutron Collector Product Tick" = 3600
@@ -47,12 +43,12 @@
 	"Growth soul farmland rate" = 0.8
 	#Damage of BladeSlash for Crystal Sword
 	#Range: > 0
-	"BladeSlash Damage" = 200
+	"BladeSlash Damage" = 20
 	#Radius of BladeSlash for Crystal Sword
 	#Range: 5 ~ 100
 	"BladeSlash Radius" = 10
 	#Is InfinityCatalyst Craft use all Singularity
-	"Internal InfinityCatalyst Craft" = true
+	"Internal InfinityCatalyst Craft" = false
 
 [emc]
 	#Emc of Neutron Pile
@@ -97,4 +93,8 @@
 	#
 	#Range: 20 ~ 1200
 	"FullUpdate Rate" = 40
+
+[misc]
+	#For develop
+	"Use Advance Tooltips" = true
 

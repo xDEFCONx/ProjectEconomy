@@ -136,7 +136,7 @@
 				item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 0.5d
 		}
 		{
@@ -148,7 +148,7 @@
 				item: { Count: 4, id: "minecraft:soul_sand" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -163,7 +163,7 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 2.5d
 		}
 		{
@@ -175,7 +175,7 @@
 				structure: "minecraft:end_city"
 				type: "structure"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -187,7 +187,7 @@
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 2.5d
 		}
 		{
@@ -199,7 +199,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -212,7 +212,7 @@
 				type: "stat"
 				value: 1
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -223,7 +223,7 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
@@ -234,7 +234,7 @@
 				item: "minecraft:ghast_tear"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 0.5d
 		}
 		{
@@ -249,7 +249,7 @@
 				item: "minecraft:end_crystal"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 1.5d
 			y: 2.5d
 		}
 		{

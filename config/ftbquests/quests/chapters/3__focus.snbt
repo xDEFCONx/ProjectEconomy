@@ -24,7 +24,7 @@
 			}]
 			title: "Begin Chapter 3"
 			x: 0.0d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -82,7 +82,7 @@
 				item: "emc_interface:emc_interface"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 8.0d
 		}
 		{
@@ -112,7 +112,7 @@
 				item: "refinedstorage:regulator_upgrade"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 8.0d
 		}
 		{
@@ -124,7 +124,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["22634A5895909DFA"]
@@ -135,7 +135,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["22634A5895909DFA"]
@@ -146,7 +146,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B1D7EE9788C953F"]
@@ -157,8 +157,8 @@
 				item: "refinedstorage:silicon"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -173,7 +173,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -199,8 +199,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -1.0d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -269,7 +269,7 @@
 				item: "refinedstorage:quartz_enriched_iron"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
@@ -280,7 +280,7 @@
 				item: "refinedstorage:machine_casing"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 3.0d
 		}
 		{
@@ -295,7 +295,7 @@
 				item: "minecraft:beacon"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 3.0d
 		}
 		{
@@ -311,7 +311,7 @@
 				item: "minecraft:redstone_block"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -327,7 +327,7 @@
 				item: { Count: 4, id: "advancednetherite:netherite_gold_block" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 3.0d
 		}
 		{

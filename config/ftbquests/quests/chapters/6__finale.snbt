@@ -4,44 +4,38 @@
 	disable_toast: true
 	filename: "6__finale"
 	group: ""
-	icon: {
-		Count: 1
-		id: "avaritia:infinity_pickaxe"
-		tag: {
-			mode: { }
-		}
-	}
+	icon: "avaritia:eternal_singularity"
 	id: "2E1341B79C69E47C"
 	images: [
 		{
 			alpha: 125
 			color: 43690
-			height: 7.5d
+			height: 5.0d
 			image: "projecte:models/yuecircle"
 			rotation: 75.0d
-			width: 7.5d
-			x: 5.571428571428555d
-			y: -8.273809523809511d
+			width: 5.0d
+			x: -2.0d
+			y: -14.0d
 		}
 		{
 			alpha: 125
 			color: 43690
-			height: 7.5d
+			height: 5.0d
 			image: "projecte:models/yuecircle"
 			rotation: 15.0d
-			width: 7.5d
-			x: -2.8214285714285836d
-			y: -8.464285714285708d
+			width: 5.0d
+			x: 2.0d
+			y: -10.0d
 		}
 		{
 			alpha: 125
 			color: 43690
-			height: 7.5d
+			height: 5.0d
 			image: "projecte:models/yuecircle"
 			rotation: -100.0d
-			width: 7.5d
-			x: 1.5595238095237605d
-			y: -16.515167942176813d
+			width: 5.0d
+			x: -6.0d
+			y: -10.0d
 		}
 	]
 	order_index: 5
@@ -56,392 +50,21 @@
 				title: "Begin Chapter 6"
 				type: "checkmark"
 			}]
-			x: 1.483333333333313d
-			y: -9.947927295918348d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "3AFEBD7BE4FF9D9E"
-			tasks: [{
-				id: "5C7B089B8E619CBC"
-				item: {
-					Count: 1
-					id: "terrariaweapons:volcano"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.571428571428569d
-			y: -10.07142857142857d
-		}
-		{
-			dependencies: ["3AFEBD7BE4FF9D9E"]
-			id: "31CA8E2FBC0C3B15"
-			tasks: [{
-				id: "065807618DCF2016"
-				item: {
-					Count: 1
-					id: "terrariaweapons:true_nights_edge"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: -8.642857142857146d
-		}
-		{
-			dependencies: ["31CA8E2FBC0C3B15"]
-			id: "25A5426CE5933CAA"
-			tasks: [{
-				id: "4A4D2FCEAA31DFBF"
-				item: {
-					Count: 1
-					id: "terrariaweapons:true_excalibur"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.714285714285722d
-			y: -7.178571428571431d
-		}
-		{
-			dependencies: ["25A5426CE5933CAA"]
-			id: "52FBA8255834F336"
-			tasks: [{
-				id: "574D169A5AA1548E"
-				item: {
-					Count: 1
-					id: "terrariaweapons:terrablade"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.785714285714292d
-			y: -5.964285714285708d
-		}
-		{
-			dependencies: ["52FBA8255834F336"]
-			id: "51C0032B06E88119"
-			tasks: [{
-				id: "7472A4C6C1C85090"
-				item: {
-					Count: 1
-					id: "terrariaweapons:meowmere"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.392857142857153d
-			y: -5.357142857142854d
-		}
-		{
-			dependencies: ["51C0032B06E88119"]
-			id: "1493C85C2FDEED88"
-			tasks: [{
-				id: "342BB6C628D9C14E"
-				item: {
-					Count: 1
-					id: "terrariaweapons:star_wrath"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.750000000000007d
-			y: -5.464285714285708d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "1E99E2C738AAF846"
-			tasks: [{
-				id: "1ED16322A1F2BA76"
-				item: {
-					Count: 1
-					id: "advancednetherite:netherite_diamond_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.505952380952394d
-			y: -11.044026360544215d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "41BD45F2DDDBD2A0"
-			tasks: [{
-				id: "65D4C1BA914A0EF6"
-				item: {
-					Count: 1
-					id: "minecraft:wooden_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.1059523809523952d
-			y: -11.444026360544214d
-		}
-		{
-			dependencies: ["1493C85C2FDEED88"]
-			id: "30E62CB8C2115CF7"
-			tasks: [{
-				id: "2211184939ACC786"
-				item: {
-					Count: 1
-					id: "terrariaweapons:terraprisma"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -0.5357142857142776d
-			y: -6.285714285714292d
-		}
-		{
-			dependencies: [
-				"25A5426CE5933CAA"
-				"1E99E2C738AAF846"
-				"3AFEBD7BE4FF9D9E"
-				"41BD45F2DDDBD2A0"
-				"30E62CB8C2115CF7"
-				"1493C85C2FDEED88"
-				"51C0032B06E88119"
-				"31CA8E2FBC0C3B15"
-				"52FBA8255834F336"
-				"602EDC8273E048E6"
-			]
-			description: ["&6&oUnavoidable.&r&r"]
-			id: "5BBC4E546363D21B"
-			shape: "diamond"
-			size: 3.0d
-			tasks: [{
-				id: "6BBA2C5A14E97747"
-				item: "avaritia:infinity_sword"
-				type: "item"
-			}]
-			x: -2.8571428571428825d
-			y: -8.500000000000007d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "2D46049042E8485B"
-			tasks: [{
-				id: "3CDE5D31776B0690"
-				item: {
-					Count: 1
-					id: "minecraft:wooden_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 8.67857142857141d
-			y: -7.773809523809504d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "2C3BE66D5D917413"
-			tasks: [{
-				id: "73C2BC44DCAC2F76"
-				item: {
-					Count: 1
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.964285714285694d
-			y: -6.309523809523796d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "2F7A3595FF5FE912"
-			tasks: [{
-				id: "0D2A9446EAA99284"
-				item: {
-					Count: 1
-					id: "advancednetherite:netherite_diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.357142857142847d
-			y: -6.059523809523796d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "516DA9C01F5A59B9"
-			tasks: [{
-				id: "611E239CC2EC1D55"
-				item: {
-					Count: 1
-					id: "avaritia:blaze_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.928571428571409d
-			y: -5.273809523809504d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "67AD203F82228ACF"
-			tasks: [{
-				count: 4L
-				id: "47651BC67BE45C77"
-				item: {
-					Count: 4
-					id: "avaritia:crystal_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.607142857142847d
-			y: -5.41666666666665d
-		}
-		{
-			dependencies: [
-				"2F7A3595FF5FE912"
-				"2C3BE66D5D917413"
-				"2D46049042E8485B"
-				"516DA9C01F5A59B9"
-				"67AD203F82228ACF"
-				"3C7C5357944F94FB"
-				"602EDC8273E048E6"
-			]
-			description: ["&6&oEndless.&r&r"]
-			id: "10DF23AC6C4C8645"
-			shape: "diamond"
-			size: 3.0d
-			tasks: [{
-				id: "5C25815F9C64FC84"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_pickaxe"
-					tag: {
-						mode: { }
-					}
-				}
-				type: "item"
-			}]
-			x: 5.607142857142833d
-			y: -8.41666666666665d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "3C7C5357944F94FB"
-			tasks: [{
-				id: "0934A8751EF443D3"
-				item: "avaritia:infinity_ingot"
-				type: "item"
-			}]
-			x: 8.53571428571427d
-			y: -9.238095238095227d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "275427FA25DD2C38"
-			tasks: [{
-				id: "473AAD387AF40948"
-				item: {
-					Count: 1
-					id: "advancednetherite:netherite_diamond_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.160714285714306d
-			y: -15.101477465986385d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "0C9137A7814B47C4"
-			tasks: [{
-				id: "50058758032FDBC0"
-				item: {
-					Count: 1
-					id: "advancednetherite:netherite_diamond_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -0.3035714285714448d
-			y: -14.06278698979586d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "0424E15438F47B63"
-			tasks: [{
-				id: "5DD0752E686CAA5A"
-				item: {
-					Count: 1
-					id: "advancednetherite:netherite_diamond_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5059523809523583d
-			y: -14.086596513605386d
-		}
-		{
-			dependencies: ["1EB3ADF6E8E1B672"]
-			id: "083D4360267BBC80"
-			tasks: [{
-				id: "32132246545D14DD"
-				item: {
-					Count: 1
-					id: "advancednetherite:netherite_diamond_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.267857142857125d
-			y: -15.151785714285666d
-		}
-		{
-			dependencies: ["0676CA384F7D4994"]
-			description: ["&n&4&lTerrifyingly encapsulating.&r&r&r"]
+			dependencies: ["602EDC8273E048E6"]
+			description: ["This should tear the planet apart, really."]
 			id: "4DB07F5F44A5BFC3"
 			tasks: [{
 				id: "2AD6C6A8ACABDD96"
-				item: "avaritia:infinity_ingot"
+				item: "avaritia:neutron"
 				type: "item"
 			}]
-			title: "Prismatic"
-			x: 1.5357142857142847d
-			y: -11.871736819727872d
+			title: "Times 9"
+			x: -4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["602EDC8273E048E6"]
@@ -457,15 +80,19 @@
 				type: "item"
 			}]
 			title: "Bea-con fathomable"
-			x: 1.5357142857142847d
-			y: -10.871736819727872d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["4DB07F5F44A5BFC3"]
-			description: ["Nonsense now makes complete sense!"]
+			dependencies: [
+				"0676CA384F7D4994"
+				"4DB07F5F44A5BFC3"
+			]
+			description: ["Actually, this makes more sense now. I think."]
+			hide_dependency_lines: false
 			id: "3470F7A8E424C015"
 			shape: "diamond"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "7D0E3718067CF929"
 				item: {
@@ -476,8 +103,339 @@
 				type: "item"
 			}]
 			title: "Beacon fathomable = new Beacon()"
-			x: 1.5654761904761543d
-			y: -13.365167942176832d
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["602EDC8273E048E6"]
+			description: [
+				"Make your friend's base their tomb."
+				""
+				"&oNote: May alter friendship status&r"
+			]
+			id: "315613591BCDF429"
+			tasks: [{
+				id: "12840E50306294DB"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Infinite Jest"
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["315613591BCDF429"]
+			description: ["Licking bedrock was always a treat, so why wouldn't it work as wine?"]
+			id: "747937F8DD8BE2BF"
+			tasks: [{
+				id: "7A6D01961A963530"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:invisibility"
+					}
+				}
+				type: "item"
+			}]
+			title: "It's been FIFTEEN YEARS"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["275A377F1B6CF4FC"]
+			description: ["&6&oEndless.&r&r"]
+			hide_lock_icon: true
+			id: "10DF23AC6C4C8645"
+			shape: "diamond"
+			size: 2.5d
+			tasks: [{
+				id: "5C25815F9C64FC84"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_pickaxe"
+					tag: {
+						mode: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4DB07F5F44A5BFC3"]
+			description: ["Invest in this machine, which generates neutronium nuggets passively. You'll be glad you did."]
+			id: "7DD58053D7764BD3"
+			tasks: [{
+				id: "1EB220967921D564"
+				item: "avaritia:dense_neutron_collector"
+				type: "item"
+			}]
+			title: "Legal tender"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3470F7A8E424C015"]
+			description: [""]
+			id: "33956E40C12EFE4F"
+			tasks: [{
+				id: "1034F75FF73674C9"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			title: "Reactant"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"33956E40C12EFE4F"
+				"7DD58053D7764BD3"
+			]
+			description: ["This generates whole neutronium ingots in the same time frame."]
+			id: "0866EE9515D25D7D"
+			tasks: [{
+				id: "059EB1CEDDC61AB1"
+				item: "avaritia:denser_neutron_collector"
+				type: "item"
+			}]
+			title: "The printer"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"43C56A25B980C732"
+				"33956E40C12EFE4F"
+			]
+			id: "611C4295849F3F15"
+			size: 1.0d
+			tasks: [{
+				id: "7766B734AC270C99"
+				item: "avaritia:enhancement_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"33956E40C12EFE4F"
+				"4140BFD392FE2E9B"
+			]
+			id: "43C56A25B980C732"
+			tasks: [{
+				id: "255045B54946B31F"
+				item: "avaritia:infinity"
+				type: "item"
+			}]
+			title: "Times 576"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1EB3ADF6E8E1B672"]
+			id: "3AFEBD7BE4FF9D9E"
+			tasks: [{
+				id: "5C7B089B8E619CBC"
+				item: {
+					Count: 1
+					id: "terrariaweapons:volcano"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3AFEBD7BE4FF9D9E"]
+			id: "31CA8E2FBC0C3B15"
+			tasks: [{
+				id: "065807618DCF2016"
+				item: {
+					Count: 1
+					id: "terrariaweapons:true_nights_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["31CA8E2FBC0C3B15"]
+			id: "25A5426CE5933CAA"
+			tasks: [{
+				id: "4A4D2FCEAA31DFBF"
+				item: {
+					Count: 1
+					id: "terrariaweapons:true_excalibur"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["25A5426CE5933CAA"]
+			id: "52FBA8255834F336"
+			tasks: [{
+				id: "574D169A5AA1548E"
+				item: {
+					Count: 1
+					id: "terrariaweapons:terrablade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["52FBA8255834F336"]
+			id: "51C0032B06E88119"
+			tasks: [{
+				id: "7472A4C6C1C85090"
+				item: {
+					Count: 1
+					id: "terrariaweapons:meowmere"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["51C0032B06E88119"]
+			id: "1493C85C2FDEED88"
+			tasks: [{
+				id: "342BB6C628D9C14E"
+				item: {
+					Count: 1
+					id: "terrariaweapons:star_wrath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1493C85C2FDEED88"]
+			id: "30E62CB8C2115CF7"
+			tasks: [{
+				id: "2211184939ACC786"
+				item: {
+					Count: 1
+					id: "terrariaweapons:terraprisma"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["30E62CB8C2115CF7"]
+			description: ["&6&oUnavoidable.&r&r"]
+			icon_scale: 1.25d
+			id: "5BBC4E546363D21B"
+			shape: "diamond"
+			size: 2.5d
+			tasks: [{
+				id: "6BBA2C5A14E97747"
+				item: "avaritia:infinity_sword"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1EB3ADF6E8E1B672"]
+			id: "0C9137A7814B47C4"
+			tasks: [{
+				id: "50058758032FDBC0"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1EB3ADF6E8E1B672"]
+			id: "275427FA25DD2C38"
+			tasks: [{
+				id: "473AAD387AF40948"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1EB3ADF6E8E1B672"]
+			id: "0424E15438F47B63"
+			tasks: [{
+				id: "5DD0752E686CAA5A"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1EB3ADF6E8E1B672"]
+			id: "083D4360267BBC80"
+			tasks: [{
+				id: "32132246545D14DD"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -485,12 +443,11 @@
 				"0424E15438F47B63"
 				"0C9137A7814B47C4"
 				"275427FA25DD2C38"
-				"3470F7A8E424C015"
 			]
 			description: ["&o&6Invincible.&r&r"]
 			id: "38BE27224DC2A8A6"
 			shape: "diamond"
-			size: 3.0d
+			size: 2.5d
 			tasks: [
 				{
 					id: "70CF55FD3FBA2F83"
@@ -513,44 +470,99 @@
 					type: "item"
 				}
 			]
-			x: 1.5654761904761116d
-			y: -16.530048894557794d
+			title: "Infinity Armor"
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"611C4295849F3F15"
+				"0866EE9515D25D7D"
+				"33956E40C12EFE4F"
+			]
+			description: ["This generates a neutronium ingot every ten seconds."]
+			id: "1759E05805E61EC8"
+			tasks: [{
+				id: "3BC2F1D6E2B1189D"
+				item: "avaritia:densest_neutron_collector"
+				type: "item"
+			}]
+			title: "A mere fraction of the national debt"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33956E40C12EFE4F"]
+			description: ["&n&4&lTerrifyingly encapsulating.&r&r&r"]
+			id: "4140BFD392FE2E9B"
+			tasks: [{
+				id: "277DA9E1A563572F"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			title: "Prismatic"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["611C4295849F3F15"]
+			id: "5357627D8A8CC77C"
+			tasks: [{
+				id: "7283DABD0784DA98"
+				item: "avaritia:singularity"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5357627D8A8CC77C"]
+			id: "3FA02DF0CAB06A48"
+			size: 1.0d
+			tasks: [{
+				id: "1AED7B2E1EB7F4B0"
+				item: "avaritia:eternal_singularity"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["602EDC8273E048E6"]
-			description: [
-				"Make your friend's base their tomb."
-				""
-				"&oNote: May alter friendship status&r"
-			]
-			id: "315613591BCDF429"
+			id: "2BA5FC1CA8FAE2C3"
 			tasks: [{
-				id: "12840E50306294DB"
-				item: "minecraft:bedrock"
+				id: "3C9395B250DC5A2D"
+				item: "minecraft:anvil"
 				type: "item"
 			}]
-			title: "Infinite Jest"
-			x: 1.5d
-			y: -9.0d
+			x: -2.5d
+			y: -10.0d
 		}
 		{
-			dependencies: ["315613591BCDF429"]
-			description: ["Licking bedrock was always a treat, so why wouldn't it work as wine?"]
-			id: "747937F8DD8BE2BF"
+			dependencies: ["602EDC8273E048E6"]
+			id: "20042EF69EA641D5"
 			tasks: [{
-				id: "7A6D01961A963530"
-				item: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:invisibility"
-					}
-				}
+				count: 8L
+				id: "6BCB37268FC04B4D"
+				item: { Count: 8, id: "avaritia:neutron_nugget" }
 				type: "item"
 			}]
-			title: "It's been FIFTEEN YEARS"
-			x: 1.5d
-			y: -8.0d
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"2BA5FC1CA8FAE2C3"
+				"20042EF69EA641D5"
+			]
+			id: "275A377F1B6CF4FC"
+			tasks: [{
+				id: "7DA68D67F95EB03F"
+				item: "avaritia:infinity_nugget"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
 		}
 	]
 	title: "6 - Finale"

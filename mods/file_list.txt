@@ -43,7 +43,6 @@ ftb-teams-forge-2001.3.1.jar
 ftb-xmod-compat-forge-2.1.3.jar
 geckolib-forge-1.20.1-4.7.1.2.jar
 gk_unbreakable-2.7.jar
-headCrafter-1.0-1.20.1_[forge].jar
 HorseExpert-v8.1.1-1.20.1-Forge.jar
 Icarus-Forge-2.12.0.jar
 Iceberg-1.20.1-forge-1.1.25.jar
@@ -76,7 +75,7 @@ Prism-1.20.1-forge-1.0.5.jar
 ProjectE-1.20.1-PE1.0.1.jar
 PuzzlesLib-v8.1.32-1.20.1-Forge.jar
 quality_equipment-1.6-forge_neoforge-1.20.1.jar
-Re-Avaritia-forged-1.20.1-1.4.2.0-projecteconomy.jar
+Re-Avaritia-forged-1.20.1-1.5.0-projecteconomy.jar
 refinedstorage-1.12.4.jar
 refinedstorageaddons-0.10.0.jar
 resourcefulconfig-forge-1.20.1-2.1.3.jar

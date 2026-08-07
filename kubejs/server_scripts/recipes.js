@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
   event.remove({id:'minecraft:shulker_box'})
   event.remove({id:'minecraft:brewing_stand'})
   event.remove({id:'minecraft:golden_apple'})
+  event.remove({id:'minecraft:snow'})
 
   // Shulker box buff
 
@@ -36,6 +37,17 @@ ServerEvents.recipes(event => {
       C: 'advancednetherite:netherite_emerald_block',
       D: 'minecraft:blaze_rod',
       E: 'advancednetherite:netherite_diamond_ingot'
+  })
+
+  // Snow recipe to only give 4 instead of 6
+
+  event.shaped(
+    Item.of('minecraft:snow', 4),
+    [
+      'AAA'
+    ], 
+    {
+      A: 'minecraft:snow_block',
   })
   
   // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -103,9 +115,9 @@ ServerEvents.recipes(event => {
   event.remove({output:'projecte:archangel_smite'})
   event.remove({output:'projecte:hyperkinetic_lens'})
   event.remove({output:'projecte:catalytic_lens'})
-  event.remove({output:'projecte:klein_star_vier'})
-  event.remove({output:'projecte:klein_star_sphere'})
-  event.remove({output:'projecte:klein_star_omega'})
+  // event.remove({output:'projecte:klein_star_vier'})
+  // event.remove({output:'projecte:klein_star_sphere'})
+  // event.remove({output:'projecte:klein_star_omega'})
   event.remove({output:'projecte:repair_talisman'})
   event.remove({output:'projecte:harvest_goddess_band'})
   event.remove({output:'projecte:ignition_ring'})
@@ -626,9 +638,9 @@ ServerEvents.recipes(event => {
 
   event.smithing(
     'mobilebeacon:mobile_beacon_netherite_ii',
-    'avaritia:infinity_ingot',
+    'avaritia:neutron',
     'mobilebeacon:mobile_beacon_netherite',
-    'avaritia:infinity_ingot'
+    'avaritia:neutron'
   )
 
   // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -821,8 +833,13 @@ ServerEvents.recipes(event => {
   event.remove({output:'avaritia:extreme_smithing_table'})
   event.remove({output:'avaritia:extreme_anvil'})
   event.remove({output:'avaritia:endless_cake'})
+  event.remove({output:'avaritia:infinity_ingot'})
+  event.remove({output:'avaritia:infinity_helmet'})
+  event.remove({output:'avaritia:infinity_chestplate'})
+  event.remove({output:'avaritia:infinity_pants'})
+  event.remove({output:'avaritia:infinity_boots'})
 
-  // Neutron and infinity ingots
+  // Neutron/infinity ingots and neutron nuggets
 
   event.shapeless(
     Item.of('avaritia:neutron_ingot', 1),
@@ -832,48 +849,56 @@ ServerEvents.recipes(event => {
   )
 
   event.shapeless(
-    Item.of('avaritia:infinity_ingot', 1),
+    Item.of('avaritia:neutron', 1),
     [
       '9x avaritia:neutron_ingot',
+    ]
+  )
+
+  event.shapeless(
+    Item.of('avaritia:neutron_nugget', 9),
+    [
+      'avaritia:neutron_ingot',
+    ]
+  )
+
+  event.shapeless(
+    Item.of('avaritia:infinity_nugget', 1),
+    [
+      '8x avaritia:neutron_nugget',
+      'minecraft:anvil'
     ]
   )
 
   // Avaritia item smithing
 
   // event.smithing(
-  //   'avaritia:infinity_pickaxe',
-  //   'avaritia:neutron_ingot',
-  //   'avaritia:blaze_pickaxe',
+  //   'avaritia:infinity_chestplate',
+  //   'mobilebeacon:mobile_beacon_netherite_ii',
+  //   'advancednetherite:netherite_diamond_chestplate',
   //   'avaritia:infinity_ingot'
   // )
 
-  event.smithing(
-    'avaritia:infinity_chestplate',
-    'mobilebeacon:mobile_beacon_netherite_ii',
-    'advancednetherite:netherite_diamond_chestplate',
-    'avaritia:infinity_ingot'
-  )
-
-  event.smithing(
-    'avaritia:infinity_helmet',
-    'mobilebeacon:mobile_beacon_netherite_ii',
-    'advancednetherite:netherite_diamond_helmet',
-    'avaritia:infinity_ingot'
-  )
+  // event.smithing(
+  //   'avaritia:infinity_helmet',
+  //   'mobilebeacon:mobile_beacon_netherite_ii',
+  //   'advancednetherite:netherite_diamond_helmet',
+  //   'avaritia:infinity_ingot'
+  // )
   
-  event.smithing(
-    'avaritia:infinity_pants',
-    'mobilebeacon:mobile_beacon_netherite_ii',
-    'advancednetherite:netherite_diamond_leggings',
-    'avaritia:infinity_ingot'
-  )
+  // event.smithing(
+  //   'avaritia:infinity_pants',
+  //   'mobilebeacon:mobile_beacon_netherite_ii',
+  //   'advancednetherite:netherite_diamond_leggings',
+  //   'avaritia:infinity_ingot'
+  // )
 
-  event.smithing(
-    'avaritia:infinity_boots',
-    'mobilebeacon:mobile_beacon_netherite_ii',
-    'advancednetherite:netherite_diamond_boots',
-    'avaritia:infinity_ingot'
-  )
+  // event.smithing(
+  //   'avaritia:infinity_boots',
+  //   'mobilebeacon:mobile_beacon_netherite_ii',
+  //   'advancednetherite:netherite_diamond_boots',
+  //   'avaritia:infinity_ingot'
+  // )
 
   event.smithing(
     'avaritia:infinity_elytra',
@@ -882,7 +907,7 @@ ServerEvents.recipes(event => {
     'avaritia:neutron_ingot',
   )
 
-  // Avaritia tool crafting changes
+  // Blaze tools and sword
 
   event.shaped(
     Item.of('avaritia:blaze_pickaxe', 1),
@@ -914,6 +939,19 @@ ServerEvents.recipes(event => {
     )
   }
 
+  BlazeToolShaped('advancednetherite:netherite_diamond_shovel','avaritia:blaze_shovel')
+  BlazeToolShaped('advancednetherite:netherite_diamond_axe','avaritia:blaze_axe')
+  BlazeToolShaped('advancednetherite:netherite_diamond_hoe','avaritia:blaze_hoe')
+
+  event.smithing(
+    'avaritia:blaze_sword',
+    'projecte:rm_furnace',
+    'advancednetherite:netherite_diamond_sword',
+    'projecte:rm_furnace'
+  )
+
+  // Crystal tools
+
   event.shaped(
     Item.of('avaritia:crystal_pickaxe', 1),
     [
@@ -937,50 +975,184 @@ ServerEvents.recipes(event => {
     'avaritia:neutron_ingot'
   )
 
-  BlazeToolShaped('advancednetherite:netherite_diamond_shovel','avaritia:blaze_shovel')
-  BlazeToolShaped('advancednetherite:netherite_diamond_axe','avaritia:blaze_axe')
-  BlazeToolShaped('advancednetherite:netherite_diamond_hoe','avaritia:blaze_hoe')
-
-  event.smithing(
-    'avaritia:blaze_sword',
-    'projecte:rm_furnace',
-    'advancednetherite:netherite_diamond_sword',
-    'projecte:rm_furnace'
-  )
-
   // Infinity Sword and Infinity Pickaxe recipes
 
-  event.shapeless(
+  event.shaped(
     Item.of('avaritia:infinity_sword', 1),
     [
-      'minecraft:wooden_sword',
-      'advancednetherite:netherite_diamond_sword',
-      'terrariaweapons:volcano',
-      'terrariaweapons:terrablade',
-      'terrariaweapons:terraprisma',
-      'terrariaweapons:star_wrath',
-      'terrariaweapons:true_nights_edge',
-      'terrariaweapons:true_excalibur',
-      'terrariaweapons:meowmere'
-    ]
+      'BBB',
+      'BAB',
+      'BBB'
+    ],
+    {
+      A: 'terrariaweapons:terraprisma',
+      B: 'avaritia:eternal_singularity'
+    }
   )
 
   event.shaped(
     Item.of('avaritia:infinity_pickaxe', 1),
     [
-      'CAD',
-      'ABA',
-      'FAE'
+      'CAC',
+      ' B ',
+      ' D '
     ],
     {
       A: 'avaritia:crystal_pickaxe',
-      B: 'avaritia:infinity_ingot',
-      C: 'minecraft:wooden_pickaxe',
-      D: 'minecraft:diamond_pickaxe',
-      E: 'advancednetherite:netherite_diamond_pickaxe',
-      F: 'avaritia:blaze_pickaxe'
+      B: 'avaritia:neutron',
+      C: 'avaritia:infinity_nugget',
+      D: 'avaritia:neutron_nugget'
     }
   )
+
+  // Infinity armors
+
+  function InfinityArmorShaped(inputArmor, outputArmor) {
+    event.shaped(
+      Item.of(outputArmor, 1),
+      [
+        'BBB',
+        'BAB',
+        'BBB'
+      ],
+      {
+        A: inputArmor,
+        B: 'avaritia:eternal_singularity'
+      }
+    )
+  }
+
+  InfinityArmorShaped('advancednetherite:netherite_diamond_helmet','avaritia:infinity_helmet')
+  InfinityArmorShaped('advancednetherite:netherite_diamond_leggings','avaritia:infinity_pants')
+  InfinityArmorShaped('advancednetherite:netherite_diamond_chestplate','avaritia:infinity_chestplate')
+  InfinityArmorShaped('advancednetherite:netherite_diamond_boots','avaritia:infinity_boots')
+
+  // Dense neutron collector
+
+  event.shaped(
+    Item.of('avaritia:dense_neutron_collector', 1),
+    [
+      'CCC',
+      'BAB',
+      'CCC'
+    ],
+    {
+      A: 'projecte:rm_furnace',
+      B: 'avaritia:neutron_ingot',
+      C: 'avaritia:neutron'
+    }
+  )
+
+  // Infinity catalyst
+
+  event.shaped(
+    Item.of('avaritia:infinity_catalyst', 1),
+    [
+      'BBB',
+      'BAB',
+      'BBB'
+    ],
+    {
+      A: 'mobilebeacon:mobile_beacon_netherite_ii',
+      B: 'avaritia:neutron'
+    }
+  )
+
+  // Infinity block
+
+  event.shaped(
+    Item.of('avaritia:infinity_ingot', 1),
+    [
+      'BBB',
+      'BAB',
+      'BBB'
+    ],
+    {
+      A: 'avaritia:infinity_catalyst',
+      B: 'avaritia:neutron'
+    }
+  )
+
+  // Denser neutron collector
+
+  event.shaped(
+    Item.of('avaritia:denser_neutron_collector', 1),
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'avaritia:infinity_catalyst',
+      B: 'avaritia:neutron',
+      C: 'avaritia:dense_neutron_collector'
+    }
+  )
+
+  event.shaped(
+    Item.of('avaritia:infinity', 1),
+    [
+      'BBB',
+      'BAB',
+      'BBB'
+    ],
+    {
+      A: 'avaritia:infinity_catalyst',
+      B: 'avaritia:infinity_ingot'
+    }
+  )
+
+  // Enhancement core
+
+  event.shaped(
+    Item.of('avaritia:enhancement_core', 1),
+    [
+      'CBC',
+      'BAB',
+      'CBC'
+    ],
+    {
+      A: 'avaritia:infinity_catalyst',
+      B: 'avaritia:infinity',
+      C: 'avaritia:infinity_ingot'
+    }
+  )
+
+  // Densest neutron collector
+
+  event.shaped(
+    Item.of('avaritia:densest_neutron_collector', 1),
+    [
+      'ACA',
+      'CBC',
+      'ACA'
+    ],
+    {
+      A: 'avaritia:infinity_catalyst',
+      B: 'avaritia:enhancement_core',
+      C: 'avaritia:denser_neutron_collector'
+      // D: 'avaritia:infinity'
+    }
+  )
+
+  // Singularities
+
+  event.shapeless(
+    Item.of('avaritia:singularity', 1),
+    [
+      '9x avaritia:enhancement_core'
+    ]
+  )
+
+  event.shapeless(
+    Item.of('avaritia:eternal_singularity', 1),
+    [
+      '9x avaritia:singularity'
+    ]
+  )
+
+
+
 
 
   // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1266,13 +1438,13 @@ ServerEvents.recipes(event => {
   
   }
 
-  TerrariaSmithing('avaritia:blaze_sword','avaritia:neutron_ingot','avaritia:neutron_ingot','terrariaweapons:volcano')
-  TerrariaSmithing('terrariaweapons:volcano','avaritia:neutron_ingot','avaritia:neutron_ingot','terrariaweapons:true_nights_edge')
-  TerrariaSmithing('terrariaweapons:true_nights_edge','avaritia:neutron_ingot','avaritia:neutron_ingot','terrariaweapons:true_excalibur')
-  TerrariaSmithing('terrariaweapons:true_excalibur','avaritia:neutron_ingot','avaritia:neutron_ingot','terrariaweapons:terrablade')
-  TerrariaSmithing('terrariaweapons:terrablade','avaritia:neutron_ingot','avaritia:neutron_ingot','terrariaweapons:meowmere')
-  TerrariaSmithing('terrariaweapons:meowmere','avaritia:neutron_ingot','avaritia:neutron_ingot','terrariaweapons:star_wrath')
-  TerrariaSmithing('terrariaweapons:star_wrath','avaritia:neutron_ingot','avaritia:infinity_ingot','terrariaweapons:terraprisma')
+  TerrariaSmithing('avaritia:blaze_sword','projecte:red_matter_block','avaritia:neutron_ingot','terrariaweapons:volcano')
+  TerrariaSmithing('terrariaweapons:volcano','avaritia:neutron','avaritia:neutron','terrariaweapons:true_nights_edge')
+  TerrariaSmithing('terrariaweapons:true_nights_edge','avaritia:infinity_ingot','avaritia:infinity_ingot','terrariaweapons:true_excalibur')
+  TerrariaSmithing('terrariaweapons:true_excalibur','avaritia:infinity','avaritia:infinity','terrariaweapons:terrablade')
+  TerrariaSmithing('terrariaweapons:terrablade','avaritia:enhancement_core','avaritia:enhancement_core','terrariaweapons:meowmere')
+  TerrariaSmithing('terrariaweapons:meowmere','avaritia:singularity','avaritia:singularity','terrariaweapons:star_wrath')
+  TerrariaSmithing('terrariaweapons:star_wrath','avaritia:eternal_singularity','avaritia:eternal_singularity','terrariaweapons:terraprisma')
 
   // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,1851 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spawn_eggs"
+	group: "58617298E3D08D99"
+	icon: "minecraft:ghast_spawn_egg"
+	id: "4CBF4363C5923666"
+	images: [
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			alpha: 155
+			color: 12434877
+			height: 1.0d
+			image: "minecraft:block/white_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:zombie_horse_spawn_egg"
+			id: "0FA8B609A75967D6"
+			optional: true
+			rewards: [{
+				id: "47476FDEACEE435C"
+				item: "minecraft:zombie_horse_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "08723D8CF4D67A25"
+				item: "avaritia:neutron"
+				type: "item"
+			}]
+			title: "Zombie Horse"
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:skeleton_horse_spawn_egg"
+			id: "530166AA7EC5623B"
+			optional: true
+			rewards: [{
+				id: "4F8280AE66EC724D"
+				item: "minecraft:skeleton_horse_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "18014B6C1B9C2EE2"
+				item: "avaritia:neutron"
+				type: "item"
+			}]
+			title: "Skeleton Horse"
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:warden_spawn_egg"
+			id: "0B1974EE857196CC"
+			optional: true
+			rewards: [{
+				id: "0CE131D61406CAEA"
+				item: "minecraft:warden_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7A31A4827D17791D"
+				item: "avaritia:neutron"
+				type: "item"
+			}]
+			title: "Warden"
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:horse_spawn_egg"
+			id: "3C2A2F2090066F35"
+			optional: true
+			rewards: [{
+				id: "3E661DF0ECB94A50"
+				item: "minecraft:horse_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7105BE729F006428"
+				item: "avaritia:neutron"
+				type: "item"
+			}]
+			title: "Horse"
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:shulker_spawn_egg"
+			id: "1CDECDE5AAC10D86"
+			optional: true
+			rewards: [{
+				id: "3D26C7CD77164E24"
+				item: "minecraft:shulker_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5A1AD0FBEC6B8BAB"
+				item: "avaritia:neutron"
+				type: "item"
+			}]
+			title: "Shulker"
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:sniffer_spawn_egg"
+			id: "3BA5B091E1650D46"
+			optional: true
+			rewards: [{
+				id: "4979C7DC6E542E11"
+				item: "minecraft:sniffer_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "367DF03E4FDF55B5"
+				item: "avaritia:neutron"
+				type: "item"
+			}]
+			title: "Sniffer"
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:elder_guardian_spawn_egg"
+			id: "666EE401A503E242"
+			optional: true
+			rewards: [{
+				id: "304F6C43BFA1A13E"
+				item: "minecraft:elder_guardian_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "1FA6DA187CC56576"
+				item: "avaritia:neutron"
+				type: "item"
+			}]
+			title: "Elder Guardian"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:villager_spawn_egg"
+			id: "720069C65345C9F6"
+			optional: true
+			rewards: [{
+				id: "3311F853691A02E0"
+				item: "minecraft:villager_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "2CDD098657D4FF67"
+				item: "avaritia:neutron"
+				type: "item"
+			}]
+			title: "Villager"
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:zoglin_spawn_egg"
+			id: "7AB164807828E5AF"
+			optional: true
+			rewards: [{
+				id: "0C876512D4BF0FE7"
+				item: "minecraft:zoglin_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "2A6EDB2874B2360E"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Zoglin"
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:wither_skeleton_spawn_egg"
+			id: "72146E3C6D8E6295"
+			optional: true
+			rewards: [{
+				id: "2E42D89E48F4A908"
+				item: "minecraft:wither_skeleton_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7027CBA498A25377"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Wither Skeleton"
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:witch_spawn_egg"
+			id: "5704B4724B8DE095"
+			optional: true
+			rewards: [{
+				id: "7C4F37A8BD5F3EB9"
+				item: "minecraft:witch_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "00CFF14DAE3EFC15"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Witch"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:vindicator_spawn_egg"
+			id: "38B58AAEFEBE725C"
+			optional: true
+			rewards: [{
+				id: "41AD7AA0E3ED12EC"
+				item: "minecraft:vindicator_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0DF0BCC53FE905E0"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Vindicator"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:zombie_spawn_egg"
+			id: "47AA6E4497797A59"
+			optional: true
+			rewards: [{
+				id: "6ABBE3E608EF16A6"
+				item: "minecraft:zombie_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6CEB2AAC86A25F9C"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Zombie"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:zombie_villager_spawn_egg"
+			id: "01DC35407AA34CF0"
+			optional: true
+			rewards: [{
+				id: "38B5D3C410E0014B"
+				item: "minecraft:zombie_villager_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0DD82CD2CADC4108"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Zombie Villager"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:zombified_piglin_spawn_egg"
+			id: "0FEE2A4054BCBF2F"
+			optional: true
+			rewards: [{
+				id: "450428E049B18578"
+				item: "minecraft:zombified_piglin_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5AA5B65B62E89AE7"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Zombified Piglin"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:stray_spawn_egg"
+			id: "0A1844BEB535E7C3"
+			optional: true
+			rewards: [{
+				id: "7D8C5E59AE16A06A"
+				item: "minecraft:stray_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0DFDE7E4E0382E5F"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Stray"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:spider_spawn_egg"
+			id: "7C860FBB18622CE4"
+			optional: true
+			rewards: [{
+				id: "5F7C07D33D6770F1"
+				item: "minecraft:spider_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6ED1C6DC4E684DBB"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Spider"
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:slime_spawn_egg"
+			id: "796864C057DDBA81"
+			optional: true
+			rewards: [{
+				id: "04839CA9ADBC3C42"
+				item: "minecraft:slime_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "782BE2A54E8A91D1"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Slime"
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:skeleton_spawn_egg"
+			id: "36E75E32FA46128B"
+			optional: true
+			rewards: [{
+				id: "2D8AEA732076213D"
+				item: "minecraft:skeleton_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5A2E742D9858B27C"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Skeleton"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:silverfish_spawn_egg"
+			id: "242DEC11467F8C46"
+			optional: true
+			rewards: [{
+				id: "6A62C8A06F727A64"
+				item: "minecraft:silverfish_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7428F955C0C0CB14"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Silverfish"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:ravager_spawn_egg"
+			id: "5271B55CCEDD3A9A"
+			optional: true
+			rewards: [{
+				id: "43C149B9D198565F"
+				item: "minecraft:ravager_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "144D9E1061FC7D5F"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Ravager"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:pillager_spawn_egg"
+			id: "229AC0AB922F7689"
+			optional: true
+			rewards: [{
+				id: "47A5E715ECA33240"
+				item: "minecraft:pillager_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "1DEE8D1BF4D04619"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Pillager"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:piglin_brute_spawn_egg"
+			id: "2DC244C487BE5815"
+			optional: true
+			rewards: [{
+				id: "5471EDB143B5526E"
+				item: "minecraft:piglin_brute_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0AF89E780FFE3125"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Piglin Brute"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:piglin_spawn_egg"
+			id: "774EF9CE4A4A9E3F"
+			optional: true
+			rewards: [{
+				id: "72BC0DFD57BEAF6D"
+				item: "minecraft:piglin_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "68AF39A213BDC451"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Piglin"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:husk_spawn_egg"
+			id: "4E84D0DFF511C054"
+			optional: true
+			rewards: [{
+				id: "3C433A3EEB5F05DB"
+				item: "minecraft:husk_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3CF83E32BC22C819"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Husk"
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:cave_spider_spawn_egg"
+			id: "4B9677B63EC5A85F"
+			optional: true
+			rewards: [{
+				id: "1A13B1EF7CDCAB2B"
+				item: "minecraft:cave_spider_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6B117D565B51F6B3"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Cave Spider"
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:endermite_spawn_egg"
+			id: "686AD9548C90AE15"
+			optional: true
+			rewards: [{
+				id: "58E8AB6D222E9C80"
+				item: "minecraft:endermite_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5FF0A021CEF1AB5E"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Endermite"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:phantom_spawn_egg"
+			id: "4EDCAE99F5BD3EAD"
+			optional: true
+			rewards: [{
+				id: "1145B271CF860011"
+				item: "minecraft:phantom_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6155342C7E8A5B66"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Phantom"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:drowned_spawn_egg"
+			id: "06CB28A632D19DA8"
+			optional: true
+			rewards: [{
+				id: "3303807A99273CA0"
+				item: "minecraft:drowned_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "714230F039D87748"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Drowned"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:wandering_trader_spawn_egg"
+			id: "2876C347A54FD794"
+			optional: true
+			rewards: [{
+				id: "7373A3112725C73B"
+				item: "minecraft:wandering_trader_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "415B86ADC24154DB"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Wandering Trader"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:blaze_spawn_egg"
+			id: "259A6538580F35F8"
+			optional: true
+			rewards: [{
+				id: "3928F6FE4E3CF663"
+				item: "minecraft:blaze_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "637938910787F70F"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Blaze"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:allay_spawn_egg"
+			id: "7F8EBC4F00946F07"
+			optional: true
+			rewards: [{
+				id: "5F420333EA73D002"
+				item: "minecraft:allay_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0C5E3D0188883FD9"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Allay"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:donkey_spawn_egg"
+			id: "75B4B4F523E8EA3C"
+			optional: true
+			rewards: [{
+				id: "2CBFA011C34FC8C0"
+				item: "minecraft:donkey_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "460E72B3E827825B"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Donkey"
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:camel_spawn_egg"
+			id: "564F010607B1001F"
+			optional: true
+			rewards: [{
+				id: "27E578FF824BBA89"
+				item: "minecraft:camel_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "2620E8C4A7624121"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Camel"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:evoker_spawn_egg"
+			id: "61C0216FFEC5EF79"
+			optional: true
+			rewards: [{
+				id: "54300C52574BCA03"
+				item: "minecraft:evoker_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "646EC7B3065BAC66"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Evoker"
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:hoglin_spawn_egg"
+			id: "1609A367B43F70D2"
+			optional: true
+			rewards: [{
+				id: "0EC0F6FCD4468B3E"
+				item: "minecraft:hoglin_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "554B022FF3E20FA2"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Hoglin"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:mule_spawn_egg"
+			id: "1E2073A6835D1E74"
+			optional: true
+			rewards: [{
+				id: "56E3D066F48088C5"
+				item: "minecraft:mule_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "1D079718034F6C7D"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Mule"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:magma_cube_spawn_egg"
+			id: "73C77D83A5316540"
+			optional: true
+			rewards: [{
+				id: "74B86694A8E4CF72"
+				item: "minecraft:magma_cube_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "25F9E28A30611574"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Magma Cube"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:enderman_spawn_egg"
+			id: "5FFAFA347EFCB00F"
+			optional: true
+			rewards: [{
+				id: "31D6D96055A1F239"
+				item: "minecraft:allay_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "16D6B2748A4EF888"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Enderman"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:guardian_spawn_egg"
+			id: "04F3E528523627F3"
+			optional: true
+			rewards: [{
+				id: "0A0CD0A80442F5D1"
+				item: "minecraft:guardian_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "020CA75B8AF2704F"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Guardian"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:creeper_spawn_egg"
+			id: "3D6A4ECAF16D288B"
+			optional: true
+			rewards: [{
+				id: "6208BC519F6EBF51"
+				item: "minecraft:creeper_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "56E98AC988ED4420"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Creeper"
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:ghast_spawn_egg"
+			id: "61463D3D7EE69287"
+			optional: true
+			rewards: [{
+				id: "67DC7D943C0E233D"
+				item: "minecraft:ghast_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "41A1410C6F7DD99A"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "Ghast"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:turtle_spawn_egg"
+			id: "439CFD42C097A1E8"
+			optional: true
+			rewards: [{
+				id: "4A44A6BD76CFDBB5"
+				item: "minecraft:turtle_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "552D2CE3779874E6"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Turtle"
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:bee_spawn_egg"
+			id: "2F7C7021C5141F6E"
+			optional: true
+			rewards: [{
+				id: "2510CB25724B2EFD"
+				item: "minecraft:bee_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "42D80F8AB3303D9B"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Bee"
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:cat_spawn_egg"
+			id: "115D57A39195DCDE"
+			optional: true
+			rewards: [{
+				id: "2843B4A8F3F411E4"
+				item: "minecraft:cat_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3323D08662BC2376"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Cat"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:glow_squid_spawn_egg"
+			id: "020A4773655FEB7A"
+			optional: true
+			rewards: [{
+				id: "1C1A7BE320E51D9D"
+				item: "minecraft:glow_squid_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3EC1DAA90F38736E"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Glow Squid"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:wolf_spawn_egg"
+			id: "118A535A92EE685B"
+			optional: true
+			rewards: [{
+				id: "5EDEB0390399B813"
+				item: "minecraft:wolf_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "4EF0D2DF2B3F42E0"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Wolf"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:strider_spawn_egg"
+			id: "2190350F36B53EF8"
+			optional: true
+			rewards: [{
+				id: "11B24AAF70E026B1"
+				item: "minecraft:strider_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "17B59EB020A94788"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Strider"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:panda_spawn_egg"
+			id: "59AA3EF48DA8C556"
+			optional: true
+			rewards: [{
+				id: "3C96E52CD5E51FE3"
+				item: "minecraft:panda_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "594AD6B3CBCC5C0E"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Panda"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:mooshroom_spawn_egg"
+			id: "7E2BA67678B52D6D"
+			optional: true
+			rewards: [{
+				id: "0AF00DF49ABB0E27"
+				item: "minecraft:mooshroom_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "4699B4133C89BEED"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Mooshroom"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:pufferfish_spawn_egg"
+			id: "1856502F71D55AE1"
+			optional: true
+			rewards: [{
+				id: "12306AAFFC315587"
+				item: "minecraft:pufferfish_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "29194CA85C939BA6"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Pufferfish"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:goat_spawn_egg"
+			id: "0DA283D06216178A"
+			optional: true
+			rewards: [{
+				id: "2D59ADA4C66F642B"
+				item: "minecraft:goat_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7EE16236E557C490"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Goat"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:ocelot_spawn_egg"
+			id: "5872DC000C36F37A"
+			optional: true
+			rewards: [{
+				id: "37014EC01B132BA7"
+				item: "minecraft:ocelot_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "092C422425EE168F"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Ocelot"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:polar_bear_spawn_egg"
+			id: "5E0EF328D20DB80E"
+			optional: true
+			rewards: [{
+				id: "6006551DB12A5EC1"
+				item: "minecraft:polar_bear_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7396E9E4D643D9D8"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Polar Bear"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:frog_spawn_egg"
+			id: "0A1E32DE92B7CC27"
+			optional: true
+			rewards: [{
+				id: "08707C28A9BF65B9"
+				item: "minecraft:frog_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "16DBBB6F0CB82879"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Frog"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:llama_spawn_egg"
+			id: "1C9B564E65C34F3D"
+			optional: true
+			rewards: [{
+				id: "779C75044880C999"
+				item: "minecraft:llama_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "17C77AB93E29088C"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Llama"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:axolotl_spawn_egg"
+			id: "4D10A3246450D8A4"
+			optional: true
+			rewards: [{
+				id: "4B62E8969DA8E0A3"
+				item: "minecraft:axolotl_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7E41CAD8B2874ECA"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Axolotl"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:fox_spawn_egg"
+			id: "432B03182905D4EE"
+			optional: true
+			rewards: [{
+				id: "14FE707D517A9991"
+				item: "minecraft:fox_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "277054CFAC63CF63"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Fox"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:dolphin_spawn_egg"
+			id: "3D3BD2159366CA98"
+			optional: true
+			rewards: [{
+				id: "6E08081CCB258269"
+				item: "minecraft:dolphin_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3EDAE1F75C2031F8"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Dolphin"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:parrot_spawn_egg"
+			id: "42719A1D88AA67C4"
+			optional: true
+			rewards: [{
+				id: "18DE69CCE0008247"
+				item: "minecraft:parrot_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "37C0A52897529BC0"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			title: "Parrot"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:squid_spawn_egg"
+			id: "77819A9EB46AE378"
+			optional: true
+			rewards: [{
+				id: "6980C30DBD08960D"
+				item: "minecraft:squid_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "408D66EA2FD4EC5F"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			title: "Squid"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:sheep_spawn_egg"
+			id: "2E086B6975941870"
+			optional: true
+			rewards: [{
+				id: "518C3D55A4A52609"
+				item: "minecraft:sheep_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7E04BC1BB3E02A72"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			title: "Sheep"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:chicken_spawn_egg"
+			id: "2570511A4B008150"
+			optional: true
+			rewards: [{
+				id: "76013B4E84F8D604"
+				item: "minecraft:chicken_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "52B682D47C17EAE2"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			title: "Chicken"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:cod_spawn_egg"
+			id: "1B5BB99A9951DD94"
+			optional: true
+			rewards: [{
+				id: "04D929D86FA91C3A"
+				item: "minecraft:cod_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "510E1D95B3B3C6F8"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			title: "Cod"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:salmon_spawn_egg"
+			id: "0382BBF5F0F2328C"
+			optional: true
+			rewards: [{
+				id: "05238740C5365B2B"
+				item: "minecraft:salmon_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "23938EDFC11C0A0C"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			title: "Salmon"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:tropical_fish_spawn_egg"
+			id: "33EF25C9FDAEA095"
+			optional: true
+			rewards: [{
+				id: "38E78F3D9A890BEE"
+				item: "minecraft:tropical_fish_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "66838813AAE61AA3"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			title: "Tropical Fish"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:bat_spawn_egg"
+			id: "57E01EADE473F173"
+			optional: true
+			rewards: [{
+				id: "0CB91E6786F86BA1"
+				item: "minecraft:bat_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "377269186C559B25"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			title: "Bat"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:rabbit_spawn_egg"
+			id: "27E567194A1F5178"
+			optional: true
+			rewards: [{
+				id: "7C147DC888232803"
+				item: "minecraft:rabbit_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "011C378616E48257"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			title: "Rabbit"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:pig_spawn_egg"
+			id: "090E2E7D49D0DB4D"
+			optional: true
+			rewards: [{
+				id: "7C54C0A7861F6F1F"
+				item: "minecraft:pig_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "4247242DCA9F1C07"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			title: "Pig"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:cow_spawn_egg"
+			id: "174AC019A32EBDF0"
+			optional: true
+			rewards: [{
+				id: "49CEA85F60CBA01F"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "654903C5D0CD3ED0"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			title: "Cow"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			disable_toast: true
+			icon_scale: 2.0d
+			id: "0A3C2AFA3F91C836"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "6B372AFE120E73C5"
+				item: "avaritia:neutron"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.5d
+		}
+		{
+			disable_toast: true
+			icon_scale: 2.0d
+			id: "326FEECC91FA5CE2"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "584D88B5C7FC36A4"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.5d
+		}
+		{
+			disable_toast: true
+			icon_scale: 2.0d
+			id: "3903319320590C29"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "46C3C002BEAEC2C9"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			disable_toast: true
+			icon_scale: 2.0d
+			id: "4DE0E4ABECB6FA7B"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "0782AAA748834A43"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+	]
+	title: "Spawn Eggs"
+}

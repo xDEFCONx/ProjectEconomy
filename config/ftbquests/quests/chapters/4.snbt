@@ -41,7 +41,7 @@
 				item: "projecte:red_matter"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -0.5d
 		}
 		{
@@ -53,7 +53,7 @@
 				item: "projecte:red_matter_block"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -79,7 +79,7 @@
 				type: "item"
 			}]
 			title: "Close to the sun"
-			x: 0.5d
+			x: 0.0d
 			y: 3.5d
 		}
 		{
@@ -91,7 +91,7 @@
 				item: "mobilebeacon:mobile_beacon_shell"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
@@ -114,7 +114,7 @@
 				type: "item"
 			}]
 			title: "Pocket beacon"
-			x: -4.5d
+			x: -3.0d
 			y: 4.5d
 		}
 		{
@@ -126,7 +126,7 @@
 				item: "minecraft:shulker_box"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -144,7 +144,7 @@
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -156,7 +156,7 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -168,7 +168,7 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
@@ -193,7 +193,7 @@
 				type: "item"
 			}]
 			title: "Infinite clutches"
-			x: -1.5d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -218,7 +218,7 @@
 				type: "item"
 			}]
 			title: "Lava on demand"
-			x: -3.0d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
@@ -229,7 +229,7 @@
 				item: "projecte:iron_band"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: -0.5d
 		}
 		{
@@ -253,7 +253,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 4.0d
 		}
 		{
@@ -305,7 +305,7 @@
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -316,7 +316,7 @@
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -328,7 +328,7 @@
 				item: "minecraft:debug_stick"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 8.5d
 		}
 		{
@@ -339,15 +339,16 @@
 				id: "6A9283CB3A780148"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						Parent: { }
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:klein_star"
 					}
-					id: "projecte:klein_star_ein"
 				}
+				title: "Any #curios:klein_star"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 9.5d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			can_repeat: true
